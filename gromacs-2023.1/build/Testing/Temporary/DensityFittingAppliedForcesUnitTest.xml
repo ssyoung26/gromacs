@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="18" failures="0" disabled="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:41.382" name="AllTests">
+  <testsuite name="DensityFittingTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:41.382">
+    <testcase name="ForceProviderLackingInputThrows" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.382" classname="DensityFittingTest" />
+    <testcase name="SingleAtom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.383" classname="DensityFittingTest" />
+  </testsuite>
+  <testsuite name="DensityFittingAmplitudeLookupTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:41.384">
+    <testcase name="Unity" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingAmplitudeLookupTest" />
+    <testcase name="Charge" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingAmplitudeLookupTest" />
+    <testcase name="Masses" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingAmplitudeLookupTest" />
+    <testcase name="CanCopyAssign" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingAmplitudeLookupTest" />
+    <testcase name="CanCopyConstruct" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingAmplitudeLookupTest" />
+    <testcase name="CanMoveAssign" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingAmplitudeLookupTest" />
+    <testcase name="CanMoveConstruct" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingAmplitudeLookupTest" />
+  </testsuite>
+  <testsuite name="DensityFittingForceProviderState" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:41.384">
+    <testcase name="RoundTripSaving" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingForceProviderState" />
+  </testsuite>
+  <testsuite name="DensityFittingOptionsTest" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:41.384">
+    <testcase name="DefaultParameters" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingOptionsTest" />
+    <testcase name="OptionSetsActive" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingOptionsTest" />
+    <testcase name="OutputNoDefaultValuesWhenInactive" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingOptionsTest" />
+    <testcase name="OutputDefaultValuesWhenActive" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingOptionsTest" />
+    <testcase name="CanConvertGroupStringToIndexGroup" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingOptionsTest" />
+    <testcase name="InternalsToKvt" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingOptionsTest" />
+    <testcase name="KvtToInternal" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingOptionsTest" />
+    <testcase name="RoundTripForInternalsIsIdempotent" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.384" classname="DensityFittingOptionsTest" />
+  </testsuite>
+</testsuites>

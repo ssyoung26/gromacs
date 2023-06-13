@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="18" failures="0" disabled="0" errors="0" time="0" timestamp="2023-06-09T03:26:41.880" name="AllTests">
+  <testsuite name="KernelSetupTest" tests="18" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:41.880">
+    <testcase name="getCoulombKernelTypeRF" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getCoulombKernelTypeCut" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getCoulombKernelTypeTable" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getCoulombKernelTypeTableTwin" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getCoulombKernelTypeEwald" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getCoulombKernelTypeEwaldTwin" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getVdwKernelTypeLjCutCombGeomNone" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getVdwKernelTypeLjCutCombGeomPotShift" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getVdwKernelTypeLjCutCombLBNone" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getVdwKernelTypeLjCutCombLBPotShift" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getVdwKernelTypeLjCutCombNoneNone" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getVdwKernelTypeLjCutCombNonePotShift" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getVdwKernelTypeLjCutThrows" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getVdwKernelTypeLjCutForceSwitch" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getVdwKernelTypePmeGeom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getVdwKernelTypePmeNone" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getVdwKernelTypeLjCutPotSwitch" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+    <testcase name="getVdwKernelTypeAllCountThrows" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.880" classname="KernelSetupTest" />
+  </testsuite>
+</testsuites>

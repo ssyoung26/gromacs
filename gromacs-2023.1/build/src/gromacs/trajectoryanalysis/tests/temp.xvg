@@ -1,0 +1,17 @@
+# This file was created Fri Jun  9 03:26:48 2023
+# Created by:
+#               :-) GROMACS - trajectoryanalysis-test, 2023.1 (-:
+# 
+# Executable:   /Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/bin/trajectoryanalysis-test
+# Data prefix:  /Users/sonnyyoung/Development/wallacs/gromacs-2023.1 (source tree)
+# Working dir:  /Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/gromacs/trajectoryanalysis/tests
+# Command line:
+#   trajectoryanalysis-test --gtest_output=xml:/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/Testing/Temporary/TrajectoryAnalysisUnitTests.xml
+# trajectoryanalysis-test is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "Temperature of largest cluster"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "T (K)"
+@TYPE xy

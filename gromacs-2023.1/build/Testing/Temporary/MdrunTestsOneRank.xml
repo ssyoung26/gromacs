@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="26" failures="0" disabled="0" errors="0" time="0.418" timestamp="2023-06-09T03:26:51.812" name="AllTests">
+  <testsuite name="CompelTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.305" timestamp="2023-06-09T03:26:51.812">
+    <testcase name="SwapCanRun" status="run" result="completed" time="0.305" timestamp="2023-06-09T03:26:51.812" classname="CompelTest" />
+  </testsuite>
+  <testsuite name="BondedInteractionsTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.015" timestamp="2023-06-09T03:26:52.118">
+    <testcase name="NormalBondWorks" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:52.118" classname="BondedInteractionsTest" />
+    <testcase name="TabulatedBondWorks" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:52.121" classname="BondedInteractionsTest" />
+    <testcase name="NormalAngleWorks" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:52.124" classname="BondedInteractionsTest" />
+    <testcase name="TabulatedAngleWorks" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:52.126" classname="BondedInteractionsTest" />
+    <testcase name="NormalDihedralWorks" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:52.128" classname="BondedInteractionsTest" />
+    <testcase name="TabulatedDihedralWorks" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:52.130" classname="BondedInteractionsTest" />
+  </testsuite>
+  <testsuite name="MultipleTimeSteppingIsNearSingleTimeStepping/MtsComparisonTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.023" timestamp="2023-06-09T03:26:52.133">
+    <testcase name="WithinTolerances/0" value_param="(&quot;ala&quot;, &quot;longrange-nonbonded&quot;)" status="run" result="completed" time="0.012" timestamp="2023-06-09T03:26:52.133" classname="MultipleTimeSteppingIsNearSingleTimeStepping/MtsComparisonTest" />
+    <testcase name="WithinTolerances/1" value_param="(&quot;ala&quot;, &quot;longrange-nonbonded nonbonded pair dihedral&quot;)" status="run" result="completed" time="0.01" timestamp="2023-06-09T03:26:52.146" classname="MultipleTimeSteppingIsNearSingleTimeStepping/MtsComparisonTest" />
+  </testsuite>
+  <testsuite name="MultipleTimeSteppingIsNearSingleTimeSteppingPull/MtsComparisonTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.006" timestamp="2023-06-09T03:26:52.157">
+    <testcase name="WithinTolerances/0" value_param="(&quot;spc2&quot;, &quot;pull&quot;)" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:52.157" classname="MultipleTimeSteppingIsNearSingleTimeSteppingPull/MtsComparisonTest" />
+  </testsuite>
+  <testsuite name="FreezeWorks/FreezeGroupTest" tests="12" failures="0" disabled="0" skipped="1" errors="0" time="0.056" timestamp="2023-06-09T03:26:52.163">
+    <testcase name="WithinTolerances/0" value_param="(&quot;md&quot;, &quot;no&quot;, &quot;no&quot;)" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:52.163" classname="FreezeWorks/FreezeGroupTest" />
+    <testcase name="WithinTolerances/1" value_param="(&quot;md&quot;, &quot;no&quot;, &quot;c-rescale&quot;)" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:52.168" classname="FreezeWorks/FreezeGroupTest" />
+    <testcase name="WithinTolerances/2" value_param="(&quot;md&quot;, &quot;no&quot;, &quot;parrinello-rahman&quot;)" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:52.172" classname="FreezeWorks/FreezeGroupTest" />
+    <testcase name="WithinTolerances/3" value_param="(&quot;md-vv&quot;, &quot;no&quot;, &quot;no&quot;)" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:52.177" classname="FreezeWorks/FreezeGroupTest" />
+    <testcase name="WithinTolerances/4" value_param="(&quot;md-vv&quot;, &quot;no&quot;, &quot;c-rescale&quot;)" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:52.181" classname="FreezeWorks/FreezeGroupTest" />
+    <testcase name="WithinTolerances/5" value_param="(&quot;md-vv&quot;, &quot;no&quot;, &quot;parrinello-rahman&quot;)" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:52.186" classname="FreezeWorks/FreezeGroupTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/programs/mdrun/tests/freezegroups.cpp:194&#x0A;Parrinello-Rahman is not implemented in md-vv."><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/programs/mdrun/tests/freezegroups.cpp:194
+Parrinello-Rahman is not implemented in md-vv.]]></skipped>
+    </testcase>
+    <testcase name="WithinTolerances/6" value_param="(&quot;sd&quot;, &quot;no&quot;, &quot;no&quot;)" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:52.186" classname="FreezeWorks/FreezeGroupTest" />
+    <testcase name="WithinTolerances/7" value_param="(&quot;sd&quot;, &quot;no&quot;, &quot;c-rescale&quot;)" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:52.191" classname="FreezeWorks/FreezeGroupTest" />
+    <testcase name="WithinTolerances/8" value_param="(&quot;sd&quot;, &quot;no&quot;, &quot;parrinello-rahman&quot;)" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:52.196" classname="FreezeWorks/FreezeGroupTest" />
+    <testcase name="WithinTolerances/9" value_param="(&quot;bd&quot;, &quot;no&quot;, &quot;no&quot;)" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:52.201" classname="FreezeWorks/FreezeGroupTest" />
+    <testcase name="WithinTolerances/10" value_param="(&quot;bd&quot;, &quot;no&quot;, &quot;c-rescale&quot;)" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:52.208" classname="FreezeWorks/FreezeGroupTest" />
+    <testcase name="WithinTolerances/11" value_param="(&quot;bd&quot;, &quot;no&quot;, &quot;parrinello-rahman&quot;)" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:52.214" classname="FreezeWorks/FreezeGroupTest" />
+  </testsuite>
+  <testsuite name="AccelerationWorks/AccelerationGroupTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.011" timestamp="2023-06-09T03:26:52.220">
+    <testcase name="WithinTolerances/0" value_param="(&quot;md&quot;, &quot;no&quot;)" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:52.220" classname="AccelerationWorks/AccelerationGroupTest" />
+    <testcase name="WithinTolerances/1" value_param="(&quot;md&quot;, &quot;v-rescale&quot;)" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:52.223" classname="AccelerationWorks/AccelerationGroupTest" />
+    <testcase name="WithinTolerances/2" value_param="(&quot;md-vv&quot;, &quot;no&quot;)" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:52.226" classname="AccelerationWorks/AccelerationGroupTest" />
+    <testcase name="WithinTolerances/3" value_param="(&quot;md-vv&quot;, &quot;v-rescale&quot;)" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:52.229" classname="AccelerationWorks/AccelerationGroupTest" />
+  </testsuite>
+</testsuites>

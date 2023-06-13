@@ -1,0 +1,25 @@
+# This file was created Fri Jun  9 03:26:45 2023
+# Created by:
+#                     :-) GROMACS - gmxana-test, 2023.1 (-:
+# 
+# Executable:   /Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/bin/gmxana-test
+# Data prefix:  /Users/sonnyyoung/Development/wallacs/gromacs-2023.1 (source tree)
+# Working dir:  /Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/gromacs/gmxana/tests
+# Command line:
+#   gmxana-test --gtest_output=xml:/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/Testing/Temporary/GmxAnaTest.xml
+# gmxana-test is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Minimum Distance"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Distance (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "atoms12-atom3"
+0.000000e+00  5.000000e-01

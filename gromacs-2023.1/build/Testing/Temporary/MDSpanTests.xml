@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="32" failures="0" disabled="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.289" name="AllTests">
+  <testsuite name="BasicAccessorPolicy" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.289">
+    <testcase name="Decay" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="BasicAccessorPolicy" />
+    <testcase name="Access" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="BasicAccessorPolicy" />
+    <testcase name="Offset" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="BasicAccessorPolicy" />
+    <testcase name="CopyAccessor" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="BasicAccessorPolicy" />
+  </testsuite>
+  <testsuite name="ExtentsTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.289">
+    <testcase name="Construction" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="ExtentsTest" />
+    <testcase name="PurelyStatic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="ExtentsTest" />
+    <testcase name="RankNought" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="ExtentsTest" />
+    <testcase name="Assignment" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="ExtentsTest" />
+  </testsuite>
+  <testsuite name="MdSpanExtension" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.289">
+    <testcase name="SlicingAllStatic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="MdSpanExtension" />
+    <testcase name="SlicingDynamic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="MdSpanExtension" />
+    <testcase name="SlicingAllStatic3D" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="MdSpanExtension" />
+    <testcase name="SlicingEqualsView3D" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="MdSpanExtension" />
+    <testcase name="additionWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="MdSpanExtension" />
+    <testcase name="subtractionWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="MdSpanExtension" />
+    <testcase name="multiplicationWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="MdSpanExtension" />
+    <testcase name="divisionWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="MdSpanExtension" />
+  </testsuite>
+  <testsuite name="LayoutTests" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.289">
+    <testcase name="LayoutRightConstruction" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="LayoutTests" />
+    <testcase name="LayoutRightProperties" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="LayoutTests" />
+    <testcase name="LayoutRightOperator" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.289" classname="LayoutTests" />
+  </testsuite>
+  <testsuite name="MdSpanTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.290">
+    <testcase name="MdSpanWrapsBasicMdSpanCorrectly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.290" classname="MdSpanTest" />
+  </testsuite>
+  <testsuite name="MdSpanTest/0" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.290">
+    <testcase name="Rank" type_param="gmx::basic_mdspan&lt;int, gmx::extents&lt;5l, -1l, 3l, -1l, 1l&gt;, gmx::layout_right, gmx::accessor_basic&lt;int&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.290" classname="MdSpanTest/0" />
+    <testcase name="DynamicRank" type_param="gmx::basic_mdspan&lt;int, gmx::extents&lt;5l, -1l, 3l, -1l, 1l&gt;, gmx::layout_right, gmx::accessor_basic&lt;int&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.290" classname="MdSpanTest/0" />
+    <testcase name="Extents" type_param="gmx::basic_mdspan&lt;int, gmx::extents&lt;5l, -1l, 3l, -1l, 1l&gt;, gmx::layout_right, gmx::accessor_basic&lt;int&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.290" classname="MdSpanTest/0" />
+    <testcase name="Strides" type_param="gmx::basic_mdspan&lt;int, gmx::extents&lt;5l, -1l, 3l, -1l, 1l&gt;, gmx::layout_right, gmx::accessor_basic&lt;int&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.290" classname="MdSpanTest/0" />
+    <testcase name="Properties" type_param="gmx::basic_mdspan&lt;int, gmx::extents&lt;5l, -1l, 3l, -1l, 1l&gt;, gmx::layout_right, gmx::accessor_basic&lt;int&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.290" classname="MdSpanTest/0" />
+    <testcase name="Operator" type_param="gmx::basic_mdspan&lt;int, gmx::extents&lt;5l, -1l, 3l, -1l, 1l&gt;, gmx::layout_right, gmx::accessor_basic&lt;int&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.290" classname="MdSpanTest/0" />
+  </testsuite>
+  <testsuite name="MdSpanTest/1" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.290">
+    <testcase name="Rank" type_param="gmx::basic_mdspan&lt;float, gmx::extents&lt;5l, -1l, 3l, -1l, 1l&gt;, gmx::layout_right, gmx::accessor_basic&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.290" classname="MdSpanTest/1" />
+    <testcase name="DynamicRank" type_param="gmx::basic_mdspan&lt;float, gmx::extents&lt;5l, -1l, 3l, -1l, 1l&gt;, gmx::layout_right, gmx::accessor_basic&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.290" classname="MdSpanTest/1" />
+    <testcase name="Extents" type_param="gmx::basic_mdspan&lt;float, gmx::extents&lt;5l, -1l, 3l, -1l, 1l&gt;, gmx::layout_right, gmx::accessor_basic&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.290" classname="MdSpanTest/1" />
+    <testcase name="Strides" type_param="gmx::basic_mdspan&lt;float, gmx::extents&lt;5l, -1l, 3l, -1l, 1l&gt;, gmx::layout_right, gmx::accessor_basic&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.290" classname="MdSpanTest/1" />
+    <testcase name="Properties" type_param="gmx::basic_mdspan&lt;float, gmx::extents&lt;5l, -1l, 3l, -1l, 1l&gt;, gmx::layout_right, gmx::accessor_basic&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.290" classname="MdSpanTest/1" />
+    <testcase name="Operator" type_param="gmx::basic_mdspan&lt;float, gmx::extents&lt;5l, -1l, 3l, -1l, 1l&gt;, gmx::layout_right, gmx::accessor_basic&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.290" classname="MdSpanTest/1" />
+  </testsuite>
+</testsuites>

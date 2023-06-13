@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="9" failures="0" disabled="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.110" name="AllTests">
+  <testsuite name="HashedMap" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.111">
+    <testcase name="InsertsFinds" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.111" classname="HashedMap" />
+    <testcase name="NegativeKeysWork" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.111" classname="HashedMap" />
+    <testcase name="InsertsErases" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.111" classname="HashedMap" />
+    <testcase name="InsertsOrAssigns" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.111" classname="HashedMap" />
+    <testcase name="Clears" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.111" classname="HashedMap" />
+    <testcase name="LinkedEntries" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.111" classname="HashedMap" />
+    <testcase name="ResizesTable" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.111" classname="HashedMap" />
+  </testsuite>
+  <testsuite name="LocalAtomSetManager" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.111">
+    <testcase name="CanAddEmptyLocalAtomSet" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.111" classname="LocalAtomSetManager" />
+    <testcase name="CanAddandReadLocalAtomSetIndices" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.111" classname="LocalAtomSetManager" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="69" failures="0" disabled="0" errors="0" time="0.015" timestamp="2023-06-09T03:26:48.329" name="AllTests">
+  <testsuite name="AnalysisDataInitializationTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:48.329">
+    <testcase name="BasicInitialization" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.329" classname="AnalysisDataInitializationTest" />
+    <testcase name="ChecksMultiColumnModules" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.329" classname="AnalysisDataInitializationTest" />
+    <testcase name="ChecksMultipointModules" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.329" classname="AnalysisDataInitializationTest" />
+  </testsuite>
+  <testsuite name="AnalysisDataCommonTest/0" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:48.329">
+    <testcase name="CallsModuleCorrectly" type_param="(anonymous namespace)::SimpleInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.329" classname="AnalysisDataCommonTest/0" />
+    <testcase name="CallsParallelModuleCorrectly" type_param="(anonymous namespace)::SimpleInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.329" classname="AnalysisDataCommonTest/0" />
+    <testcase name="CallsMixedModulesCorrectly" type_param="(anonymous namespace)::SimpleInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.330" classname="AnalysisDataCommonTest/0" />
+    <testcase name="CallsColumnModuleCorrectly" type_param="(anonymous namespace)::SimpleInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.330" classname="AnalysisDataCommonTest/0" />
+    <testcase name="CallsModuleCorrectlyWithOutOfOrderFrames" type_param="(anonymous namespace)::SimpleInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.330" classname="AnalysisDataCommonTest/0" />
+    <testcase name="FullStorageWorks" type_param="(anonymous namespace)::SimpleInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.330" classname="AnalysisDataCommonTest/0" />
+    <testcase name="CanAddModuleAfterStoredData" type_param="(anonymous namespace)::SimpleInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.330" classname="AnalysisDataCommonTest/0" />
+    <testcase name="LimitedStorageWorks" type_param="(anonymous namespace)::SimpleInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.330" classname="AnalysisDataCommonTest/0" />
+  </testsuite>
+  <testsuite name="AnalysisDataCommonTest/1" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:48.330">
+    <testcase name="CallsModuleCorrectly" type_param="(anonymous namespace)::DataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.330" classname="AnalysisDataCommonTest/1" />
+    <testcase name="CallsParallelModuleCorrectly" type_param="(anonymous namespace)::DataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.330" classname="AnalysisDataCommonTest/1" />
+    <testcase name="CallsMixedModulesCorrectly" type_param="(anonymous namespace)::DataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.330" classname="AnalysisDataCommonTest/1" />
+    <testcase name="CallsColumnModuleCorrectly" type_param="(anonymous namespace)::DataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.330" classname="AnalysisDataCommonTest/1" />
+    <testcase name="CallsModuleCorrectlyWithOutOfOrderFrames" type_param="(anonymous namespace)::DataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.331" classname="AnalysisDataCommonTest/1" />
+    <testcase name="FullStorageWorks" type_param="(anonymous namespace)::DataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.331" classname="AnalysisDataCommonTest/1" />
+    <testcase name="CanAddModuleAfterStoredData" type_param="(anonymous namespace)::DataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.331" classname="AnalysisDataCommonTest/1" />
+    <testcase name="LimitedStorageWorks" type_param="(anonymous namespace)::DataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.331" classname="AnalysisDataCommonTest/1" />
+  </testsuite>
+  <testsuite name="AnalysisDataCommonTest/2" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:48.331">
+    <testcase name="CallsModuleCorrectly" type_param="(anonymous namespace)::MultipointInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.331" classname="AnalysisDataCommonTest/2" />
+    <testcase name="CallsParallelModuleCorrectly" type_param="(anonymous namespace)::MultipointInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.331" classname="AnalysisDataCommonTest/2" />
+    <testcase name="CallsMixedModulesCorrectly" type_param="(anonymous namespace)::MultipointInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.332" classname="AnalysisDataCommonTest/2" />
+    <testcase name="CallsColumnModuleCorrectly" type_param="(anonymous namespace)::MultipointInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.332" classname="AnalysisDataCommonTest/2" />
+    <testcase name="CallsModuleCorrectlyWithOutOfOrderFrames" type_param="(anonymous namespace)::MultipointInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.332" classname="AnalysisDataCommonTest/2" />
+    <testcase name="FullStorageWorks" type_param="(anonymous namespace)::MultipointInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.332" classname="AnalysisDataCommonTest/2" />
+    <testcase name="CanAddModuleAfterStoredData" type_param="(anonymous namespace)::MultipointInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.333" classname="AnalysisDataCommonTest/2" />
+    <testcase name="LimitedStorageWorks" type_param="(anonymous namespace)::MultipointInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.333" classname="AnalysisDataCommonTest/2" />
+  </testsuite>
+  <testsuite name="AnalysisDataCommonTest/3" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:48.333">
+    <testcase name="CallsModuleCorrectly" type_param="(anonymous namespace)::MultipointDataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.333" classname="AnalysisDataCommonTest/3" />
+    <testcase name="CallsParallelModuleCorrectly" type_param="(anonymous namespace)::MultipointDataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.333" classname="AnalysisDataCommonTest/3" />
+    <testcase name="CallsMixedModulesCorrectly" type_param="(anonymous namespace)::MultipointDataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.333" classname="AnalysisDataCommonTest/3" />
+    <testcase name="CallsColumnModuleCorrectly" type_param="(anonymous namespace)::MultipointDataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.334" classname="AnalysisDataCommonTest/3" />
+    <testcase name="CallsModuleCorrectlyWithOutOfOrderFrames" type_param="(anonymous namespace)::MultipointDataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.334" classname="AnalysisDataCommonTest/3" />
+    <testcase name="FullStorageWorks" type_param="(anonymous namespace)::MultipointDataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.334" classname="AnalysisDataCommonTest/3" />
+    <testcase name="CanAddModuleAfterStoredData" type_param="(anonymous namespace)::MultipointDataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.334" classname="AnalysisDataCommonTest/3" />
+    <testcase name="LimitedStorageWorks" type_param="(anonymous namespace)::MultipointDataSetsInputData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.334" classname="AnalysisDataCommonTest/3" />
+  </testsuite>
+  <testsuite name="AnalysisArrayDataTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:48.335">
+    <testcase name="CallsModuleCorrectly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.335" classname="AnalysisArrayDataTest" />
+    <testcase name="StorageWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.335" classname="AnalysisArrayDataTest" />
+    <testcase name="CanSetXAxis" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.335" classname="AnalysisArrayDataTest" />
+    <testcase name="CanSetXAxisBeforeRowCount" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.335" classname="AnalysisArrayDataTest" />
+  </testsuite>
+  <testsuite name="AverageModuleTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:48.335">
+    <testcase name="BasicTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.335" classname="AverageModuleTest" />
+    <testcase name="HandlesMultipointData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.335" classname="AverageModuleTest" />
+    <testcase name="HandlesMultipleDataSets" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.336" classname="AverageModuleTest" />
+    <testcase name="HandlesDataSetAveraging" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.337" classname="AverageModuleTest" />
+    <testcase name="CanCustomizeXAxis" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.337" classname="AverageModuleTest" />
+    <testcase name="CanCustomizeNonUniformXAxis" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.337" classname="AverageModuleTest" />
+  </testsuite>
+  <testsuite name="FrameAverageModuleTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:48.338">
+    <testcase name="BasicTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.338" classname="FrameAverageModuleTest" />
+    <testcase name="HandlesMultipleDataSets" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.338" classname="FrameAverageModuleTest" />
+  </testsuite>
+  <testsuite name="AnalysisHistogramSettingsTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:48.339">
+    <testcase name="InitializesFromBins" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.339" classname="AnalysisHistogramSettingsTest" />
+    <testcase name="InitializesFromBinsWithIntegerBins" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.339" classname="AnalysisHistogramSettingsTest" />
+    <testcase name="InitializesFromRangeWithBinCount" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.339" classname="AnalysisHistogramSettingsTest" />
+    <testcase name="InitializesFromRangeWithBinWidth" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.339" classname="AnalysisHistogramSettingsTest" />
+    <testcase name="InitializesFromRangeWithBinCountAndIntegerBins" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.339" classname="AnalysisHistogramSettingsTest" />
+    <testcase name="InitializesFromRangeWithBinWidthAndIntegerBins" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.339" classname="AnalysisHistogramSettingsTest" />
+    <testcase name="InitializesFromRangeWithRoundedRange" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.339" classname="AnalysisHistogramSettingsTest" />
+  </testsuite>
+  <testsuite name="SimpleHistogramModuleTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:48.339">
+    <testcase name="ComputesCorrectly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.339" classname="SimpleHistogramModuleTest" />
+    <testcase name="ComputesCorrectlyWithAll" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.339" classname="SimpleHistogramModuleTest" />
+  </testsuite>
+  <testsuite name="WeightedHistogramModuleTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:48.340">
+    <testcase name="ComputesCorrectly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.340" classname="WeightedHistogramModuleTest" />
+    <testcase name="ComputesCorrectlyWithAll" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.340" classname="WeightedHistogramModuleTest" />
+    <testcase name="HandlesMultipleDataSets" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.341" classname="WeightedHistogramModuleTest" />
+  </testsuite>
+  <testsuite name="BinAverageModuleTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:48.341">
+    <testcase name="ComputesCorrectly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.341" classname="BinAverageModuleTest" />
+    <testcase name="ComputesCorrectlyWithAll" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.341" classname="BinAverageModuleTest" />
+    <testcase name="HandlesMultipleDataSets" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.342" classname="BinAverageModuleTest" />
+  </testsuite>
+  <testsuite name="AbstractAverageHistogramTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:48.342">
+    <testcase name="ClonesCorrectly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.342" classname="AbstractAverageHistogramTest" />
+    <testcase name="ComputesCumulativeHistogram" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.342" classname="AbstractAverageHistogramTest" />
+    <testcase name="ResamplesAtDoubleBinWidth" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.343" classname="AbstractAverageHistogramTest" />
+    <testcase name="ResamplesAtDoubleBinWidthWithIntegerBins" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.343" classname="AbstractAverageHistogramTest" />
+  </testsuite>
+  <testsuite name="LifetimeModuleTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:48.344">
+    <testcase name="BasicTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.344" classname="LifetimeModuleTest" />
+    <testcase name="CumulativeTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.344" classname="LifetimeModuleTest" />
+    <testcase name="HandlesMultipleDataSets" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.344" classname="LifetimeModuleTest" />
+  </testsuite>
+</testsuites>

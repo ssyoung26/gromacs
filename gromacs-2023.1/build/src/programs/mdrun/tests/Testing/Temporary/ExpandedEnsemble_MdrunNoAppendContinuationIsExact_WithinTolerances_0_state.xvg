@@ -1,0 +1,44 @@
+# This file was created Fri Jun  9 03:26:51 2023
+# Created by:
+#                    :-) GROMACS - mdrun-io-test, 2023.1 (-:
+# 
+# Executable:   /Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/bin/mdrun-io-test
+# Data prefix:  /Users/sonnyyoung/Development/wallacs/gromacs-2023.1 (source tree)
+# Working dir:  /Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/programs/mdrun/tests
+# Command line:
+#   mdrun-io-test --gtest_output=xml:/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/Testing/Temporary/MdrunIOTests.xml
+# mdrun-io-test is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "dH/d\xl\f{} and \xD\f{}H"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "dH/d\xl\f{} and \xD\f{}H (kJ/mol [\xl\f{}]\S-1\N)"
+@TYPE xy
+@ subtitle "T = 298 (K) "
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Thermodynamic state"
+@ s1 legend "dH/d\xl\f{} mass-lambda = 1.0000"
+@ s2 legend "dH/d\xl\f{} coul-lambda = 0.0000"
+@ s3 legend "dH/d\xl\f{} vdw-lambda = 0.0000"
+@ s4 legend "dH/d\xl\f{} bonded-lambda = 0.5000"
+@ s5 legend "dH/d\xl\f{} restraint-lambda = 0.0000"
+@ s6 legend "\xD\f{}H \xl\f{} to (0.0000, 0.0000, 0.0000, 0.0000, 0.0000)"
+@ s7 legend "\xD\f{}H \xl\f{} to (0.5000, 0.0000, 0.0000, 0.0000, 0.0000)"
+@ s8 legend "\xD\f{}H \xl\f{} to (1.0000, 0.0000, 0.0000, 0.0000, 0.0000)"
+@ s9 legend "\xD\f{}H \xl\f{} to (1.0000, 0.0000, 0.0000, 0.5000, 0.0000)"
+@ s10 legend "\xD\f{}H \xl\f{} to (1.0000, 0.0000, 0.0000, 1.0000, 0.0000)"
+@ s11 legend "\xD\f{}H \xl\f{} to (1.0000, 0.0000, 0.0000, 1.0000, 0.5000)"
+@ s12 legend "\xD\f{}H \xl\f{} to (1.0000, 0.0000, 0.0000, 1.0000, 1.0000)"
+@ s13 legend "\xD\f{}H \xl\f{} to (1.0000, 0.0000, 0.5000, 1.0000, 1.0000)"
+@ s14 legend "\xD\f{}H \xl\f{} to (1.0000, 0.0000, 1.0000, 1.0000, 1.0000)"
+@ s15 legend "\xD\f{}H \xl\f{} to (1.0000, 0.5000, 1.0000, 1.0000, 1.0000)"
+@ s16 legend "\xD\f{}H \xl\f{} to (1.0000, 1.0000, 1.0000, 1.0000, 1.0000)"
+0.0000    3 0.0000000 0.0000000 0.0000000 2.8035736 87.168289 -1.4017868 -1.4017868 -1.4017868 0.0000000 1.4017867 44.985930 88.570074 88.570074 88.570074 88.570074 88.570074
+0.0040    0 0.0000000 0.0000000 0.0000000 9.4346209 86.286072 0.0000000 0.0000000 0.0000000 4.7173103 9.4346202 52.577656 95.720692 95.720692 95.720692 95.720692 95.720692
+0.0080    2 0.0000000 0.0000000 0.0000000 18.461178 84.575470 0.0000000 0.0000000 0.0000000 9.2305889 18.461178 60.748913 103.03664 103.03664 103.03664 103.03664 103.03664

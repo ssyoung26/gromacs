@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="59" failures="0" disabled="0" errors="0" time="0.024" timestamp="2023-06-09T03:26:40.364" name="AllTests">
+  <testsuite name="InteractiveTestHelperTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="0.006" timestamp="2023-06-09T03:26:40.364">
+    <testcase name="ChecksSimpleSession" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:40.364" classname="InteractiveTestHelperTest" />
+    <testcase name="ChecksSessionWithoutLastNewline" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.366" classname="InteractiveTestHelperTest" />
+    <testcase name="ChecksSessionWithMissingOutput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.366" classname="InteractiveTestHelperTest" />
+    <testcase name="ChecksSessionWithEquivalentOutput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.367" classname="InteractiveTestHelperTest" />
+    <testcase name="DetectsIncorrectOutput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.367" classname="InteractiveTestHelperTest" />
+    <testcase name="DetectsMissingOutput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.367" classname="InteractiveTestHelperTest" />
+    <testcase name="DetectsMissingFinalOutput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.368" classname="InteractiveTestHelperTest" />
+    <testcase name="DetectsExtraOutput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.368" classname="InteractiveTestHelperTest" />
+    <testcase name="DetectsMissingInput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.369" classname="InteractiveTestHelperTest" />
+    <testcase name="DetectsExtraInput" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:40.369" classname="InteractiveTestHelperTest" />
+  </testsuite>
+  <testsuite name="ReferenceDataTest" tests="34" failures="0" disabled="0" skipped="0" errors="0" time="0.016" timestamp="2023-06-09T03:26:40.370">
+    <testcase name="HandlesSimpleData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.370" classname="ReferenceDataTest" />
+    <testcase name="HandlesFloatingPointData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.371" classname="ReferenceDataTest" />
+    <testcase name="HandlesPresenceChecks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.372" classname="ReferenceDataTest" />
+    <testcase name="HandlesStringBlockData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.372" classname="ReferenceDataTest" />
+    <testcase name="HandlesVectorData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.373" classname="ReferenceDataTest" />
+    <testcase name="HandlesSequenceData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.373" classname="ReferenceDataTest" />
+    <testcase name="HandlesSequenceOfCustomData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.374" classname="ReferenceDataTest" />
+    <testcase name="HandlesIncorrectData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.374" classname="ReferenceDataTest" />
+    <testcase name="HandlesIncorrectDataType" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.375" classname="ReferenceDataTest" />
+    <testcase name="HandlesMissingData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.375" classname="ReferenceDataTest" />
+    <testcase name="HandlesUncheckedData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.375" classname="ReferenceDataTest" />
+    <testcase name="HandlesUncheckedDataInSequence" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.375" classname="ReferenceDataTest" />
+    <testcase name="HandlesUncheckedDataInCompound" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.376" classname="ReferenceDataTest" />
+    <testcase name="HandlesAnys" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:40.376" classname="ReferenceDataTest" />
+    <testcase name="HandlesKeyValueTree" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.378" classname="ReferenceDataTest" />
+    <testcase name="HandlesKeyValueTreeExtraKey" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.378" classname="ReferenceDataTest" />
+    <testcase name="HandlesKeyValueTreeMissingKey" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.379" classname="ReferenceDataTest" />
+    <testcase name="HandlesAnysWithIncorrectValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.379" classname="ReferenceDataTest" />
+    <testcase name="HandlesAnysWithIncorrectType" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.380" classname="ReferenceDataTest" />
+    <testcase name="HandlesMissingReferenceDataFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.380" classname="ReferenceDataTest" />
+    <testcase name="HandlesSpecialCharactersInStrings" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.380" classname="ReferenceDataTest" />
+    <testcase name="HandlesStringsWithTextAndWhitespace" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.380" classname="ReferenceDataTest" />
+    <testcase name="HandlesEmptyStrings" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.381" classname="ReferenceDataTest" />
+    <testcase name="HandlesEmbeddedCdataEndTagInTextBlock" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.382" classname="ReferenceDataTest" />
+    <testcase name="HandlesSequenceItemIndices" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.382" classname="ReferenceDataTest" />
+    <testcase name="HandlesMultipleChecksAgainstSameData" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.383" classname="ReferenceDataTest" />
+    <testcase name="HandlesMultipleNullIds" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.383" classname="ReferenceDataTest" />
+    <testcase name="HandlesMultipleComparisonsAgainstNullIds" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.383" classname="ReferenceDataTest" />
+    <testcase name="HandlesReadingValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.384" classname="ReferenceDataTest" />
+    <testcase name="HandlesUpdateChangedWithoutChanges" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.384" classname="ReferenceDataTest" />
+    <testcase name="HandlesUpdateChangedWithValueChanges" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.385" classname="ReferenceDataTest" />
+    <testcase name="HandlesUpdateChangedWithTypeChanges" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.385" classname="ReferenceDataTest" />
+    <testcase name="HandlesUpdateChangedWithCompoundChanges" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.386" classname="ReferenceDataTest" />
+    <testcase name="HandlesUpdateChangedWithRemovedEntries" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.386" classname="ReferenceDataTest" />
+  </testsuite>
+  <testsuite name="FloatingPointDifferenceTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.387">
+    <testcase name="HandlesEqualValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.387" classname="FloatingPointDifferenceTest" />
+    <testcase name="HandlesFloatValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.387" classname="FloatingPointDifferenceTest" />
+    <testcase name="HandlesZerosOfDifferentSign" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.387" classname="FloatingPointDifferenceTest" />
+    <testcase name="HandlesSignComparisonWithZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.387" classname="FloatingPointDifferenceTest" />
+    <testcase name="HandlesUlpDifferences" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.387" classname="FloatingPointDifferenceTest" />
+    <testcase name="HandlesUlpDifferenceAcrossZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.387" classname="FloatingPointDifferenceTest" />
+    <testcase name="HandlesNaN" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.387" classname="FloatingPointDifferenceTest" />
+  </testsuite>
+  <testsuite name="FloatingPointToleranceTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.387">
+    <testcase name="UlpTolerance" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.387" classname="FloatingPointToleranceTest" />
+    <testcase name="RelativeToleranceAsFloatingPoint" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.387" classname="FloatingPointToleranceTest" />
+    <testcase name="RelativeToleranceAsUlp" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.387" classname="FloatingPointToleranceTest" />
+    <testcase name="DefaultFloatTolerance" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.387" classname="FloatingPointToleranceTest" />
+  </testsuite>
+  <testsuite name="XvgTests" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:40.387">
+    <testcase name="CreateFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.387" classname="XvgTests" />
+    <testcase name="CheckMissing" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.388" classname="XvgTests" />
+    <testcase name="CheckExtra" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.388" classname="XvgTests" />
+    <testcase name="ReadIncorrect" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.388" classname="XvgTests" />
+  </testsuite>
+</testsuites>

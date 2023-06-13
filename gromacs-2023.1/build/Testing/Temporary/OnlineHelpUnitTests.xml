@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="22" failures="0" disabled="0" errors="0" time="0.004" timestamp="2023-06-09T03:26:43.524" name="AllTests">
+  <testsuite name="TextTableFormatterTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:43.524">
+    <testcase name="HandlesBasicCase" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.524" classname="TextTableFormatterTest" />
+    <testcase name="HandlesEmptyColumnTitles" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.525" classname="TextTableFormatterTest" />
+    <testcase name="HandlesIndentation" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.525" classname="TextTableFormatterTest" />
+    <testcase name="HandlesOverflowingLines" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.526" classname="TextTableFormatterTest" />
+    <testcase name="HandlesLastColumnFolding" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.526" classname="TextTableFormatterTest" />
+    <testcase name="HandlesEmptyColumns" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.526" classname="TextTableFormatterTest" />
+  </testsuite>
+  <testsuite name="HelpManagerTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.526">
+    <testcase name="HandlesRootTopic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.526" classname="HelpManagerTest" />
+    <testcase name="HandlesSubTopics" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.526" classname="HelpManagerTest" />
+    <testcase name="HandlesInvalidTopics" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.526" classname="HelpManagerTest" />
+  </testsuite>
+  <testsuite name="HelpTopicFormattingTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.526">
+    <testcase name="FormatsSimpleTopic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.526" classname="HelpTopicFormattingTest" />
+    <testcase name="FormatsCompositeTopicWithSubTopics" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.527" classname="HelpTopicFormattingTest" />
+  </testsuite>
+  <testsuite name="HelpWriterContextTest" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:43.527">
+    <testcase name="FormatsParagraphs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.527" classname="HelpWriterContextTest" />
+    <testcase name="FormatsRstStyleParagraphs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.527" classname="HelpWriterContextTest" />
+    <testcase name="CleansUpExtraWhitespace" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.527" classname="HelpWriterContextTest" />
+    <testcase name="FormatsLiteralText" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.527" classname="HelpWriterContextTest" />
+    <testcase name="FormatsLiteralTextAtBeginning" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.527" classname="HelpWriterContextTest" />
+    <testcase name="FormatsLiteralTextWithIndentation" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.528" classname="HelpWriterContextTest" />
+    <testcase name="FormatsBulletList" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.528" classname="HelpWriterContextTest" />
+    <testcase name="FormatsEnumeratedList" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.528" classname="HelpWriterContextTest" />
+    <testcase name="FormatsSimpleTable" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.528" classname="HelpWriterContextTest" />
+    <testcase name="FormatsGridTable" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.528" classname="HelpWriterContextTest" />
+    <testcase name="FormatsTitles" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.528" classname="HelpWriterContextTest" />
+  </testsuite>
+</testsuites>

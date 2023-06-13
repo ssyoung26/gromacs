@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="111" failures="0" disabled="0" errors="0" time="0.007" timestamp="2023-06-09T03:26:43.630" name="AllTests">
+  <testsuite name="AbstractOptionStorageTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.630">
+    <testcase name="HandlesSetInFinish" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.630" classname="AbstractOptionStorageTest" />
+    <testcase name="HandlesValueRemoval" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.630" classname="AbstractOptionStorageTest" />
+    <testcase name="HandlesValueAddition" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.630" classname="AbstractOptionStorageTest" />
+    <testcase name="HandlesTooManyValueAddition" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.630" classname="AbstractOptionStorageTest" />
+    <testcase name="AllowsEmptyValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="AbstractOptionStorageTest" />
+  </testsuite>
+  <testsuite name="FileNameOptionTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.631">
+    <testcase name="HandlesRequiredDefaultValueWithoutExtension" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionTest" />
+    <testcase name="HandlesRequiredOptionWithoutValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionTest" />
+    <testcase name="HandlesOptionalUnsetOption" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionTest" />
+    <testcase name="HandlesOptionalDefaultValueWithoutExtension" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionTest" />
+    <testcase name="HandlesRequiredCustomDefaultExtension" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionTest" />
+    <testcase name="HandlesOptionalCustomDefaultExtension" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionTest" />
+    <testcase name="GivesErrorOnUnknownFileSuffix" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionTest" />
+    <testcase name="GivesErrorOnInvalidFileSuffix" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionTest" />
+    <testcase name="HandlesRequiredCsvValueWithoutExtension" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionTest" />
+    <testcase name="HandlesRequiredCsvOptionWithoutValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionTest" />
+  </testsuite>
+  <testsuite name="FileNameOptionManagerTest" tests="15" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.631">
+    <testcase name="AddsMissingExtension" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="AddsMissingCustomDefaultExtension" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="GivesErrorOnMissingInputFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="GivesErrorOnMissingGenericInputFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="GivesErrorOnMissingDefaultInputFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="GivesErrorOnMissingRequiredInputFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="AcceptsMissingInputFileIfSpecified" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="AcceptsMissingDefaultInputFileIfSpecified" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="AcceptsMissingRequiredInputFileIfSpecified" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="AddsMissingExtensionBasedOnExistingFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="AddsMissingExtensionForRequiredDefaultNameBasedOnExistingFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="AddsMissingExtensionForOptionalDefaultNameBasedOnExistingFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="AddsMissingExtensionForRequiredFromDefaultNameOptionBasedOnExistingFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="AddsMissingExtensionForOptionalFromDefaultNameOptionBasedOnExistingFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+    <testcase name="DefaultNameOptionWorksWithoutInputChecking" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="FileNameOptionManagerTest" />
+  </testsuite>
+  <testsuite name="OptionsTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.631">
+    <testcase name="FailsOnNonsafeStorage" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="OptionsTest" />
+  </testsuite>
+  <testsuite name="OptionsAssignerTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.631">
+    <testcase name="HandlesMissingRequiredParameter" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="OptionsAssignerTest" />
+    <testcase name="HandlesRequiredParameterWithDefaultValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="OptionsAssignerTest" />
+    <testcase name="HandlesInvalidMultipleParameter" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.631" classname="OptionsAssignerTest" />
+    <testcase name="HandlesMultipleParameter" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerTest" />
+    <testcase name="HandlesMissingValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerTest" />
+    <testcase name="HandlesExtraValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerTest" />
+    <testcase name="HandlesGroups" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerTest" />
+    <testcase name="HandlesSections" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerTest" />
+    <testcase name="HandlesMultipleSources" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerTest" />
+  </testsuite>
+  <testsuite name="OptionsAssignerBooleanTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.632">
+    <testcase name="StoresYesValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerBooleanTest" />
+    <testcase name="SetsBooleanWithoutExplicitValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerBooleanTest" />
+    <testcase name="ClearsBooleanWithPrefixNo" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerBooleanTest" />
+    <testcase name="HandlesBooleanWithPrefixAndValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerBooleanTest" />
+  </testsuite>
+  <testsuite name="OptionsAssignerIntegerTest" tests="13" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.632">
+    <testcase name="StoresSingleValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesEmptyValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesInvalidValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesOverflow" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerIntegerTest" />
+    <testcase name="StoresDefaultValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerIntegerTest" />
+    <testcase name="StoresDefaultValueIfSet" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesDefaultValueIfSetWhenNotSet" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesBothDefaultValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.632" classname="OptionsAssignerIntegerTest" />
+    <testcase name="StoresToVector" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesVectors" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesVectorFromSingleValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesVectorsWithDefaultValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesVectorsWithDefaultValueWithInvalidAssignment" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerIntegerTest" />
+  </testsuite>
+  <testsuite name="OptionsAssignerDoubleTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.633">
+    <testcase name="StoresSingleValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerDoubleTest" />
+    <testcase name="StoresValueFromFloat" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerDoubleTest" />
+    <testcase name="HandlesEmptyValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerDoubleTest" />
+    <testcase name="HandlesPreSetScaleValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerDoubleTest" />
+    <testcase name="HandlesPostSetScaleValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerDoubleTest" />
+  </testsuite>
+  <testsuite name="OptionsAssignerStringTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.633">
+    <testcase name="StoresSingleValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumValueFromNullTerminatedArray" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesIncorrectEnumValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerStringTest" />
+    <testcase name="CompletesEnumValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumWithNoValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumDefaultValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumDefaultValueFromVariable" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumDefaultValueFromVector" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerStringTest" />
+  </testsuite>
+  <testsuite name="OptionsAssignerEnumTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.633">
+    <testcase name="StoresSingleValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerEnumTest" />
+    <testcase name="StoresVectorValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerEnumTest" />
+    <testcase name="HandlesInitialValueOutOfRange" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerEnumTest" />
+    <testcase name="HandlesEnumDefaultValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerEnumTest" />
+    <testcase name="HandlesEnumDefaultValueFromVariable" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerEnumTest" />
+    <testcase name="HandlesEnumDefaultValueFromVector" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="OptionsAssignerEnumTest" />
+  </testsuite>
+  <testsuite name="RepeatingOptionSectionTest" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.633">
+    <testcase name="HandlesNoInstance" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="RepeatingOptionSectionTest" />
+    <testcase name="HandlesNoInstanceWithRequiredOption" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="RepeatingOptionSectionTest" />
+    <testcase name="HandlesSingleInstance" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="RepeatingOptionSectionTest" />
+    <testcase name="HandlesDefaultValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.633" classname="RepeatingOptionSectionTest" />
+    <testcase name="HandlesTwoInstances" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="RepeatingOptionSectionTest" />
+    <testcase name="HandlesUnsetOptionWithImplicitDefault" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="RepeatingOptionSectionTest" />
+    <testcase name="HandlesUnsetOptionWithExplicitDefault" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="RepeatingOptionSectionTest" />
+    <testcase name="HandlesNestedSections" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="RepeatingOptionSectionTest" />
+  </testsuite>
+  <testsuite name="TimeUnitManagerTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.634">
+    <testcase name="BasicOperations" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="TimeUnitManagerTest" />
+  </testsuite>
+  <testsuite name="TimeUnitBehaviorTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.634">
+    <testcase name="ScalesAssignedOptionValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="TimeUnitBehaviorTest" />
+    <testcase name="DoesNotScaleDefaultValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="TimeUnitBehaviorTest" />
+    <testcase name="ScalesUserInputWithMultipleSources" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="TimeUnitBehaviorTest" />
+    <testcase name="TimeUnitOptionWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="TimeUnitBehaviorTest" />
+  </testsuite>
+  <testsuite name="TreeValueSupportAssignTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.634">
+    <testcase name="AssignsFromTree" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="TreeValueSupportAssignTest" />
+    <testcase name="AssignsFromTreeWithArrays" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="TreeValueSupportAssignTest" />
+  </testsuite>
+  <testsuite name="TreeValueSupportAssignErrorTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.634">
+    <testcase name="HandlesInvalidValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="TreeValueSupportAssignErrorTest" />
+  </testsuite>
+  <testsuite name="TreeValueSupportCheckTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.634">
+    <testcase name="HandlesEmpty" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="TreeValueSupportCheckTest" />
+    <testcase name="HandlesMatchingTree" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="TreeValueSupportCheckTest" />
+    <testcase name="HandlesSmallerTree1" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="TreeValueSupportCheckTest" />
+    <testcase name="HandlesSmallerTree2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="TreeValueSupportCheckTest" />
+    <testcase name="DetectsExtraValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.634" classname="TreeValueSupportCheckTest" />
+  </testsuite>
+  <testsuite name="TreeValueSupportAdjustTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:43.634">
+    <testcase name="FillsDefaultValues" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:43.634" classname="TreeValueSupportAdjustTest" />
+    <testcase name="FillsDefaultVectorValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.635" classname="TreeValueSupportAdjustTest" />
+    <testcase name="FillsDefaultObjectValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.636" classname="TreeValueSupportAdjustTest" />
+    <testcase name="NormalizesValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.636" classname="TreeValueSupportAdjustTest" />
+    <testcase name="MergesDefaultValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.636" classname="TreeValueSupportAdjustTest" />
+    <testcase name="OrdersValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.636" classname="TreeValueSupportAdjustTest" />
+  </testsuite>
+  <testsuite name="TreeValueSupportTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:43.637">
+    <testcase name="SupportsBooleanOption" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.637" classname="TreeValueSupportTest" />
+    <testcase name="SupportsIntegerOption" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.637" classname="TreeValueSupportTest" />
+    <testcase name="SupportsInt64Option" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.637" classname="TreeValueSupportTest" />
+    <testcase name="SupportsStringOption" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.637" classname="TreeValueSupportTest" />
+    <testcase name="SupportsFloatOption" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.637" classname="TreeValueSupportTest" />
+    <testcase name="SupportsDoubleOption" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.638" classname="TreeValueSupportTest" />
+    <testcase name="SupportsEnumOption" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.638" classname="TreeValueSupportTest" />
+  </testsuite>
+</testsuites>

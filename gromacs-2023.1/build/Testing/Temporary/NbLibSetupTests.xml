@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="56" failures="0" disabled="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:39.906" name="AllTests">
+  <testsuite name="NBlibTest" tests="41" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:39.906">
+    <testcase name="CubicBoxCannotHaveNaN" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.906" classname="NBlibTest" />
+    <testcase name="CubicBoxCannotHaveInf" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.906" classname="NBlibTest" />
+    <testcase name="RectangularBoxCannotHaveNaN" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.906" classname="NBlibTest" />
+    <testcase name="RectangularBoxCannotHaveInf" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.906" classname="NBlibTest" />
+    <testcase name="CubicBoxWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.906" classname="NBlibTest" />
+    <testcase name="BoxEqual" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.906" classname="NBlibTest" />
+    <testcase name="NonBondedForceParamsCorrect" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.906" classname="NBlibTest" />
+    <testcase name="CanMergeInteractions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.906" classname="NBlibTest" />
+    <testcase name="ParticleTypeNameCanBeConstructed" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="ParticleTypeMassCanBeConstructed" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="PbcHolderWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="CanConstructMoleculeWithoutChargeOrResidueName" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="CanConstructMoleculeWithChargeWithoutResidueName" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="CanConstructMoleculeWithoutChargeWithResidueName" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="CanConstructMoleculeWithChargeWithResidueName" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="CanGetNumParticlesInMolecule" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="CanConstructExclusionListFromNames" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="CanConstructExclusionListFromNamesAndIndicesMixed" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="AtWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="AtThrows" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="MoleculeThrowsSameParticleTypeNameDifferentMass" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="MoleculeDontThrowsSameParticleTypeNameDifferentMass" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="MoleculeNoThrowsSameParticleTypeName" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="CanAddInteractions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="CanAddUreyBradley" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="TopologyHasNumParticles" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="TopologyHasCharges" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="TopologyHasMasses" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="TopologyHasParticleTypes" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.907" classname="NBlibTest" />
+    <testcase name="TopologyHasParticleTypeIds" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.908" classname="NBlibTest" />
+    <testcase name="TopologyThrowsIdenticalParticleType" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.908" classname="NBlibTest" />
+    <testcase name="TopologyHasExclusions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.908" classname="NBlibTest" />
+    <testcase name="TopologyHasSequencing" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.908" classname="NBlibTest" />
+    <testcase name="TopologyCanAggregateBonds" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.908" classname="NBlibTest" />
+    <testcase name="TopologyCanSequencePairIDs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.908" classname="NBlibTest" />
+    <testcase name="TopologySequenceIdThrows" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.908" classname="NBlibTest" />
+    <testcase name="TopologyCanEliminateDuplicateBonds" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.908" classname="NBlibTest" />
+    <testcase name="TopologyListedInteractions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.908" classname="NBlibTest" />
+    <testcase name="TopologyListedInteractionsMultipleTypes" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.908" classname="NBlibTest" />
+    <testcase name="TopologyInvalidParticleInInteractionThrows" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.908" classname="NBlibTest" />
+    <testcase name="toGmxExclusionBlockWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NBlibTest" />
+  </testsuite>
+  <testsuite name="NbnxmSetupTest" tests="14" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.909">
+    <testcase name="findNumEnergyGroups" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+    <testcase name="canTranslateBenchmarkEnumAuto" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+    <testcase name="canTranslateBenchmarkEnumNo" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+    <testcase name="canTranslateBenchmarkEnum2XM" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+    <testcase name="canTranslateBenchmarkEnum4XM" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+    <testcase name="CheckKernelSetupThrowsAuto" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+    <testcase name="CheckKernelSetupThrowsCount" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+    <testcase name="canCreateKernelSetupPlain" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+    <testcase name="canCreateParticleInfoAllVdv" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+    <testcase name="ewaldCoeffWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+    <testcase name="updateForcerecWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+    <testcase name="canCheckKernelSetup" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+    <testcase name="cannotCreateKernelSetupCPU2XM" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+    <testcase name="CanCreateNbnxmCPU" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="NbnxmSetupTest" />
+  </testsuite>
+  <testsuite name="VirialsTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.909">
+    <testcase name="computeVirialTensorWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.909" classname="VirialsTest" />
+  </testsuite>
+</testsuites>

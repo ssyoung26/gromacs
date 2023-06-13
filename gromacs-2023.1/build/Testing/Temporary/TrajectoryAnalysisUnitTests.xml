@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="165" failures="0" disabled="0" errors="0" time="1.066" timestamp="2023-06-09T03:26:48.604" name="AllTests">
+  <testsuite name="AngleModuleTest" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0.017" timestamp="2023-06-09T03:26:48.604">
+    <testcase name="ComputesSimpleAngles" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:48.604" classname="AngleModuleTest" />
+    <testcase name="ComputesDihedrals" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.608" classname="AngleModuleTest" />
+    <testcase name="ComputesVectorPairAngles" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.609" classname="AngleModuleTest" />
+    <testcase name="ComputesVectorPlanePairAngles" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.611" classname="AngleModuleTest" />
+    <testcase name="ComputesPlaneZAxisAngles" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.613" classname="AngleModuleTest" />
+    <testcase name="ComputesVectorSphereNormalZAxisAngles" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.614" classname="AngleModuleTest" />
+    <testcase name="ComputesVectorTimeZeroAngles" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.616" classname="AngleModuleTest" />
+    <testcase name="ComputesMultipleAngles" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.617" classname="AngleModuleTest" />
+    <testcase name="HandlesDynamicSelections" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.618" classname="AngleModuleTest" />
+    <testcase name="HandlesOneVsMultipleVectorAngles" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.620" classname="AngleModuleTest" />
+    <testcase name="HandlesOneVsMultipleVectorGroupsAngles" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.621" classname="AngleModuleTest" />
+  </testsuite>
+  <testsuite name="ClustsizeTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.009" timestamp="2023-06-09T03:26:48.622">
+    <testcase name="NoMolDefaultCutoff" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:48.622" classname="ClustsizeTest" />
+    <testcase name="NoMolShortCutoff" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.625" classname="ClustsizeTest" />
+    <testcase name="MolDefaultCutoff" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.626" classname="ClustsizeTest" />
+    <testcase name="MolShortCutoff" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.628" classname="ClustsizeTest" />
+    <testcase name="MolCSize" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.630" classname="ClustsizeTest" />
+  </testsuite>
+  <testsuite name="TrajectoryAnalysisCommandLineRunnerTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.003" timestamp="2023-06-09T03:26:48.632">
+    <testcase name="WritesHelp" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.632" classname="TrajectoryAnalysisCommandLineRunnerTest" />
+    <testcase name="RunsWithSubsetTrajectory" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.632" classname="TrajectoryAnalysisCommandLineRunnerTest" />
+    <testcase name="DetectsIncorrectTrajectorySubset" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.634" classname="TrajectoryAnalysisCommandLineRunnerTest" />
+    <testcase name="FailsWithTrajectorySubsetWithoutTrajectory" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.635" classname="TrajectoryAnalysisCommandLineRunnerTest" />
+  </testsuite>
+  <testsuite name="ConvertTrjModuleTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.01" timestamp="2023-06-09T03:26:48.635">
+    <testcase name="WritesNormalOutput" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:48.635" classname="ConvertTrjModuleTest" />
+    <testcase name="WritesAtomSubset" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:48.640" classname="ConvertTrjModuleTest" />
+    <testcase name="WorksWithAtomAdding" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.644" classname="ConvertTrjModuleTest" />
+    <testcase name="WorksWithAtomsAndSelection" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.645" classname="ConvertTrjModuleTest" />
+  </testsuite>
+  <testsuite name="DistanceModuleTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.01" timestamp="2023-06-09T03:26:48.645">
+    <testcase name="ComputesDistances" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.645" classname="DistanceModuleTest" />
+    <testcase name="ComputesMultipleDistances" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.647" classname="DistanceModuleTest" />
+    <testcase name="HandlesDynamicSelections" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.648" classname="DistanceModuleTest" />
+    <testcase name="HandlesSelectionFromGroup" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:48.649" classname="DistanceModuleTest" />
+    <testcase name="HandlesSelectionFromGroupWithSuccessiveIndices" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:48.651" classname="DistanceModuleTest" />
+    <testcase name="HandlesSelectionFromLargeGroup" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.654" classname="DistanceModuleTest" />
+  </testsuite>
+  <testsuite name="ExtractClusterModuleTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.003" timestamp="2023-06-09T03:26:48.656">
+    <testcase name="WorksWithAllAtoms" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:48.656" classname="ExtractClusterModuleTest" />
+    <testcase name="WorksWithAtomSubset" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.658" classname="ExtractClusterModuleTest" />
+  </testsuite>
+  <testsuite name="FreeVolumeModuleTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.044" timestamp="2023-06-09T03:26:48.659">
+    <testcase name="ComputesFreeVolume" status="run" result="completed" time="0.022" timestamp="2023-06-09T03:26:48.659" classname="FreeVolumeModuleTest" />
+    <testcase name="ComputesFreeVolumeSelection" status="run" result="completed" time="0.022" timestamp="2023-06-09T03:26:48.682" classname="FreeVolumeModuleTest" />
+  </testsuite>
+  <testsuite name="MsdModuleTest" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0.048" timestamp="2023-06-09T03:26:48.704">
+    <testcase name="threeDimensionalDiffusion" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.704" classname="MsdModuleTest" />
+    <testcase name="twoDimensionalDiffusion" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.706" classname="MsdModuleTest" />
+    <testcase name="oneDimensionalDiffusion" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.706" classname="MsdModuleTest" />
+    <testcase name="oneDimensionalDiffusionWithMaxTau" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.707" classname="MsdModuleTest" />
+    <testcase name="multipleGroupsWork" status="run" result="completed" time="0.008" timestamp="2023-06-09T03:26:48.708" classname="MsdModuleTest" />
+    <testcase name="trestartLessThanDt" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:48.716" classname="MsdModuleTest" />
+    <testcase name="trestartGreaterThanDt" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:48.723" classname="MsdModuleTest" />
+    <testcase name="molTest" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:48.729" classname="MsdModuleTest" />
+    <testcase name="beginFit" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:48.735" classname="MsdModuleTest" />
+    <testcase name="endFit" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:48.741" classname="MsdModuleTest" />
+    <testcase name="notEnoughPointsForFitErrorEstimate" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:48.747" classname="MsdModuleTest" />
+  </testsuite>
+  <testsuite name="PairDistanceModuleTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0.007" timestamp="2023-06-09T03:26:48.753">
+    <testcase name="ComputesAllDistances" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.753" classname="PairDistanceModuleTest" />
+    <testcase name="ComputesAllDistancesWithCutoff" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.754" classname="PairDistanceModuleTest" />
+    <testcase name="ComputesMinDistanceWithCutoff" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.755" classname="PairDistanceModuleTest" />
+    <testcase name="ComputesMaxDistance" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.755" classname="PairDistanceModuleTest" />
+    <testcase name="ComputesMaxDistanceWithCutoff" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.756" classname="PairDistanceModuleTest" />
+    <testcase name="ComputesGroupedMinDistanceWithCutoff" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.757" classname="PairDistanceModuleTest" />
+    <testcase name="ComputesGroupedMaxDistanceWithCutoff" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.758" classname="PairDistanceModuleTest" />
+    <testcase name="CoordinateSelectionIsNotOverwritten" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.758" classname="PairDistanceModuleTest" />
+    <testcase name="CoordinateSelectionIsNotOverwrittenWithExplicitGroup" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.759" classname="PairDistanceModuleTest" />
+  </testsuite>
+  <testsuite name="RdfModuleTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.028" timestamp="2023-06-09T03:26:48.760">
+    <testcase name="BasicTest" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:48.760" classname="RdfModuleTest" />
+    <testcase name="SelectionsSolelyFromIndexFileWork" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:48.767" classname="RdfModuleTest" />
+    <testcase name="SelectionsFromBothTopologyFileAndIndexFileWork" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:48.772" classname="RdfModuleTest" />
+    <testcase name="CalculatesSurf" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:48.779" classname="RdfModuleTest" />
+    <testcase name="CalculatesXY" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:48.782" classname="RdfModuleTest" />
+  </testsuite>
+  <testsuite name="SasaModuleTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.013" timestamp="2023-06-09T03:26:48.789">
+    <testcase name="BasicTest" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:48.789" classname="SasaModuleTest" />
+    <testcase name="HandlesSelectedResidues" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:48.793" classname="SasaModuleTest" />
+    <testcase name="WritesConnollySurfaceWithSolute" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.795" classname="SasaModuleTest" />
+    <testcase name="HandlesDynamicOutputGroup" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:48.797" classname="SasaModuleTest" />
+    <testcase name="HandlesDynamicCalculationGroup" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:48.799" classname="SasaModuleTest" />
+  </testsuite>
+  <testsuite name="SelectModuleTest" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0.007" timestamp="2023-06-09T03:26:48.802">
+    <testcase name="BasicTest" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.802" classname="SelectModuleTest" />
+    <testcase name="HandlesPDBOutputWithNonPDBInput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.804" classname="SelectModuleTest" />
+    <testcase name="HandlesPDBOutputWithPDBInput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.804" classname="SelectModuleTest" />
+    <testcase name="HandlesMaxPDBOutput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.805" classname="SelectModuleTest" />
+    <testcase name="HandlesSelectedPDBOutput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.806" classname="SelectModuleTest" />
+    <testcase name="NormalizesSizes" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.807" classname="SelectModuleTest" />
+    <testcase name="WritesResidueNumbers" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.808" classname="SelectModuleTest" />
+    <testcase name="WritesResidueIndices" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.809" classname="SelectModuleTest" />
+  </testsuite>
+  <testsuite name="SurfaceAreaTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="0.003" timestamp="2023-06-09T03:26:48.809">
+    <testcase name="ComputesSinglePoint" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.809" classname="SurfaceAreaTest" />
+    <testcase name="ComputesTwoPoints" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.809" classname="SurfaceAreaTest" />
+    <testcase name="ComputesTwoPointsOfUnequalRadius" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.810" classname="SurfaceAreaTest" />
+    <testcase name="SurfacePoints12" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.810" classname="SurfaceAreaTest" />
+    <testcase name="SurfacePoints32" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.810" classname="SurfaceAreaTest" />
+    <testcase name="SurfacePoints42" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.810" classname="SurfaceAreaTest" />
+    <testcase name="SurfacePoints122" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.810" classname="SurfaceAreaTest" />
+    <testcase name="Computes100Points" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.811" classname="SurfaceAreaTest" />
+    <testcase name="Computes100PointsWithRectangularPBC" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.811" classname="SurfaceAreaTest" />
+    <testcase name="Computes100PointsWithTriclinicPBC" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.812" classname="SurfaceAreaTest" />
+  </testsuite>
+  <testsuite name="TopologyInformation" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.107" timestamp="2023-06-09T03:26:48.813">
+    <testcase name="CantWorkWithoutReadingAFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.813" classname="TopologyInformation" />
+    <testcase name="WorksWithGroFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.813" classname="TopologyInformation" />
+    <testcase name="WorksWithPdbFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.813" classname="TopologyInformation" />
+    <testcase name="WorksWithTprFromPdbFile" status="run" result="completed" time="0.105" timestamp="2023-06-09T03:26:48.814" classname="TopologyInformation" />
+  </testsuite>
+  <testsuite name="TrajectoryModuleTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.003" timestamp="2023-06-09T03:26:48.920">
+    <testcase name="BasicTest" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:48.920" classname="TrajectoryModuleTest" />
+    <testcase name="PlotsXOnly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.921" classname="TrajectoryModuleTest" />
+    <testcase name="HandlesNoVelocities" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.922" classname="TrajectoryModuleTest" />
+    <testcase name="HandlesNoForces" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.923" classname="TrajectoryModuleTest" />
+  </testsuite>
+  <testsuite name="UnionFinderTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:48.924">
+    <testcase name="WorksEmpty" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.924" classname="UnionFinderTest" />
+    <testcase name="BasicMerges" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.924" classname="UnionFinderTest" />
+    <testcase name="LargerMerges" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.924" classname="UnionFinderTest" />
+    <testcase name="LongRightMerge" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.924" classname="UnionFinderTest" />
+    <testcase name="LongLeftMerge" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.924" classname="UnionFinderTest" />
+  </testsuite>
+  <testsuite name="MappedUnionFinderTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:48.924">
+    <testcase name="BasicMerges" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:48.924" classname="MappedUnionFinderTest" />
+  </testsuite>
+  <testsuite name="MoleculeTests/DsspModuleTestDsspNB" tests="40" failures="0" disabled="0" skipped="0" errors="0" time="0.427" timestamp="2023-06-09T03:26:48.924">
+    <testcase name="Works/0" value_param="(&quot;1cos.pdb&quot;, 0.9)" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:48.924" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/1" value_param="(&quot;1cos.pdb&quot;, 2)" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:48.928" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/2" value_param="(&quot;1hlc.pdb&quot;, 0.9)" status="run" result="completed" time="0.01" timestamp="2023-06-09T03:26:48.932" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/3" value_param="(&quot;1hlc.pdb&quot;, 2)" status="run" result="completed" time="0.01" timestamp="2023-06-09T03:26:48.943" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/4" value_param="(&quot;1vzj.pdb&quot;, 0.9)" status="run" result="completed" time="0.013" timestamp="2023-06-09T03:26:48.954" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/5" value_param="(&quot;1vzj.pdb&quot;, 2)" status="run" result="completed" time="0.016" timestamp="2023-06-09T03:26:48.967" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/6" value_param="(&quot;3byc.pdb&quot;, 0.9)" status="run" result="completed" time="0.014" timestamp="2023-06-09T03:26:48.983" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/7" value_param="(&quot;3byc.pdb&quot;, 2)" status="run" result="completed" time="0.014" timestamp="2023-06-09T03:26:48.997" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/8" value_param="(&quot;3kyy.pdb&quot;, 0.9)" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:49.012" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/9" value_param="(&quot;3kyy.pdb&quot;, 2)" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:49.015" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/10" value_param="(&quot;4r80.pdb&quot;, 0.9)" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:49.017" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/11" value_param="(&quot;4r80.pdb&quot;, 2)" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:49.024" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/12" value_param="(&quot;4xjf.pdb&quot;, 0.9)" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:49.031" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/13" value_param="(&quot;4xjf.pdb&quot;, 2)" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:49.036" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/14" value_param="(&quot;5u5p.pdb&quot;, 0.9)" status="run" result="completed" time="0.016" timestamp="2023-06-09T03:26:49.042" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/15" value_param="(&quot;5u5p.pdb&quot;, 2)" status="run" result="completed" time="0.019" timestamp="2023-06-09T03:26:49.059" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/16" value_param="(&quot;7wgh.pdb&quot;, 0.9)" status="run" result="completed" time="0.014" timestamp="2023-06-09T03:26:49.078" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/17" value_param="(&quot;7wgh.pdb&quot;, 2)" status="run" result="completed" time="0.015" timestamp="2023-06-09T03:26:49.093" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/18" value_param="(&quot;1gmc.pdb&quot;, 0.9)" status="run" result="completed" time="0.009" timestamp="2023-06-09T03:26:49.108" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/19" value_param="(&quot;1gmc.pdb&quot;, 2)" status="run" result="completed" time="0.009" timestamp="2023-06-09T03:26:49.117" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/20" value_param="(&quot;1v3y.pdb&quot;, 0.9)" status="run" result="completed" time="0.013" timestamp="2023-06-09T03:26:49.127" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/21" value_param="(&quot;1v3y.pdb&quot;, 2)" status="run" result="completed" time="0.014" timestamp="2023-06-09T03:26:49.141" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/22" value_param="(&quot;1yiw.pdb&quot;, 0.9)" status="run" result="completed" time="0.008" timestamp="2023-06-09T03:26:49.155" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/23" value_param="(&quot;1yiw.pdb&quot;, 2)" status="run" result="completed" time="0.009" timestamp="2023-06-09T03:26:49.164" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/24" value_param="(&quot;2os3.pdb&quot;, 0.9)" status="run" result="completed" time="0.008" timestamp="2023-06-09T03:26:49.173" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/25" value_param="(&quot;2os3.pdb&quot;, 2)" status="run" result="completed" time="0.009" timestamp="2023-06-09T03:26:49.182" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/26" value_param="(&quot;3u04.pdb&quot;, 0.9)" status="run" result="completed" time="0.008" timestamp="2023-06-09T03:26:49.191" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/27" value_param="(&quot;3u04.pdb&quot;, 2)" status="run" result="completed" time="0.008" timestamp="2023-06-09T03:26:49.199" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/28" value_param="(&quot;4r6c.pdb&quot;, 0.9)" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:49.208" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/29" value_param="(&quot;4r6c.pdb&quot;, 2)" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:49.214" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/30" value_param="(&quot;4wxl.pdb&quot;, 0.9)" status="run" result="completed" time="0.029" timestamp="2023-06-09T03:26:49.219" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/31" value_param="(&quot;4wxl.pdb&quot;, 2)" status="run" result="completed" time="0.032" timestamp="2023-06-09T03:26:49.249" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/32" value_param="(&quot;5cvq.pdb&quot;, 0.9)" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:49.281" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/33" value_param="(&quot;5cvq.pdb&quot;, 2)" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:49.288" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/34" value_param="(&quot;5i2b.pdb&quot;, 0.9)" status="run" result="completed" time="0.008" timestamp="2023-06-09T03:26:49.295" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/35" value_param="(&quot;5i2b.pdb&quot;, 2)" status="run" result="completed" time="0.008" timestamp="2023-06-09T03:26:49.303" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/36" value_param="(&quot;5t8z.pdb&quot;, 0.9)" status="run" result="completed" time="0.007" timestamp="2023-06-09T03:26:49.311" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/37" value_param="(&quot;5t8z.pdb&quot;, 2)" status="run" result="completed" time="0.007" timestamp="2023-06-09T03:26:49.319" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/38" value_param="(&quot;6jet.pdb&quot;, 0.9)" status="run" result="completed" time="0.01" timestamp="2023-06-09T03:26:49.327" classname="MoleculeTests/DsspModuleTestDsspNB" />
+    <testcase name="Works/39" value_param="(&quot;6jet.pdb&quot;, 2)" status="run" result="completed" time="0.013" timestamp="2023-06-09T03:26:49.338" classname="MoleculeTests/DsspModuleTestDsspNB" />
+  </testsuite>
+  <testsuite name="MoleculeTests/DsspModuleTestGromacsNB" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.087" timestamp="2023-06-09T03:26:49.351">
+    <testcase name="Works/0" value_param="(&quot;hdac.pdb&quot;, 0.9)" status="run" result="completed" time="0.026" timestamp="2023-06-09T03:26:49.351" classname="MoleculeTests/DsspModuleTestGromacsNB" />
+    <testcase name="Works/1" value_param="(&quot;hdac.pdb&quot;, 2)" status="run" result="completed" time="0.028" timestamp="2023-06-09T03:26:49.378" classname="MoleculeTests/DsspModuleTestGromacsNB" />
+    <testcase name="Works/2" value_param="(&quot;RNAseA.pdb&quot;, 0.9)" status="run" result="completed" time="0.009" timestamp="2023-06-09T03:26:49.406" classname="MoleculeTests/DsspModuleTestGromacsNB" />
+    <testcase name="Works/3" value_param="(&quot;RNAseA.pdb&quot;, 2)" status="run" result="completed" time="0.009" timestamp="2023-06-09T03:26:49.416" classname="MoleculeTests/DsspModuleTestGromacsNB" />
+    <testcase name="Works/4" value_param="(&quot;zyncfinger.pdb&quot;, 0.9)" status="run" result="completed" time="0.007" timestamp="2023-06-09T03:26:49.425" classname="MoleculeTests/DsspModuleTestGromacsNB" />
+    <testcase name="Works/5" value_param="(&quot;zyncfinger.pdb&quot;, 2)" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:49.432" classname="MoleculeTests/DsspModuleTestGromacsNB" />
+  </testsuite>
+  <testsuite name="MoleculeTests/DsspModuleTestDsspNoNB" tests="20" failures="0" disabled="0" skipped="0" errors="0" time="0.191" timestamp="2023-06-09T03:26:49.439">
+    <testcase name="Works/0" value_param="&quot;1cos.pdb&quot;" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:49.439" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/1" value_param="&quot;1hlc.pdb&quot;" status="run" result="completed" time="0.009" timestamp="2023-06-09T03:26:49.443" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/2" value_param="&quot;1vzj.pdb&quot;" status="run" result="completed" time="0.011" timestamp="2023-06-09T03:26:49.452" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/3" value_param="&quot;3byc.pdb&quot;" status="run" result="completed" time="0.012" timestamp="2023-06-09T03:26:49.464" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/4" value_param="&quot;3kyy.pdb&quot;" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:49.477" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/5" value_param="&quot;4r80.pdb&quot;" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:49.483" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/6" value_param="&quot;4xjf.pdb&quot;" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:49.489" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/7" value_param="&quot;5u5p.pdb&quot;" status="run" result="completed" time="0.015" timestamp="2023-06-09T03:26:49.494" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/8" value_param="&quot;7wgh.pdb&quot;" status="run" result="completed" time="0.013" timestamp="2023-06-09T03:26:49.510" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/9" value_param="&quot;1gmc.pdb&quot;" status="run" result="completed" time="0.008" timestamp="2023-06-09T03:26:49.524" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/10" value_param="&quot;1v3y.pdb&quot;" status="run" result="completed" time="0.012" timestamp="2023-06-09T03:26:49.532" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/11" value_param="&quot;1yiw.pdb&quot;" status="run" result="completed" time="0.008" timestamp="2023-06-09T03:26:49.545" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/12" value_param="&quot;2os3.pdb&quot;" status="run" result="completed" time="0.007" timestamp="2023-06-09T03:26:49.553" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/13" value_param="&quot;3u04.pdb&quot;" status="run" result="completed" time="0.007" timestamp="2023-06-09T03:26:49.561" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/14" value_param="&quot;4r6c.pdb&quot;" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:49.568" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/15" value_param="&quot;4wxl.pdb&quot;" status="run" result="completed" time="0.026" timestamp="2023-06-09T03:26:49.574" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/16" value_param="&quot;5cvq.pdb&quot;" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:49.600" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/17" value_param="&quot;5i2b.pdb&quot;" status="run" result="completed" time="0.007" timestamp="2023-06-09T03:26:49.606" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/18" value_param="&quot;5t8z.pdb&quot;" status="run" result="completed" time="0.007" timestamp="2023-06-09T03:26:49.614" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+    <testcase name="Works/19" value_param="&quot;6jet.pdb&quot;" status="run" result="completed" time="0.009" timestamp="2023-06-09T03:26:49.621" classname="MoleculeTests/DsspModuleTestDsspNoNB" />
+  </testsuite>
+  <testsuite name="MoleculeTests/DsspModuleTestGromacsNoNB" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.041" timestamp="2023-06-09T03:26:49.630">
+    <testcase name="Works/0" value_param="&quot;hdac.pdb&quot;" status="run" result="completed" time="0.025" timestamp="2023-06-09T03:26:49.630" classname="MoleculeTests/DsspModuleTestGromacsNoNB" />
+    <testcase name="Works/1" value_param="&quot;RNAseA.pdb&quot;" status="run" result="completed" time="0.008" timestamp="2023-06-09T03:26:49.656" classname="MoleculeTests/DsspModuleTestGromacsNoNB" />
+    <testcase name="Works/2" value_param="&quot;zyncfinger.pdb&quot;" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:49.665" classname="MoleculeTests/DsspModuleTestGromacsNoNB" />
+  </testsuite>
+</testsuites>

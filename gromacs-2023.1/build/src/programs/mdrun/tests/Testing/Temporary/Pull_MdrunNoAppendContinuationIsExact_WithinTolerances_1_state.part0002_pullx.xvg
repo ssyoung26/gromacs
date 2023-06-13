@@ -1,0 +1,17 @@
+# This file was created Fri Jun  9 03:26:51 2023
+# Created by:
+#                    :-) GROMACS - mdrun-io-test, 2023.1 (-:
+# 
+# Executable:   /Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/bin/mdrun-io-test
+# Data prefix:  /Users/sonnyyoung/Development/wallacs/gromacs-2023.1 (source tree)
+# Working dir:  /Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/programs/mdrun/tests
+# Command line:
+#   mdrun-io-test --gtest_output=xml:/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/Testing/Temporary/MdrunIOTests.xml
+# mdrun-io-test is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "Pull COM"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Position (nm)"
+@TYPE xy

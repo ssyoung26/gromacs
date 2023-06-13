@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../../../lib/libmdrunutility-test-shared.a "CMakeFiles/mdrunutility-test-shared.dir/threadaffinitytest.cpp.o" "CMakeFiles/mdrunutility-test-shared.dir/__/__/__/testutils/unittest_main.cpp.o"
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../../lib/libmdrunutility-test-shared.a

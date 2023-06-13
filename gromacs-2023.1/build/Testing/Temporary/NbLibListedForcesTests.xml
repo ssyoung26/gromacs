@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="44" failures="0" disabled="0" errors="0" time="0.025" timestamp="2023-06-09T03:26:39.462" name="AllTests">
+  <testsuite name="NBlibTest" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0.021" timestamp="2023-06-09T03:26:39.462">
+    <testcase name="BondTypesOperatorEqualWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.462" classname="NBlibTest" />
+    <testcase name="BondTypesLessThanWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.462" classname="NBlibTest" />
+    <testcase name="CanSplitListedWork" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.462" classname="NBlibTest" />
+    <testcase name="ListedForceBuffer" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.462" classname="NBlibTest" />
+    <testcase name="ListedForceCalculatorCanConstruct" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.462" classname="NBlibTest" />
+    <testcase name="GmxToNblibConversionAllTypes" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.463" classname="NBlibTest" />
+    <testcase name="EndToEndListedComparison" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.463" classname="NBlibTest" />
+    <testcase name="shiftForcesAreCorrect" status="run" result="completed" time="0.02" timestamp="2023-06-09T03:26:39.463" classname="NBlibTest" />
+  </testsuite>
+  <testsuite name="Kernels" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.483">
+    <testcase name="HarmonicScalarKernelCanCompute" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.483" classname="Kernels" />
+  </testsuite>
+  <testsuite name="FourCenter" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.483">
+    <testcase name="ListedForcesProperDihedralTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.483" classname="FourCenter" />
+  </testsuite>
+  <testsuite name="ThreeCenter" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:39.484">
+    <testcase name="ListedForcesG96AngleTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.484" classname="ThreeCenter" />
+    <testcase name="ListedForcesHarmonicAngleTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.484" classname="ThreeCenter" />
+    <testcase name="ListedForcesLinearAngleTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.485" classname="ThreeCenter" />
+    <testcase name="ListedForcesCrossBondBondTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.485" classname="ThreeCenter" />
+    <testcase name="ListedForcesCrossBondAngleTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.485" classname="ThreeCenter" />
+    <testcase name="ListedForcesQuarticAngleTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.485" classname="ThreeCenter" />
+    <testcase name="ListedForcesRestrictedAngleTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.486" classname="ThreeCenter" />
+  </testsuite>
+  <testsuite name="TwoCenter" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.486">
+    <testcase name="ListedForcesHarmonicBondTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.486" classname="TwoCenter" />
+    <testcase name="ListedForcesG96BondTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.486" classname="TwoCenter" />
+    <testcase name="ListedForcesCubicBondTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.486" classname="TwoCenter" />
+    <testcase name="ListedForcesMorseBondTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.486" classname="TwoCenter" />
+    <testcase name="ListedForcesFeneBondTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.486" classname="TwoCenter" />
+  </testsuite>
+  <testsuite name="ListedExampleData" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.486">
+    <testcase name="ComputeHarmonicBondForces" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.486" classname="ListedExampleData" />
+    <testcase name="ComputeHarmonicBondEnergies" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="ListedExampleData" />
+    <testcase name="ComputeHarmonicAngleForces" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="ListedExampleData" />
+    <testcase name="CanReduceForces" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="ListedExampleData" />
+    <testcase name="CanReduceEnergies" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="ListedExampleData" />
+  </testsuite>
+  <testsuite name="LinearChainDataFixture" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.487">
+    <testcase name="Multithreading" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="LinearChainDataFixture" />
+  </testsuite>
+  <testsuite name="ListedShims" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.487">
+    <testcase name="ParameterConversion" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="ListedShims" />
+    <testcase name="GmxToNblibConversion" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="ListedShims" />
+  </testsuite>
+  <testsuite name="CompareEachTypeInNblibAndGmx/NblibGmxListed/0" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.487">
+    <testcase name="SameForcesOnBoth" type_param="nblib::TwoParameterInteraction&lt;nblib::HarmonicBondTypeParameter&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="CompareEachTypeInNblibAndGmx/NblibGmxListed/0" />
+  </testsuite>
+  <testsuite name="CompareEachTypeInNblibAndGmx/NblibGmxListed/1" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.487">
+    <testcase name="SameForcesOnBoth" type_param="nblib::G96BondType" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="CompareEachTypeInNblibAndGmx/NblibGmxListed/1" />
+  </testsuite>
+  <testsuite name="CompareEachTypeInNblibAndGmx/NblibGmxListed/2" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.487">
+    <testcase name="SameForcesOnBoth" type_param="nblib::CubicBondType" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="CompareEachTypeInNblibAndGmx/NblibGmxListed/2" />
+  </testsuite>
+  <testsuite name="CompareEachTypeInNblibAndGmx/NblibGmxListed/3" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.487">
+    <testcase name="SameForcesOnBoth" type_param="nblib::MorseBondType" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="CompareEachTypeInNblibAndGmx/NblibGmxListed/3" />
+  </testsuite>
+  <testsuite name="CompareEachTypeInNblibAndGmx/NblibGmxListed/4" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.487">
+    <testcase name="SameForcesOnBoth" type_param="nblib::TwoParameterInteraction&lt;nblib::FENEBondTypeParameter&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="CompareEachTypeInNblibAndGmx/NblibGmxListed/4" />
+  </testsuite>
+  <testsuite name="CompareEachTypeInNblibAndGmx/NblibGmxListed/5" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.487">
+    <testcase name="SameForcesOnBoth" type_param="nblib::AngleInteractionType&lt;nblib::HarmonicAngleParameter&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="CompareEachTypeInNblibAndGmx/NblibGmxListed/5" />
+  </testsuite>
+  <testsuite name="CompareEachTypeInNblibAndGmx/NblibGmxListed/6" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.487">
+    <testcase name="SameForcesOnBoth" type_param="nblib::CosineParamAngle&lt;nblib::G96AngleParameter&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="CompareEachTypeInNblibAndGmx/NblibGmxListed/6" />
+  </testsuite>
+  <testsuite name="CompareEachTypeInNblibAndGmx/NblibGmxListed/7" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.487">
+    <testcase name="SameForcesOnBoth" type_param="nblib::CosineParamAngle&lt;nblib::RestrictedAngleParameter&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="CompareEachTypeInNblibAndGmx/NblibGmxListed/7" />
+  </testsuite>
+  <testsuite name="CompareEachTypeInNblibAndGmx/NblibGmxListed/8" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.487">
+    <testcase name="SameForcesOnBoth" type_param="nblib::TwoParameterInteraction&lt;nblib::LinearAngleParameter&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.487" classname="CompareEachTypeInNblibAndGmx/NblibGmxListed/8" />
+  </testsuite>
+  <testsuite name="CompareEachTypeInNblibAndGmx/NblibGmxListed/9" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.488">
+    <testcase name="SameForcesOnBoth" type_param="nblib::QuarticAngle" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.488" classname="CompareEachTypeInNblibAndGmx/NblibGmxListed/9" />
+  </testsuite>
+  <testsuite name="CompareEachTypeInNblibAndGmx/NblibGmxListed/10" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.488">
+    <testcase name="SameForcesOnBoth" type_param="nblib::CrossBondBond" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.488" classname="CompareEachTypeInNblibAndGmx/NblibGmxListed/10" />
+  </testsuite>
+  <testsuite name="CompareEachTypeInNblibAndGmx/NblibGmxListed/11" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.488">
+    <testcase name="SameForcesOnBoth" type_param="nblib::CrossBondAngle" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.488" classname="CompareEachTypeInNblibAndGmx/NblibGmxListed/11" />
+  </testsuite>
+  <testsuite name="CompareEachTypeInNblibAndGmx/NblibGmxListed/12" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.488">
+    <testcase name="SameForcesOnBoth" type_param="nblib::ProperDihedral" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.488" classname="CompareEachTypeInNblibAndGmx/NblibGmxListed/12" />
+  </testsuite>
+  <testsuite name="ListedTransformations" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:39.488">
+    <testcase name="SortInteractionIndices" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:39.488" classname="ListedTransformations" />
+  </testsuite>
+</testsuites>

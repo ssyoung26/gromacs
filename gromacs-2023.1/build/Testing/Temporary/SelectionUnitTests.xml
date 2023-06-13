@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="201" failures="0" disabled="0" errors="0" time="0.096" timestamp="2023-06-09T03:26:50.567" name="AllTests">
+  <testsuite name="IndexGroupTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:50.567">
+    <testcase name="RemovesDuplicates" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.567" classname="IndexGroupTest" />
+  </testsuite>
+  <testsuite name="IndexBlockTest" tests="15" failures="0" disabled="0" skipped="0" errors="0" time="0.003" timestamp="2023-06-09T03:26:50.567">
+    <testcase name="CreatesUnknownBlock" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.567" classname="IndexBlockTest" />
+    <testcase name="CreatesAtomBlock" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.568" classname="IndexBlockTest" />
+    <testcase name="CreatesResidueBlocksForSimpleTopology" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.568" classname="IndexBlockTest" />
+    <testcase name="CreatesResidueBlocksForComplexTopology" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.568" classname="IndexBlockTest" />
+    <testcase name="CreatesMoleculeBlocksForSimpleTopology" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.569" classname="IndexBlockTest" />
+    <testcase name="CreatesMoleculeBlocksForComplexTopology" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.569" classname="IndexBlockTest" />
+    <testcase name="CreatesSingleBlock" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.570" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForFullBlocksPositive" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.570" classname="IndexBlockTest" />
+    <testcase name="ChecksOutOfOrderGroupForFullBlocksPositive" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.570" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForFullBlocksNegative" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.570" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForCompleteElementsTrivial" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.570" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForCompleteResiduesPositive" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.570" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForCompleteResiduesNegative" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.570" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForCompleteMoleculesPositive" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.571" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForCompleteMoleculesNegative" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.571" classname="IndexBlockTest" />
+  </testsuite>
+  <testsuite name="IndexMapTest" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:50.571">
+    <testcase name="InitializesAtomBlock" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.571" classname="IndexMapTest" />
+    <testcase name="InitializesOrgIdGroupAtom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.571" classname="IndexMapTest" />
+    <testcase name="InitializesOrgIdGroupSingle" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.571" classname="IndexMapTest" />
+    <testcase name="InitializesOrgIdGroupResidue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.572" classname="IndexMapTest" />
+    <testcase name="InitializesOrgIdGroupMolecule" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.572" classname="IndexMapTest" />
+    <testcase name="InitializesOrgIdGroupAll" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.572" classname="IndexMapTest" />
+    <testcase name="InitializesMoleculeBlock" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.572" classname="IndexMapTest" />
+    <testcase name="MapsSingleBlock" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.572" classname="IndexMapTest" />
+    <testcase name="MapsResidueBlocks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.573" classname="IndexMapTest" />
+    <testcase name="MapsResidueBlocksWithMask" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.573" classname="IndexMapTest" />
+    <testcase name="HandlesMultipleRequests" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.573" classname="IndexMapTest" />
+  </testsuite>
+  <testsuite name="IndexGroupsAndNamesTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:50.573">
+    <testcase name="containsNames" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.573" classname="IndexGroupsAndNamesTest" />
+    <testcase name="throwsWhenNameMissing" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.573" classname="IndexGroupsAndNamesTest" />
+    <testcase name="groupIndicesCorrect" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.573" classname="IndexGroupsAndNamesTest" />
+  </testsuite>
+  <testsuite name="NeighborhoodSearchTest" tests="15" failures="0" disabled="0" skipped="0" errors="0" time="0.052" timestamp="2023-06-09T03:26:50.573">
+    <testcase name="SimpleSearch" status="run" result="completed" time="0.009" timestamp="2023-06-09T03:26:50.573" classname="NeighborhoodSearchTest" />
+    <testcase name="SimpleSearchXY" status="run" result="completed" time="0.008" timestamp="2023-06-09T03:26:50.583" classname="NeighborhoodSearchTest" />
+    <testcase name="GridSearchBox" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:50.592" classname="NeighborhoodSearchTest" />
+    <testcase name="GridSearchTriclinic" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:50.594" classname="NeighborhoodSearchTest" />
+    <testcase name="GridSearch2DPBC" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:50.599" classname="NeighborhoodSearchTest" />
+    <testcase name="GridSearchNoPBC" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.601" classname="NeighborhoodSearchTest" />
+    <testcase name="GridSearchXYBox" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:50.602" classname="NeighborhoodSearchTest" />
+    <testcase name="SimpleSelfPairsSearch" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.603" classname="NeighborhoodSearchTest" />
+    <testcase name="GridSelfPairsSearch" status="run" result="completed" time="0.02" timestamp="2023-06-09T03:26:50.603" classname="NeighborhoodSearchTest" />
+    <testcase name="HandlesConcurrentSearches" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.624" classname="NeighborhoodSearchTest" />
+    <testcase name="HandlesNoPBC" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.624" classname="NeighborhoodSearchTest" />
+    <testcase name="HandlesNullPBC" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.624" classname="NeighborhoodSearchTest" />
+    <testcase name="HandlesSkippingPairs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.624" classname="NeighborhoodSearchTest" />
+    <testcase name="SimpleSearchExclusions" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:50.624" classname="NeighborhoodSearchTest" />
+    <testcase name="GridSearchExclusions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.625" classname="NeighborhoodSearchTest" />
+  </testsuite>
+  <testsuite name="PositionCalculationTest" tests="13" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:50.626">
+    <testcase name="ComputesAtomPositions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.626" classname="PositionCalculationTest" />
+    <testcase name="ComputesAtomPositionsWithRepeatedIndex" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.626" classname="PositionCalculationTest" />
+    <testcase name="ComputesResidueCOGPositions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.626" classname="PositionCalculationTest" />
+    <testcase name="ComputesResidueCOMPositions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.626" classname="PositionCalculationTest" />
+    <testcase name="ComputesGroupCOGPositions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.627" classname="PositionCalculationTest" />
+    <testcase name="ComputesGroupCOMPositions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.627" classname="PositionCalculationTest" />
+    <testcase name="ComputesPositionsWithCompleteWhole" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.627" classname="PositionCalculationTest" />
+    <testcase name="ComputesPositionsWithCompleteMax" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.627" classname="PositionCalculationTest" />
+    <testcase name="ComputesPositionMask" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.627" classname="PositionCalculationTest" />
+    <testcase name="HandlesFramesWithLessAtoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.627" classname="PositionCalculationTest" />
+    <testcase name="HandlesFramesWithLessAtoms2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.628" classname="PositionCalculationTest" />
+    <testcase name="HandlesIdenticalStaticCalculations" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.628" classname="PositionCalculationTest" />
+    <testcase name="HandlesOverlappingStaticCalculations" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.628" classname="PositionCalculationTest" />
+  </testsuite>
+  <testsuite name="SelectionCollectionTest" tests="33" failures="0" disabled="0" skipped="0" errors="0" time="0.005" timestamp="2023-06-09T03:26:50.628">
+    <testcase name="HandlesNoSelections" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.628" classname="SelectionCollectionTest" />
+    <testcase name="HandlesNoSelectionsWithDefaultPositionType" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.628" classname="SelectionCollectionTest" />
+    <testcase name="HandlesVelocityAndForceRequests" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.629" classname="SelectionCollectionTest" />
+    <testcase name="HandlesForceRequestForCenterOfGeometry" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.629" classname="SelectionCollectionTest" />
+    <testcase name="ParsesSelectionsFromFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.629" classname="SelectionCollectionTest" />
+    <testcase name="HandlesAtypicalWhitespace" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.629" classname="SelectionCollectionTest" />
+    <testcase name="HandlesInvalidRegularExpressions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.629" classname="SelectionCollectionTest" />
+    <testcase name="HandlesMissingMethodParamValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.630" classname="SelectionCollectionTest" />
+    <testcase name="HandlesMissingMethodParamValue2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.630" classname="SelectionCollectionTest" />
+    <testcase name="HandlesMissingMethodParamValue3" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.630" classname="SelectionCollectionTest" />
+    <testcase name="HandlesUnknownGroupReferenceParser1" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.630" classname="SelectionCollectionTest" />
+    <testcase name="HandlesUnknownGroupReferenceParser2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.630" classname="SelectionCollectionTest" />
+    <testcase name="HandlesUnknownGroupReferenceDelayed1" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.631" classname="SelectionCollectionTest" />
+    <testcase name="HandlesUnknownGroupReferenceDelayed2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.631" classname="SelectionCollectionTest" />
+    <testcase name="HandlesUnsortedGroupReference" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.631" classname="SelectionCollectionTest" />
+    <testcase name="HandlesUnsortedGroupReferenceDelayed" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.631" classname="SelectionCollectionTest" />
+    <testcase name="HandlesOutOfRangeAtomIndexInGroup" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.631" classname="SelectionCollectionTest" />
+    <testcase name="HandlesOutOfRangeAtomIndexInGroupDelayed" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.632" classname="SelectionCollectionTest" />
+    <testcase name="HandlesOutOfRangeAtomIndexInGroupDelayed2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.632" classname="SelectionCollectionTest" />
+    <testcase name="RecoversFromMissingMoleculeInfo" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.632" classname="SelectionCollectionTest" />
+    <testcase name="RecoversFromMissingAtomTypes" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.632" classname="SelectionCollectionTest" />
+    <testcase name="RecoversFromMissingPDBInfo" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.632" classname="SelectionCollectionTest" />
+    <testcase name="RecoversFromInvalidPermutation" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.632" classname="SelectionCollectionTest" />
+    <testcase name="RecoversFromInvalidPermutation2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.632" classname="SelectionCollectionTest" />
+    <testcase name="RecoversFromInvalidPermutation3" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.632" classname="SelectionCollectionTest" />
+    <testcase name="HandlesFramesWithTooSmallAtomSubsets" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.633" classname="SelectionCollectionTest" />
+    <testcase name="HandlesFramesWithTooSmallAtomSubsets2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.633" classname="SelectionCollectionTest" />
+    <testcase name="HandlesFramesWithTooSmallAtomSubsets3" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.633" classname="SelectionCollectionTest" />
+    <testcase name="HandlesFramesWithTooSmallAtomSubsets4" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.633" classname="SelectionCollectionTest" />
+    <testcase name="RetrieveValidSelection" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.633" classname="SelectionCollectionTest" />
+    <testcase name="RetrieveInvalidSelection" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.633" classname="SelectionCollectionTest" />
+    <testcase name="CanCopyEmptyCollection" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.633" classname="SelectionCollectionTest" />
+    <testcase name="CopiedSelectionListsAreHandledSeparately" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.634" classname="SelectionCollectionTest" />
+  </testsuite>
+  <testsuite name="SelectionCollectionInteractiveTest" tests="14" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:50.634">
+    <testcase name="HandlesBasicInput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.634" classname="SelectionCollectionInteractiveTest" />
+    <testcase name="HandlesContinuation" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.634" classname="SelectionCollectionInteractiveTest" />
+    <testcase name="HandlesSingleSelectionInput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.634" classname="SelectionCollectionInteractiveTest" />
+    <testcase name="HandlesTwoSelectionInput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.634" classname="SelectionCollectionInteractiveTest" />
+    <testcase name="HandlesStatusWithGroups" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.635" classname="SelectionCollectionInteractiveTest" />
+    <testcase name="HandlesStatusWithExistingSelections" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.635" classname="SelectionCollectionInteractiveTest" />
+    <testcase name="HandlesSingleSelectionInputStatus" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.635" classname="SelectionCollectionInteractiveTest" />
+    <testcase name="HandlesTwoSelectionInputStatus" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.635" classname="SelectionCollectionInteractiveTest" />
+    <testcase name="HandlesMultiSelectionInputStatus" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.636" classname="SelectionCollectionInteractiveTest" />
+    <testcase name="HandlesNoFinalNewline" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.636" classname="SelectionCollectionInteractiveTest" />
+    <testcase name="HandlesEmptySelections" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.636" classname="SelectionCollectionInteractiveTest" />
+    <testcase name="HandlesMultipleSelectionsOnLine" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.636" classname="SelectionCollectionInteractiveTest" />
+    <testcase name="HandlesNoninteractiveInput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.636" classname="SelectionCollectionInteractiveTest" />
+    <testcase name="HandlesSingleSelectionInputNoninteractively" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.637" classname="SelectionCollectionInteractiveTest" />
+  </testsuite>
+  <testsuite name="SelectionCollectionDataTest" tests="70" failures="0" disabled="0" skipped="0" errors="0" time="0.023" timestamp="2023-06-09T03:26:50.637">
+    <testcase name="HandlesAllNone" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.637" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesAtomnr" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.637" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesResnr" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.637" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesResIndex" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.638" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesMolIndex" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.638" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesAtomname" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.638" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPdbAtomname" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.639" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesAtomtype" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.639" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesChain" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.639" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesMass" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.639" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesCharge" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.639" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesAltLoc" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.640" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesInsertCode" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.640" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesOccupancy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.640" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesBeta" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.640" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesResname" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.640" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesCoordinateKeywords" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.641" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesSameResidue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.641" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesSameResidueName" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.641" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPositionKeywords" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.641" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesDistanceKeyword" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.642" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesMinDistanceKeyword" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.642" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesWithinKeyword" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.642" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesInSolidAngleKeyword" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.642" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPermuteModifier" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.643" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPlusModifier" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.644" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesMergeModifier" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.645" classname="SelectionCollectionDataTest" />
+    <testcase name="ComputesMassesAndCharges" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.645" classname="SelectionCollectionDataTest" />
+    <testcase name="ComputesMassesAndChargesWithoutTopology" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.646" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesFramesWithAtomSubsets" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.646" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesSelectionNames" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.646" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesIndexGroupsInSelections" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.646" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesIndexGroupsInSelectionsDelayed" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.647" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesUnsortedIndexGroupsInSelections" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.647" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesUnsortedIndexGroupsInSelectionsDelayed" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.647" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesConstantPositions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.648" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesConstantPositionsWithModifiers" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.648" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesWithinConstantPositions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.648" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesOverlappingIntegerRanges" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.648" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesOverlappingRealRanges" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.648" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesForcedStringMatchingMode" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.649" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesWildcardMatching" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.649" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesRegexMatching" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.649" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesBasicBoolean" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.649" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesDynamicAtomValuedParameters" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.650" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesEmptySelectionWithUnevaluatedExpressions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.650" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesEmptyReferenceForSame" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.650" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPositionModifiersForKeywords" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.650" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPositionModifiersForMethods" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.650" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesKeywordOfPositions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.651" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesKeywordOfPositionsInArithmetic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.651" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesNumericComparisons" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.651" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesArithmeticExpressions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.652" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesNumericVariables" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.652" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesComplexNumericVariables" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.652" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPositionVariables" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.653" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPositionVariableInModifier" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.653" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesConstantPositionInVariable" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.653" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesNumericConstantsInVariables" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.653" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesBooleanStaticAnalysis" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:50.654" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesBooleanStaticAnalysisWithVariables" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:50.655" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesBooleanStaticAnalysisWithMoreVariables" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.657" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesUnusedVariables" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.658" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesVariablesWithStaticEvaluationGroups" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.658" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesVariablesWithMixedEvaluationGroups" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.658" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesVariablesWithMixedEvaluationGroups2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.658" classname="SelectionCollectionDataTest" />
+    <testcase name="CopiedSelectionWorksPreCompilation" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.658" classname="SelectionCollectionDataTest" />
+    <testcase name="CopiedSelectionWorksPostCompilation" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.659" classname="SelectionCollectionDataTest" />
+    <testcase name="CopiedSelectionsAreIndependent" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.660" classname="SelectionCollectionDataTest" />
+    <testcase name="CopiedSelectionWithIndexPostCompilation" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.660" classname="SelectionCollectionDataTest" />
+  </testsuite>
+  <testsuite name="SelectionOptionTest" tests="17" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:50.661">
+    <testcase name="ParsesSimpleSelection" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.661" classname="SelectionOptionTest" />
+    <testcase name="HandlesDynamicSelectionWhenStaticRequired" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.661" classname="SelectionOptionTest" />
+    <testcase name="HandlesNonAtomicSelectionWhenAtomsRequired" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.661" classname="SelectionOptionTest" />
+    <testcase name="ChecksForSortedAtomsWhenRequired" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.661" classname="SelectionOptionTest" />
+    <testcase name="ChecksEmptySelections" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.661" classname="SelectionOptionTest" />
+    <testcase name="ChecksEmptyDelayedSelections" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.661" classname="SelectionOptionTest" />
+    <testcase name="HandlesTooManySelections" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.661" classname="SelectionOptionTest" />
+    <testcase name="HandlesTooFewSelections" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.661" classname="SelectionOptionTest" />
+    <testcase name="HandlesDefaultSelectionText" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.661" classname="SelectionOptionTest" />
+    <testcase name="HandlesAdjuster" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.662" classname="SelectionOptionTest" />
+    <testcase name="HandlesDynamicWhenStaticRequiredWithAdjuster" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.662" classname="SelectionOptionTest" />
+    <testcase name="HandlesTooManySelectionsWithAdjuster" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.662" classname="SelectionOptionTest" />
+    <testcase name="HandlesTooFewSelectionsWithAdjuster" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.662" classname="SelectionOptionTest" />
+    <testcase name="HandlesDelayedRequiredSelection" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.662" classname="SelectionOptionTest" />
+    <testcase name="HandlesTooFewDelayedRequiredSelections" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.662" classname="SelectionOptionTest" />
+    <testcase name="HandlesDelayedOptionalSelection" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.662" classname="SelectionOptionTest" />
+    <testcase name="HandlesDelayedSelectionWithAdjuster" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.662" classname="SelectionOptionTest" />
+  </testsuite>
+  <testsuite name="SelectionFileOptionTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:50.662">
+    <testcase name="HandlesSingleSelectionOptionFromFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.662" classname="SelectionFileOptionTest" />
+    <testcase name="HandlesTwoSeparateSelectionOptions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.662" classname="SelectionFileOptionTest" />
+    <testcase name="HandlesTwoSelectionOptionsFromSingleFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.663" classname="SelectionFileOptionTest" />
+    <testcase name="HandlesRequiredOptionFromFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.663" classname="SelectionFileOptionTest" />
+    <testcase name="HandlesRequiredOptionFromFileWithOtherOptionSet" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.663" classname="SelectionFileOptionTest" />
+    <testcase name="HandlesTwoRequiredOptionsFromSingleFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.663" classname="SelectionFileOptionTest" />
+    <testcase name="GivesErrorWithNoFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.663" classname="SelectionFileOptionTest" />
+    <testcase name="GivesErrorWithNonExistentFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.663" classname="SelectionFileOptionTest" />
+    <testcase name="GivesErrorWithMultipleFiles" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.663" classname="SelectionFileOptionTest" />
+  </testsuite>
+</testsuites>

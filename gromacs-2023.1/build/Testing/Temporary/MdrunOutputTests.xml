@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="12" failures="0" disabled="0" errors="0" time="0.047" timestamp="2023-06-09T03:26:50.765" name="AllTests">
+  <testsuite name="MdrunTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:50.765">
+    <testcase name="WritesHelp" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:50.765" classname="MdrunTest" />
+  </testsuite>
+  <testsuite name="WithDifferentOutputGroupSettings/MdrunCompressedXOutput" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.014" timestamp="2023-06-09T03:26:50.768">
+    <testcase name="ExitsNormally/0" value_param="&quot;&quot;" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:50.768" classname="WithDifferentOutputGroupSettings/MdrunCompressedXOutput" />
+    <testcase name="ExitsNormally/1" value_param="&quot;compressed-x-grps = System\n&quot;" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:50.774" classname="WithDifferentOutputGroupSettings/MdrunCompressedXOutput" />
+    <testcase name="ExitsNormally/2" value_param="&quot;compressed-x-grps = SecondWaterMolecule\n&quot;" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:50.778" classname="WithDifferentOutputGroupSettings/MdrunCompressedXOutput" />
+  </testsuite>
+  <testsuite name="Argon12/OutputFiles" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.007" timestamp="2023-06-09T03:26:50.782">
+    <testcase name="FilesArePresent/0" value_param="(&quot;argon12&quot;, &quot;md&quot;)" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:50.782" classname="Argon12/OutputFiles" />
+    <testcase name="FilesArePresent/1" value_param="(&quot;argon12&quot;, &quot;md-vv&quot;)" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:50.786" classname="Argon12/OutputFiles" />
+  </testsuite>
+  <testsuite name="MdrunCanWrite/Trajectories" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.012" timestamp="2023-06-09T03:26:50.790">
+    <testcase name="ThatDifferInNstxout/0" value_param="&quot;1&quot;" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:50.790" classname="MdrunCanWrite/Trajectories" />
+    <testcase name="ThatDifferInNstxout/1" value_param="&quot;2&quot;" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:50.795" classname="MdrunCanWrite/Trajectories" />
+    <testcase name="ThatDifferInNstxout/2" value_param="&quot;3&quot;" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:50.799" classname="MdrunCanWrite/Trajectories" />
+  </testsuite>
+  <testsuite name="MdrunCanWrite/NptTrajectories" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.009" timestamp="2023-06-09T03:26:50.803">
+    <testcase name="WithDifferentPcoupl/0" value_param="&quot;no&quot;" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:50.803" classname="MdrunCanWrite/NptTrajectories" />
+    <testcase name="WithDifferentPcoupl/1" value_param="&quot;Berendsen&quot;" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:50.806" classname="MdrunCanWrite/NptTrajectories" />
+    <testcase name="WithDifferentPcoupl/2" value_param="&quot;Parrinello-Rahman&quot;" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:50.809" classname="MdrunCanWrite/NptTrajectories" />
+  </testsuite>
+</testsuites>

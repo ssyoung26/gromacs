@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="107" failures="0" disabled="0" errors="0" time="0.38" timestamp="2023-06-09T03:26:45.375" name="AllTests">
+  <testsuite name="GenconfTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.003" timestamp="2023-06-09T03:26:45.375">
+    <testcase name="nbox_Works" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.375" classname="GenconfTest" />
+    <testcase name="nbox_norenumber_Works" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.377" classname="GenconfTest" />
+    <testcase name="nbox_dist_Works" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.377" classname="GenconfTest" />
+    <testcase name="nbox_rot_Works" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.378" classname="GenconfTest" />
+  </testsuite>
+  <testsuite name="GenionTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.202" timestamp="2023-06-09T03:26:45.378">
+    <testcase name="HighConcentrationIonPlacement" status="run" result="completed" time="0.123" timestamp="2023-06-09T03:26:45.378" classname="GenionTest" />
+    <testcase name="NoIonPlacement" status="run" result="completed" time="0.079" timestamp="2023-06-09T03:26:45.501" classname="GenionTest" />
+  </testsuite>
+  <testsuite name="GenRestrTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:45.581">
+    <testcase name="SimpleRestraintsGenerated" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.581" classname="GenRestrTest" />
+  </testsuite>
+  <testsuite name="PreprocessingAtomTypesTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:45.582">
+    <testcase name="EmptyOnCreate" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingAtomTypesTest" />
+    <testcase name="IndexOutOfRangeInvalid" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingAtomTypesTest" />
+    <testcase name="AddTypeWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingAtomTypesTest" />
+    <testcase name="AddMultipleTypesWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingAtomTypesTest" />
+    <testcase name="CannotAddDuplicateEntry" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingAtomTypesTest" />
+    <testcase name="CorrectNameFound" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingAtomTypesTest" />
+    <testcase name="WrongNameNotFound" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingAtomTypesTest" />
+    <testcase name="CorrectNameFromTypeNumber" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingAtomTypesTest" />
+    <testcase name="NoNameFromIncorrectTypeNumber" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingAtomTypesTest" />
+  </testsuite>
+  <testsuite name="PreprocessingBondAtomTypeTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:45.582">
+    <testcase name="EmptyOnCreate" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="IndexOutOfRangeInvalid" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="AddTypeWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="AddMultipleTypesWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="CannotAddDuplicateEntry" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="ReturnsCorrectIndexOnDuplicateType" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="CorrectNameFound" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="WrongNameNotFound" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="CorrectNameFromTypeNumber" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="NoNameFromIncorrectTypeNumber" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.582" classname="PreprocessingBondAtomTypeTest" />
+  </testsuite>
+  <testsuite name="GromppDirectiveTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:45.582">
+    <testcase name="edgeCaseAtomTypeNames" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:45.582" classname="GromppDirectiveTest" />
+  </testsuite>
+  <testsuite name="InsertMoleculesTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.006" timestamp="2023-06-09T03:26:45.584">
+    <testcase name="InsertsMoleculesIntoExistingConfiguration" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.584" classname="InsertMoleculesTest" />
+    <testcase name="InsertsMoleculesIntoEmptyBox" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.585" classname="InsertMoleculesTest" />
+    <testcase name="InsertsMoleculesIntoEnlargedBox" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.586" classname="InsertMoleculesTest" />
+    <testcase name="InsertsMoleculesWithReplacement" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:45.587" classname="InsertMoleculesTest" />
+    <testcase name="InsertsMoleculesIntoFixedPositions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.589" classname="InsertMoleculesTest" />
+  </testsuite>
+  <testsuite name="GetIrTest" tests="34" failures="0" disabled="0" skipped="0" errors="0" time="0.058" timestamp="2023-06-09T03:26:45.590">
+    <testcase name="HandlesDifferentKindsOfMdpLines" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.590" classname="GetIrTest" />
+    <testcase name="RejectsNonCommentLineWithNoEquals" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:45.592" classname="GetIrTest" />
+    <testcase name="AcceptsKeyWithoutValue" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.595" classname="GetIrTest" />
+    <testcase name="RejectsValueWithoutKey" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:45.597" classname="GetIrTest" />
+    <testcase name="RejectsEmptyKeyAndEmptyValue" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:45.600" classname="GetIrTest" />
+    <testcase name="AcceptsDefineParametersWithValuesIncludingAssignment" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:45.603" classname="GetIrTest" />
+    <testcase name="AcceptsEmptyLines" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.606" classname="GetIrTest" />
+    <testcase name="MtsCheckNstcalcenergy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.607" classname="GetIrTest" />
+    <testcase name="MtsCheckNstenergy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.608" classname="GetIrTest" />
+    <testcase name="MtsCheckNstpcouple" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.609" classname="GetIrTest" />
+    <testcase name="MtsCheckNstdhdl" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.609" classname="GetIrTest" />
+    <testcase name="AcceptsElectricField" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.610" classname="GetIrTest" />
+    <testcase name="AcceptsElectricFieldPulsed" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.612" classname="GetIrTest" />
+    <testcase name="AcceptsElectricFieldOscillating" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.613" classname="GetIrTest" />
+    <testcase name="RejectsDuplicateOldAndNewKeys" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.615" classname="GetIrTest" />
+    <testcase name="AcceptsImplicitSolventNo" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.617" classname="GetIrTest" />
+    <testcase name="RejectsImplicitSolventYes" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:45.618" classname="GetIrTest" />
+    <testcase name="AcceptsMimic" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.622" classname="GetIrTest" />
+    <testcase name="AcceptsTransformationCoord" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.624" classname="GetIrTest" />
+    <testcase name="InvalidTransformationCoordWithConstraint" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.625" classname="GetIrTest" />
+    <testcase name="InvalidPullCoordWithConstraintInTransformationExpression" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.626" classname="GetIrTest" />
+    <testcase name="InvalidTransformationCoordDxValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.627" classname="GetIrTest" />
+    <testcase name="MissingTransformationCoordExpression" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.628" classname="GetIrTest" />
+    <testcase name="lambdaOverOneCheck_SC_And_ExactlyAsManyStep" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.628" classname="GetIrTest" />
+    <testcase name="lambdaOverOneCheck_SC_And_ExactlyAsManyStep_negativeDelta" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.629" classname="GetIrTest" />
+    <testcase name="lambdaOverOneCheck_NoSC_And_ExactlyAsManyStep" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.630" classname="GetIrTest" />
+    <testcase name="lambdaOverOneCheck_NoSC_And_ExactlyAsManyStep_negativeDelta" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.630" classname="GetIrTest" />
+    <testcase name="lambdaOverOneCheck_SC_And_OneStepTooMuch" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.631" classname="GetIrTest" />
+    <testcase name="lambdaOverOneCheck_SC_And_OneStepTooMuch_negativeDelta" status="run" result="completed" time="0.013" timestamp="2023-06-09T03:26:45.632" classname="GetIrTest" />
+    <testcase name="lambdaOverOneCheck_NoSC_And_OneStepTooMuch_negativeDelta" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.646" classname="GetIrTest" />
+    <testcase name="lambdaOverOneCheck_LambdaVector_And_OneStepTooMuch" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.646" classname="GetIrTest" />
+    <testcase name="lambdaOverOneCheck_LambdaVector_And_OneStepTooMuch_negativeDelta" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.647" classname="GetIrTest" />
+    <testcase name="lambdaOverOneCheck_LambdaVector_And_ExactlyAsManyStep" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.648" classname="GetIrTest" />
+    <testcase name="lambdaOverOneCheck_LambdaVector_And_ExactlyAsManyStep_negativeDelta" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.649" classname="GetIrTest" />
+  </testsuite>
+  <testsuite name="SolvateTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.08" timestamp="2023-06-09T03:26:45.649">
+    <testcase name="cs_box_Works" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:45.649" classname="SolvateTest" />
+    <testcase name="cs_cp_Works" status="run" result="completed" time="0.01" timestamp="2023-06-09T03:26:45.652" classname="SolvateTest" />
+    <testcase name="cs_cp_p_Works" status="run" result="completed" time="0.012" timestamp="2023-06-09T03:26:45.663" classname="SolvateTest" />
+    <testcase name="shell_Works" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:45.675" classname="SolvateTest" />
+    <testcase name="update_Topology_Works" status="run" result="completed" time="0.044" timestamp="2023-06-09T03:26:45.681" classname="SolvateTest" />
+    <testcase name="cs_pdb_big_box_Works" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:45.725" classname="SolvateTest" />
+  </testsuite>
+  <testsuite name="TopDirTests" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:45.730">
+    <testcase name="NamesArrayHasCorrectSize" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.730" classname="TopDirTests" />
+  </testsuite>
+  <testsuite name="SinglePeptideFragments/EditconfTest" tests="18" failures="0" disabled="0" skipped="0" errors="0" time="0.019" timestamp="2023-06-09T03:26:45.730">
+    <testcase name="ProducesMatchingOutputStructureFile/0" value_param="(&quot;A.pdb&quot;, 13)" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:45.730" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/1" value_param="(&quot;A.pdb&quot;, 11)" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.732" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/2" value_param="(&quot;A.pdb&quot;, 12)" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.733" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/3" value_param="(&quot;A.gro&quot;, 13)" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.735" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/4" value_param="(&quot;A.gro&quot;, 11)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.737" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/5" value_param="(&quot;A.gro&quot;, 12)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.738" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/6" value_param="(&quot;A.g96&quot;, 13)" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.739" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/7" value_param="(&quot;A.g96&quot;, 11)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.740" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/8" value_param="(&quot;A.g96&quot;, 12)" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.741" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/0" value_param="(&quot;A.pdb&quot;, 13)" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.742" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/1" value_param="(&quot;A.pdb&quot;, 11)" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.743" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/2" value_param="(&quot;A.pdb&quot;, 12)" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.744" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/3" value_param="(&quot;A.gro&quot;, 13)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.746" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/4" value_param="(&quot;A.gro&quot;, 11)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.746" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/5" value_param="(&quot;A.gro&quot;, 12)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.747" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/6" value_param="(&quot;A.g96&quot;, 13)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.747" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/7" value_param="(&quot;A.g96&quot;, 11)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.748" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/8" value_param="(&quot;A.g96&quot;, 12)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.749" classname="SinglePeptideFragments/EditconfTest" />
+  </testsuite>
+  <testsuite name="CorrectVelocity/MaxwellTest" tests="16" failures="0" disabled="0" skipped="0" errors="0" time="0.006" timestamp="2023-06-09T03:26:45.749">
+    <testcase name="CreationWorks/0" value_param="(150, 1, 23)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.749" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/1" value_param="(150, 1, 42)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.750" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/2" value_param="(150, 42, 23)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.750" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/3" value_param="(150, 42, 42)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.751" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/4" value_param="(298, 1, 23)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.751" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/5" value_param="(298, 1, 42)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.751" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/6" value_param="(298, 42, 23)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.752" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/7" value_param="(298, 42, 42)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.752" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/8" value_param="(313, 1, 23)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.753" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/9" value_param="(313, 1, 42)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.753" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/10" value_param="(313, 42, 23)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.754" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/11" value_param="(313, 42, 42)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.754" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/12" value_param="(350, 1, 23)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.754" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/13" value_param="(350, 1, 42)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.755" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/14" value_param="(350, 42, 23)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.755" classname="CorrectVelocity/MaxwellTest" />
+    <testcase name="CreationWorks/15" value_param="(350, 42, 42)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.755" classname="CorrectVelocity/MaxwellTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="304" failures="0" disabled="0" errors="0" time="0.039" timestamp="2023-06-09T03:26:42.923" name="AllTests">
+  <testsuite name="EmptyArrayRefWithPaddingTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.923">
+    <testcase name="IsEmpty" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.923" classname="EmptyArrayRefWithPaddingTest" />
+  </testsuite>
+  <testsuite name="EmptyConstArrayRefWithPaddingTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.923">
+    <testcase name="IsEmpty" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.923" classname="EmptyConstArrayRefWithPaddingTest" />
+  </testsuite>
+  <testsuite name="ArrayRefWithPaddingTest/0" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.924">
+    <testcase name="AssignFromPaddedVectorWorks" type_param="gmx::ArrayRefWithPadding&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="ArrayRefWithPaddingTest/0" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRefWithPadding&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="ArrayRefWithPaddingTest/0" />
+  </testsuite>
+  <testsuite name="ArrayRefWithPaddingTest/1" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.924">
+    <testcase name="AssignFromPaddedVectorWorks" type_param="gmx::ArrayRefWithPadding&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="ArrayRefWithPaddingTest/1" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRefWithPadding&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="ArrayRefWithPaddingTest/1" />
+  </testsuite>
+  <testsuite name="ArrayRefWithPaddingTest/2" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.924">
+    <testcase name="AssignFromPaddedVectorWorks" type_param="gmx::ArrayRefWithPadding&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="ArrayRefWithPaddingTest/2" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRefWithPadding&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="ArrayRefWithPaddingTest/2" />
+  </testsuite>
+  <testsuite name="InvertBoxMatrixTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.924">
+    <testcase name="IdentityIsImpotent" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="InvertBoxMatrixTest" />
+    <testcase name="ComputesInverseInPlace" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="InvertBoxMatrixTest" />
+  </testsuite>
+  <testsuite name="TranslateAndScaleTest" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.924">
+    <testcase name="identityTransformation" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="TranslateAndScaleTest" />
+    <testcase name="translationWithIdentityScaling" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="TranslateAndScaleTest" />
+    <testcase name="scalingWithZeroTranslation" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="TranslateAndScaleTest" />
+    <testcase name="translationAndScalingNonTrivial" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="TranslateAndScaleTest" />
+    <testcase name="translationAndScalingNonTrivialSingeVector" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="TranslateAndScaleTest" />
+    <testcase name="scalingIdentity" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="TranslateAndScaleTest" />
+    <testcase name="scalingNonTrivial" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="TranslateAndScaleTest" />
+    <testcase name="scalingNonTrivialSingleVector" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="TranslateAndScaleTest" />
+    <testcase name="scalingInverseNoZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="TranslateAndScaleTest" />
+    <testcase name="scalingInverseWithOneScaleDimensionZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="TranslateAndScaleTest" />
+    <testcase name="scalingInverseWithOneScaleDimensionZeroSingleVector" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="TranslateAndScaleTest" />
+  </testsuite>
+  <testsuite name="AffineTransformationTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.924">
+    <testcase name="identityTransformYieldsSameVectors" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="AffineTransformationTest" />
+    <testcase name="applyTransformationToVectors" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="AffineTransformationTest" />
+    <testcase name="retrieveGradient" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="AffineTransformationTest" />
+  </testsuite>
+  <testsuite name="DensitySimilarityTest" tests="14" failures="0" disabled="0" skipped="0" errors="0" time="0.026" timestamp="2023-06-09T03:26:42.924">
+    <testcase name="InnerProductIsCorrect" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="DensitySimilarityTest" />
+    <testcase name="InnerProductGradientIsCorrect" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="DensitySimilarityTest" />
+    <testcase name="GradientThrowsIfDensitiesDontMatch" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="DensitySimilarityTest" />
+    <testcase name="SimilarityThrowsIfDensitiesDontMatch" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="DensitySimilarityTest" />
+    <testcase name="CopiedMeasureInnerProductIsCorrect" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="DensitySimilarityTest" />
+    <testcase name="RelativeEntropyOfSameDensityIsZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="DensitySimilarityTest" />
+    <testcase name="RelativeEntropyIsCorrect" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.924" classname="DensitySimilarityTest" />
+    <testcase name="RelativeEntropyGradientIsCorrect" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.924" classname="DensitySimilarityTest" />
+    <testcase name="CrossCorrelationIsOne" status="run" result="completed" time="0.012" timestamp="2023-06-09T03:26:42.925" classname="DensitySimilarityTest" />
+    <testcase name="CrossCorrelationIsMinusOneWhenAntiCorrelated" status="run" result="completed" time="0.012" timestamp="2023-06-09T03:26:42.937" classname="DensitySimilarityTest" />
+    <testcase name="CrossCorrelationGradientIsZeroWhenCorrelated" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.949" classname="DensitySimilarityTest" />
+    <testcase name="CrossCorrelationGradientIsCorrect" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.950" classname="DensitySimilarityTest" />
+    <testcase name="NormalizationCorrect" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="DensitySimilarityTest" />
+    <testcase name="NormalizationAllNonPositive" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="DensitySimilarityTest" />
+  </testsuite>
+  <testsuite name="StructureSimilarityTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.951">
+    <testcase name="StructureComparedToSelfHasZeroRMSD" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="StructureSimilarityTest" />
+    <testcase name="StructureComparedToSelfHasZeroRho" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="StructureSimilarityTest" />
+    <testcase name="YieldsCorrectRMSD" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="StructureSimilarityTest" />
+    <testcase name="YieldsCorrectRho" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="StructureSimilarityTest" />
+    <testcase name="YieldsCorrectRMSDWithIndex" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="StructureSimilarityTest" />
+    <testcase name="YieldsCorrectRhoWidthIndex" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="StructureSimilarityTest" />
+  </testsuite>
+  <testsuite name="ExponentialMovingAverage" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.951">
+    <testcase name="ThrowsWhenLagTimeIsZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="ExponentialMovingAverage" />
+    <testcase name="ThrowsWhenLagTimeIsNegative" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="ExponentialMovingAverage" />
+    <testcase name="LagTimeOneYieldsInstantaneousValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="ExponentialMovingAverage" />
+    <testcase name="YieldsCorrectValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="ExponentialMovingAverage" />
+    <testcase name="SetAverageCorrectly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="ExponentialMovingAverage" />
+    <testcase name="DeterminesCorrectlyIfIncreasing" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="ExponentialMovingAverage" />
+    <testcase name="InverseLagTimeCorrect" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="ExponentialMovingAverage" />
+    <testcase name="RoundTripAsKeyValueTree" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="ExponentialMovingAverage" />
+  </testsuite>
+  <testsuite name="FunctionTest" tests="21" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:42.951">
+    <testcase name="StaticLog2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="FunctionTest" />
+    <testcase name="Log2I32Bit" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="FunctionTest" />
+    <testcase name="Log2I64Bit" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="FunctionTest" />
+    <testcase name="GreatestCommonDivisor" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="FunctionTest" />
+    <testcase name="InvsqrtFloat" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.951" classname="FunctionTest" />
+    <testcase name="InvsqrtDouble" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.952" classname="FunctionTest" />
+    <testcase name="InvsqrtInteger" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.952" classname="FunctionTest" />
+    <testcase name="InvcbrtFloat" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.952" classname="FunctionTest" />
+    <testcase name="InvcbrtDouble" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.952" classname="FunctionTest" />
+    <testcase name="InvcbrtInteger" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.952" classname="FunctionTest" />
+    <testcase name="SixthrootFloat" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.952" classname="FunctionTest" />
+    <testcase name="SixthrootDouble" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.952" classname="FunctionTest" />
+    <testcase name="SixthrootInteger" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.953" classname="FunctionTest" />
+    <testcase name="InvsixthrootFloat" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.953" classname="FunctionTest" />
+    <testcase name="InvsixthrootDouble" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.953" classname="FunctionTest" />
+    <testcase name="InvsixthrootInteger" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.953" classname="FunctionTest" />
+    <testcase name="Powers" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.953" classname="FunctionTest" />
+    <testcase name="ErfInvFloat" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.953" classname="FunctionTest" />
+    <testcase name="ErfInvDouble" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.953" classname="FunctionTest" />
+    <testcase name="ErfAndErfInvAreInversesFloat" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.953" classname="FunctionTest" />
+    <testcase name="ErfAndErfInvAreInversesDouble" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.953" classname="FunctionTest" />
+  </testsuite>
+  <testsuite name="FunctionTestIntegerTypes/0" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="IsPowerOfTwo" type_param="char" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="FunctionTestIntegerTypes/0" />
+  </testsuite>
+  <testsuite name="FunctionTestIntegerTypes/1" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="IsPowerOfTwo" type_param="unsigned char" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="FunctionTestIntegerTypes/1" />
+  </testsuite>
+  <testsuite name="FunctionTestIntegerTypes/2" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="IsPowerOfTwo" type_param="int" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="FunctionTestIntegerTypes/2" />
+  </testsuite>
+  <testsuite name="FunctionTestIntegerTypes/3" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="IsPowerOfTwo" type_param="unsigned int" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="FunctionTestIntegerTypes/3" />
+  </testsuite>
+  <testsuite name="FunctionTestIntegerTypes/4" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="IsPowerOfTwo" type_param="long" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="FunctionTestIntegerTypes/4" />
+  </testsuite>
+  <testsuite name="FunctionTestIntegerTypes/5" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="IsPowerOfTwo" type_param="unsigned long" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="FunctionTestIntegerTypes/5" />
+  </testsuite>
+  <testsuite name="GaussianOn1DLattice" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="sumsCloseToOne" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="GaussianOn1DLattice" />
+    <testcase name="isCorrect" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="GaussianOn1DLattice" />
+    <testcase name="complementaryAmplitudesSumToZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="GaussianOn1DLattice" />
+    <testcase name="doesNotOverflowForLargeRange" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="GaussianOn1DLattice" />
+  </testsuite>
+  <testsuite name="GaussTransformTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="isZeroUponConstruction" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="GaussTransformTest" />
+    <testcase name="isZeroAddingZeroAmplitudeGauss" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="GaussTransformTest" />
+    <testcase name="isZeroAfterSettingZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="GaussTransformTest" />
+    <testcase name="isZeroWhenOutsideRangeinX" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="GaussTransformTest" />
+    <testcase name="isZeroWhenOutsideRangeinY" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="GaussTransformTest" />
+    <testcase name="isZeroWhenOutsideRangeinZ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="GaussTransformTest" />
+    <testcase name="complementaryGaussAddToZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="GaussTransformTest" />
+    <testcase name="centerGaussianInCubeHasExpectedValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="GaussTransformTest" />
+    <testcase name="view" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="GaussTransformTest" />
+  </testsuite>
+  <testsuite name="DensityFittingForce" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="isZeroWhenMatchingDensity" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="DensityFittingForce" />
+    <testcase name="isZeroWhenMismatchingSameAllDirections" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="DensityFittingForce" />
+    <testcase name="pullsTowardsDerivative" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="DensityFittingForce" />
+  </testsuite>
+  <testsuite name="InvertMatrixTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="IdentityIsImpotent" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="InvertMatrixTest" />
+    <testcase name="ComputesInverse" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="InvertMatrixTest" />
+  </testsuite>
+  <testsuite name="MatrixTest" tests="17" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="canSetFromArray" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="canSetStaticallyFromList" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="canConstructAndFill" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="canSetValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="canCopyAssign" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="canSwap" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="staticMultiDimArrayExtent" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="determinantWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="noninvertableDeterminantIsZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="determinantOfDiagonalMatrix" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="traceWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="transposeWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="transposeOfSymmetricMatrix" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="canCreateFromLegacyMatrix" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="canFillLegacyMatrix" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="IdentityMatrix" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+    <testcase name="MatrixVectorMultiplication" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MatrixTest" />
+  </testsuite>
+  <testsuite name="MultiDimArrayTest" tests="25" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="canConstructAndFillStatic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="canConstructAndFillDynamic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="canSetValuesInStatic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="canSetValuesInDynamic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="canMoveConstructStatic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="canMoveConstructDynamic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="canMoveAssignStatic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="canMoveAssignDynamic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="canCopyConstructStatic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="canCopyConstructDynamic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="canCopyAssignStatic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="canCopyAssignDynamic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="canSwapStatic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="canSwapDynamic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="staticMultiDimArrayExtent" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="dynamicMultiDimArrayExtent" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="dynamicMultiDimArrayResizesToCorrectExtent" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="dynamicMultiDimArrayResizeAndSetValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="staticMultiDimArrayFromArray" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="conversionToView" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="conversionToConstView" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="viewBegin" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="viewEnd" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="constViewConstBegin" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+    <testcase name="constViewConstEnd" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayTest" />
+  </testsuite>
+  <testsuite name="MultiDimArrayToMdSpanTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="convertsToMdSpan" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayToMdSpanTest" />
+    <testcase name="constArrayToMdSpan" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayToMdSpanTest" />
+    <testcase name="nonConstArrayToConstMdSpan" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayToMdSpanTest" />
+    <testcase name="implicitConversionToMdSpan" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="MultiDimArrayToMdSpanTest" />
+  </testsuite>
+  <testsuite name="NelderMeadSimplexTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="BestVertex" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="NelderMeadSimplexTest" />
+    <testcase name="WorstVertex" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="NelderMeadSimplexTest" />
+    <testcase name="SecondWorstValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="NelderMeadSimplexTest" />
+    <testcase name="ReflectionPoint" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="NelderMeadSimplexTest" />
+    <testcase name="EvaluateExpansionPoint" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="NelderMeadSimplexTest" />
+    <testcase name="EvaluateContractionPoint" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="NelderMeadSimplexTest" />
+    <testcase name="SwapOutWorst" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="NelderMeadSimplexTest" />
+    <testcase name="ShrinkSimplexPointsExceptBest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="NelderMeadSimplexTest" />
+    <testcase name="OrientedLength" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.954" classname="NelderMeadSimplexTest" />
+  </testsuite>
+  <testsuite name="NelderMead" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.008" timestamp="2023-06-09T03:26:42.954">
+    <testcase name="Optimizes2DFunctionCorrectly" status="run" result="completed" time="0.008" timestamp="2023-06-09T03:26:42.954" classname="NelderMead" />
+    <testcase name="Optimizes3DFunctorCorrectly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.962" classname="NelderMead" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/0" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.963">
+    <testcase name="DefaultConstructorWorks" type_param="std::allocator&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/0" />
+    <testcase name="ResizeWorks" type_param="std::allocator&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/0" />
+    <testcase name="ReserveWorks" type_param="std::allocator&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/0" />
+    <testcase name="ReserveWorksTheSameAsNoReserve" type_param="std::allocator&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/0" />
+    <testcase name="MoveConstructorWorks" type_param="std::allocator&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/0" />
+    <testcase name="MoveConstructorWithAllocatorWorks" type_param="std::allocator&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/0" />
+    <testcase name="MoveAssignmentWorks" type_param="std::allocator&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/0" />
+    <testcase name="ArrayRefConversionsAreIdentical" type_param="std::allocator&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/0" />
+    <testcase name="CanCopyAssign" type_param="std::allocator&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/0" />
+    <testcase name="CanMoveAssign" type_param="std::allocator&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/0" />
+    <testcase name="CanSwap" type_param="std::allocator&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/0" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/1" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.963">
+    <testcase name="DefaultConstructorWorks" type_param="std::allocator&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/1" />
+    <testcase name="ResizeWorks" type_param="std::allocator&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/1" />
+    <testcase name="ReserveWorks" type_param="std::allocator&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/1" />
+    <testcase name="ReserveWorksTheSameAsNoReserve" type_param="std::allocator&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/1" />
+    <testcase name="MoveConstructorWorks" type_param="std::allocator&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/1" />
+    <testcase name="MoveConstructorWithAllocatorWorks" type_param="std::allocator&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/1" />
+    <testcase name="MoveAssignmentWorks" type_param="std::allocator&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/1" />
+    <testcase name="ArrayRefConversionsAreIdentical" type_param="std::allocator&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/1" />
+    <testcase name="CanCopyAssign" type_param="std::allocator&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/1" />
+    <testcase name="CanMoveAssign" type_param="std::allocator&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/1" />
+    <testcase name="CanSwap" type_param="std::allocator&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/1" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/2" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.963">
+    <testcase name="DefaultConstructorWorks" type_param="std::allocator&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/2" />
+    <testcase name="ResizeWorks" type_param="std::allocator&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/2" />
+    <testcase name="ReserveWorks" type_param="std::allocator&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/2" />
+    <testcase name="ReserveWorksTheSameAsNoReserve" type_param="std::allocator&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/2" />
+    <testcase name="MoveConstructorWorks" type_param="std::allocator&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/2" />
+    <testcase name="MoveConstructorWithAllocatorWorks" type_param="std::allocator&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/2" />
+    <testcase name="MoveAssignmentWorks" type_param="std::allocator&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/2" />
+    <testcase name="ArrayRefConversionsAreIdentical" type_param="std::allocator&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/2" />
+    <testcase name="CanCopyAssign" type_param="std::allocator&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/2" />
+    <testcase name="CanMoveAssign" type_param="std::allocator&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/2" />
+    <testcase name="CanSwap" type_param="std::allocator&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/2" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/3" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.963">
+    <testcase name="DefaultConstructorWorks" type_param="std::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/3" />
+    <testcase name="ResizeWorks" type_param="std::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/3" />
+    <testcase name="ReserveWorks" type_param="std::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/3" />
+    <testcase name="ReserveWorksTheSameAsNoReserve" type_param="std::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/3" />
+    <testcase name="MoveConstructorWorks" type_param="std::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/3" />
+    <testcase name="MoveConstructorWithAllocatorWorks" type_param="std::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/3" />
+    <testcase name="MoveAssignmentWorks" type_param="std::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/3" />
+    <testcase name="ArrayRefConversionsAreIdentical" type_param="std::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/3" />
+    <testcase name="CanCopyAssign" type_param="std::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/3" />
+    <testcase name="CanMoveAssign" type_param="std::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/3" />
+    <testcase name="CanSwap" type_param="std::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/3" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/4" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.963">
+    <testcase name="DefaultConstructorWorks" type_param="std::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/4" />
+    <testcase name="ResizeWorks" type_param="std::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/4" />
+    <testcase name="ReserveWorks" type_param="std::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/4" />
+    <testcase name="ReserveWorksTheSameAsNoReserve" type_param="std::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/4" />
+    <testcase name="MoveConstructorWorks" type_param="std::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/4" />
+    <testcase name="MoveConstructorWithAllocatorWorks" type_param="std::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/4" />
+    <testcase name="MoveAssignmentWorks" type_param="std::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/4" />
+    <testcase name="ArrayRefConversionsAreIdentical" type_param="std::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/4" />
+    <testcase name="CanCopyAssign" type_param="std::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/4" />
+    <testcase name="CanMoveAssign" type_param="std::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/4" />
+    <testcase name="CanSwap" type_param="std::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/4" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/5" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.963">
+    <testcase name="DefaultConstructorWorks" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/5" />
+    <testcase name="ResizeWorks" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/5" />
+    <testcase name="ReserveWorks" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/5" />
+    <testcase name="ReserveWorksTheSameAsNoReserve" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/5" />
+    <testcase name="MoveConstructorWorks" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/5" />
+    <testcase name="MoveConstructorWithAllocatorWorks" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/5" />
+    <testcase name="MoveAssignmentWorks" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/5" />
+    <testcase name="ArrayRefConversionsAreIdentical" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/5" />
+    <testcase name="CanCopyAssign" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/5" />
+    <testcase name="CanMoveAssign" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/5" />
+    <testcase name="CanSwap" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/5" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/6" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.963">
+    <testcase name="DefaultConstructorWorks" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/6" />
+    <testcase name="ResizeWorks" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/6" />
+    <testcase name="ReserveWorks" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/6" />
+    <testcase name="ReserveWorksTheSameAsNoReserve" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/6" />
+    <testcase name="MoveConstructorWorks" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/6" />
+    <testcase name="MoveConstructorWithAllocatorWorks" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/6" />
+    <testcase name="MoveAssignmentWorks" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/6" />
+    <testcase name="ArrayRefConversionsAreIdentical" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/6" />
+    <testcase name="CanCopyAssign" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/6" />
+    <testcase name="CanMoveAssign" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/6" />
+    <testcase name="CanSwap" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/6" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/7" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.963">
+    <testcase name="DefaultConstructorWorks" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/7" />
+    <testcase name="ResizeWorks" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/7" />
+    <testcase name="ReserveWorks" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/7" />
+    <testcase name="ReserveWorksTheSameAsNoReserve" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/7" />
+    <testcase name="MoveConstructorWorks" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/7" />
+    <testcase name="MoveConstructorWithAllocatorWorks" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/7" />
+    <testcase name="MoveAssignmentWorks" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/7" />
+    <testcase name="ArrayRefConversionsAreIdentical" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/7" />
+    <testcase name="CanCopyAssign" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/7" />
+    <testcase name="CanMoveAssign" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/7" />
+    <testcase name="CanSwap" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/7" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/8" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.963">
+    <testcase name="DefaultConstructorWorks" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/8" />
+    <testcase name="ResizeWorks" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/8" />
+    <testcase name="ReserveWorks" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/8" />
+    <testcase name="ReserveWorksTheSameAsNoReserve" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/8" />
+    <testcase name="MoveConstructorWorks" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/8" />
+    <testcase name="MoveConstructorWithAllocatorWorks" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/8" />
+    <testcase name="MoveAssignmentWorks" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/8" />
+    <testcase name="ArrayRefConversionsAreIdentical" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/8" />
+    <testcase name="CanCopyAssign" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/8" />
+    <testcase name="CanMoveAssign" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/8" />
+    <testcase name="CanSwap" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/8" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/9" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.963">
+    <testcase name="DefaultConstructorWorks" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/9" />
+    <testcase name="ResizeWorks" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/9" />
+    <testcase name="ReserveWorks" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/9" />
+    <testcase name="ReserveWorksTheSameAsNoReserve" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/9" />
+    <testcase name="MoveConstructorWorks" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/9" />
+    <testcase name="MoveConstructorWithAllocatorWorks" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/9" />
+    <testcase name="MoveAssignmentWorks" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/9" />
+    <testcase name="ArrayRefConversionsAreIdentical" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/9" />
+    <testcase name="CanCopyAssign" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/9" />
+    <testcase name="CanMoveAssign" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/9" />
+    <testcase name="CanSwap" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="PaddedVectorTest/9" />
+  </testsuite>
+  <testsuite name="RVecTest" tests="40" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.963">
+    <testcase name="CanBeStoredInVector" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="ConvertsImplicitlyFrom_rvec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="ConvertsImplicitlyTo_rvec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="WorksAsMutable_rvec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="WorksAs_rvec_Array" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="ComparesEqual" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="ComparesUnequal" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanAddRVecToRvec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanAddAssignRVecToRvec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanSubtractRVecFromRvec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanSubtractAssignRVecFromRvec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanDotProductRVecByRvec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanCrossProductRVecByRvec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanDivideRVecInplace" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanScaleRVec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanDivideRVec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanDoUnitvFromRVec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanSqLengthOfRVec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanLengthOfRVec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanCastToRVec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanCastToDVec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanLeftScalarMultiply" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanRightScalarMultiply" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanGetUnitvFromRVec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanGetSqLengthOfRVec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanGetLengthOfRVec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanDoCrossProductOfRVec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanDoDotProductOfRVec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanScaleByVector" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CanNegate" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="asIVec" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="elementWiseMin" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="elementWiseMax" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="WorksAs_dvec_Reference" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="WorksAs_ivec_Reference" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="WorksAs_rvec_Reference" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CopyConstructorWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="CopyAssignmentWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="MoveConstructorWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+    <testcase name="MoveAssignmentWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.963" classname="RVecTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="59" failures="0" disabled="0" errors="0" time="0.42" timestamp="2023-06-09T03:26:49.902" name="AllTests">
+  <testsuite name="DumpTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:49.998">
+    <testcase name="WorksWithTpr" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:49.998" classname="DumpTest" />
+    <testcase name="WorksWithTprAndMdpWriting" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.000" classname="DumpTest" />
+  </testsuite>
+  <testsuite name="HelpwritingTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:50.001">
+    <testcase name="ConvertTprWritesHelp" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.001" classname="HelpwritingTest" />
+    <testcase name="DumpWritesHelp" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.001" classname="HelpwritingTest" />
+    <testcase name="ReportMethodsWritesHelp" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.001" classname="HelpwritingTest" />
+  </testsuite>
+  <testsuite name="GmxMakeNdx" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.003" timestamp="2023-06-09T03:26:50.001">
+    <testcase name="WritesDefaultProteinIndexGroups" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:50.001" classname="GmxMakeNdx" />
+    <testcase name="HandlesNoStructureInput" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.003" classname="GmxMakeNdx" />
+    <testcase name="HandlesNotProtein" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.004" classname="GmxMakeNdx" />
+    <testcase name="HandlesEmptyIndexResult" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.004" classname="GmxMakeNdx" />
+    <testcase name="HandlesEmptyIndexFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.005" classname="GmxMakeNdx" />
+  </testsuite>
+  <testsuite name="ReportMethodsTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:50.080">
+    <testcase name="WritesCorrectHeadersFormated" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.080" classname="ReportMethodsTest" />
+    <testcase name="WritesCorrectHeadersUnformatted" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.080" classname="ReportMethodsTest" />
+    <testcase name="WritesCorrectInformation" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.080" classname="ReportMethodsTest" />
+    <testcase name="ToolEndToEndTest" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.081" classname="ReportMethodsTest" />
+  </testsuite>
+  <testsuite name="ConvertTprTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.225" timestamp="2023-06-09T03:26:50.081">
+    <testcase name="ExtendRuntimeExtensionTest" status="run" result="completed" time="0.074" timestamp="2023-06-09T03:26:50.081" classname="ConvertTprTest" />
+    <testcase name="UntilRuntimeExtensionTest" status="run" result="completed" time="0.074" timestamp="2023-06-09T03:26:50.156" classname="ConvertTprTest" />
+    <testcase name="nstepRuntimeExtensionTest" status="run" result="completed" time="0.076" timestamp="2023-06-09T03:26:50.231" classname="ConvertTprTest" />
+  </testsuite>
+  <testsuite name="Works/TrjconvWithDifferentInputFormats" tests="12" failures="0" disabled="0" skipped="0" errors="0" time="0.005" timestamp="2023-06-09T03:26:50.307">
+    <testcase name="WithIndexGroupSubset/file_spc2_traj_trr" value_param="&quot;spc2-traj.trr&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.307" classname="Works/TrjconvWithDifferentInputFormats" />
+    <testcase name="WithIndexGroupSubset/file_spc2_traj_tng" value_param="&quot;spc2-traj.tng&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.307" classname="Works/TrjconvWithDifferentInputFormats" />
+    <testcase name="WithIndexGroupSubset/file_spc2_traj_xtc" value_param="&quot;spc2-traj.xtc&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.308" classname="Works/TrjconvWithDifferentInputFormats" />
+    <testcase name="WithIndexGroupSubset/file_spc2_traj_gro" value_param="&quot;spc2-traj.gro&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.309" classname="Works/TrjconvWithDifferentInputFormats" />
+    <testcase name="WithIndexGroupSubset/file_spc2_traj_pdb" value_param="&quot;spc2-traj.pdb&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.309" classname="Works/TrjconvWithDifferentInputFormats" />
+    <testcase name="WithIndexGroupSubset/file_spc2_traj_g96" value_param="&quot;spc2-traj.g96&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.310" classname="Works/TrjconvWithDifferentInputFormats" />
+    <testcase name="WithoutTopologyFile/file_spc2_traj_trr" value_param="&quot;spc2-traj.trr&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.310" classname="Works/TrjconvWithDifferentInputFormats" />
+    <testcase name="WithoutTopologyFile/file_spc2_traj_tng" value_param="&quot;spc2-traj.tng&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.310" classname="Works/TrjconvWithDifferentInputFormats" />
+    <testcase name="WithoutTopologyFile/file_spc2_traj_xtc" value_param="&quot;spc2-traj.xtc&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.311" classname="Works/TrjconvWithDifferentInputFormats" />
+    <testcase name="WithoutTopologyFile/file_spc2_traj_gro" value_param="&quot;spc2-traj.gro&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.311" classname="Works/TrjconvWithDifferentInputFormats" />
+    <testcase name="WithoutTopologyFile/file_spc2_traj_pdb" value_param="&quot;spc2-traj.pdb&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.312" classname="Works/TrjconvWithDifferentInputFormats" />
+    <testcase name="WithoutTopologyFile/file_spc2_traj_g96" value_param="&quot;spc2-traj.g96&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.312" classname="Works/TrjconvWithDifferentInputFormats" />
+  </testsuite>
+  <testsuite name="Works/TrjconvDumpTest" tests="30" failures="0" disabled="0" skipped="0" errors="0" time="0.009" timestamp="2023-06-09T03:26:50.312">
+    <testcase name="DumpsFrame/file_spc2_traj_trr_dump_time__1_00" value_param="(0x102b9fe6f pointing to &quot;spc2-traj.trr&quot;, -1)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.312" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_trr_dump_time_0_00" value_param="(0x102b9fe6f pointing to &quot;spc2-traj.trr&quot;, 0)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.313" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_trr_dump_time_0_30" value_param="(0x102b9fe6f pointing to &quot;spc2-traj.trr&quot;, 0.3)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.313" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_trr_dump_time_1_00" value_param="(0x102b9fe6f pointing to &quot;spc2-traj.trr&quot;, 1)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.313" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_trr_dump_time_999999_00" value_param="(0x102b9fe6f pointing to &quot;spc2-traj.trr&quot;, 999999)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.313" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_tng_dump_time__1_00" value_param="(0x102b9fe7d pointing to &quot;spc2-traj.tng&quot;, -1)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.314" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_tng_dump_time_0_00" value_param="(0x102b9fe7d pointing to &quot;spc2-traj.tng&quot;, 0)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.314" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_tng_dump_time_0_30" value_param="(0x102b9fe7d pointing to &quot;spc2-traj.tng&quot;, 0.3)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.315" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_tng_dump_time_1_00" value_param="(0x102b9fe7d pointing to &quot;spc2-traj.tng&quot;, 1)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.316" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_tng_dump_time_999999_00" value_param="(0x102b9fe7d pointing to &quot;spc2-traj.tng&quot;, 999999)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.317" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_xtc_dump_time__1_00" value_param="(0x102b9fe8b pointing to &quot;spc2-traj.xtc&quot;, -1)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.318" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_xtc_dump_time_0_00" value_param="(0x102b9fe8b pointing to &quot;spc2-traj.xtc&quot;, 0)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.318" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_xtc_dump_time_0_30" value_param="(0x102b9fe8b pointing to &quot;spc2-traj.xtc&quot;, 0.3)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.318" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_xtc_dump_time_1_00" value_param="(0x102b9fe8b pointing to &quot;spc2-traj.xtc&quot;, 1)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.318" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_xtc_dump_time_999999_00" value_param="(0x102b9fe8b pointing to &quot;spc2-traj.xtc&quot;, 999999)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.319" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_gro_dump_time__1_00" value_param="(0x102b9fe99 pointing to &quot;spc2-traj.gro&quot;, -1)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.319" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_gro_dump_time_0_00" value_param="(0x102b9fe99 pointing to &quot;spc2-traj.gro&quot;, 0)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.319" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_gro_dump_time_0_30" value_param="(0x102b9fe99 pointing to &quot;spc2-traj.gro&quot;, 0.3)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.319" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_gro_dump_time_1_00" value_param="(0x102b9fe99 pointing to &quot;spc2-traj.gro&quot;, 1)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.319" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_gro_dump_time_999999_00" value_param="(0x102b9fe99 pointing to &quot;spc2-traj.gro&quot;, 999999)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.320" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_pdb_dump_time__1_00" value_param="(0x102b9fea7 pointing to &quot;spc2-traj.pdb&quot;, -1)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.320" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_pdb_dump_time_0_00" value_param="(0x102b9fea7 pointing to &quot;spc2-traj.pdb&quot;, 0)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.320" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_pdb_dump_time_0_30" value_param="(0x102b9fea7 pointing to &quot;spc2-traj.pdb&quot;, 0.3)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.320" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_pdb_dump_time_1_00" value_param="(0x102b9fea7 pointing to &quot;spc2-traj.pdb&quot;, 1)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.320" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_pdb_dump_time_999999_00" value_param="(0x102b9fea7 pointing to &quot;spc2-traj.pdb&quot;, 999999)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.321" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_g96_dump_time__1_00" value_param="(0x102b9feb5 pointing to &quot;spc2-traj.g96&quot;, -1)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.321" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_g96_dump_time_0_00" value_param="(0x102b9feb5 pointing to &quot;spc2-traj.g96&quot;, 0)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.321" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_g96_dump_time_0_30" value_param="(0x102b9feb5 pointing to &quot;spc2-traj.g96&quot;, 0.3)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.321" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_g96_dump_time_1_00" value_param="(0x102b9feb5 pointing to &quot;spc2-traj.g96&quot;, 1)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.322" classname="Works/TrjconvDumpTest" />
+    <testcase name="DumpsFrame/file_spc2_traj_g96_dump_time_999999_00" value_param="(0x102b9feb5 pointing to &quot;spc2-traj.g96&quot;, 999999)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:50.322" classname="Works/TrjconvDumpTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/external/build-fftw/CMakeFiles/fftwBuild"
+		},
+		{
+			"file" : "/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/external/build-fftw/CMakeFiles/fftwBuild.rule"
+		},
+		{
+			"file" : "/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/external/build-fftw/CMakeFiles/fftwBuild-complete.rule"
+		},
+		{
+			"file" : "/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-build.rule"
+		},
+		{
+			"file" : "/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-configure.rule"
+		},
+		{
+			"file" : "/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-download.rule"
+		},
+		{
+			"file" : "/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-install.rule"
+		},
+		{
+			"file" : "/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-mkdir.rule"
+		},
+		{
+			"file" : "/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-patch.rule"
+		},
+		{
+			"file" : "/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fftwBuild"
+		],
+		"name" : "fftwBuild"
+	}
+}

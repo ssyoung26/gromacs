@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="22" failures="0" disabled="0" errors="0" time="0.303" timestamp="2023-06-09T03:26:44.923" name="AllTests">
+  <testsuite name="Entropy" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:44.923">
+    <testcase name="Schlitter_300_NoLinear" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.923" classname="Entropy" />
+    <testcase name="Schlitter_300_Linear" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.923" classname="Entropy" />
+    <testcase name="QuasiHarmonic_300_NoLinear" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.924" classname="Entropy" />
+    <testcase name="QuasiHarmonic_200_NoLinear" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.924" classname="Entropy" />
+    <testcase name="QuasiHarmonic_200_Linear" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.924" classname="Entropy" />
+  </testsuite>
+  <testsuite name="GmxChiTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.29" timestamp="2023-06-09T03:26:44.924">
+    <testcase name="gmxchiWorksWithAll" status="run" result="completed" time="0.258" timestamp="2023-06-09T03:26:44.924" classname="GmxChiTest" />
+  </testsuite>
+  <testsuite name="MindistTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="0.006" timestamp="2023-06-09T03:26:45.215">
+    <testcase name="mindistWorksWithSingleAtoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.215" classname="MindistTest" />
+    <testcase name="mindistWorksWithMultipleAtoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.216" classname="MindistTest" />
+    <testcase name="mindistDoesNotPickUpContacts" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.217" classname="MindistTest" />
+    <testcase name="mindistPicksUpContacts" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.218" classname="MindistTest" />
+    <testcase name="ngWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.218" classname="MindistTest" />
+    <testcase name="groupWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.219" classname="MindistTest" />
+    <testcase name="maxDistWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.219" classname="MindistTest" />
+    <testcase name="noPbcWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.220" classname="MindistTest" />
+    <testcase name="resPerTimeWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.220" classname="MindistTest" />
+    <testcase name="matrixWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.221" classname="MindistTest" />
+  </testsuite>
+  <testsuite name="NoFatalErrorWhenWritingFrom/GmxTraj" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.004" timestamp="2023-06-09T03:26:45.221">
+    <testcase name="WithDifferentInputFormats/0" value_param="&quot;spc2-traj.trr&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.221" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/1" value_param="&quot;spc2-traj.tng&quot;" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:45.222" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/2" value_param="&quot;spc2-traj.xtc&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.223" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/3" value_param="&quot;spc2-traj.gro&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.224" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/4" value_param="&quot;spc2-traj.pdb&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.225" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/5" value_param="&quot;spc2-traj.g96&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:45.225" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+integrator                       = steep
+nsteps                           = 2
+cutoff-scheme                    = verlet
+density-guided-simulation-active = yes
+density-guided-simulation-group  = FirstThreeOfTwelve
+density-guided-simulation-reference-density-filename = /Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/testutils/simulationdatabase/ellipsoid-density.mrc
+density-guided-simulation-transformation-matrix = 0.7071068 0.0000000 0.7071068 0.0000000 0.0000000 -0.7071068 0.0000000 0.7071068 

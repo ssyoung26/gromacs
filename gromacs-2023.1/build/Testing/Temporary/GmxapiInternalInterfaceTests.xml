@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" time="0.154" timestamp="2023-06-09T03:26:39.093" name="AllTests">
+  <testsuite name="GmxApiTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.154" timestamp="2023-06-09T03:26:39.094">
+    <testcase name="BuildApiWorkflowImpl" status="run" result="completed" time="0.085" timestamp="2023-06-09T03:26:39.094" classname="GmxApiTest" />
+    <testcase name="CreateApiWorkflow" status="run" result="completed" time="0.068" timestamp="2023-06-09T03:26:39.179" classname="GmxApiTest" />
+  </testsuite>
+</testsuites>

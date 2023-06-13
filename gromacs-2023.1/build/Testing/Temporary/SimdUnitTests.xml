@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="288" failures="0" disabled="0" errors="0" time="0.027" timestamp="2023-06-09T03:26:44.689" name="AllTests">
+  <testsuite name="SimdBootstrapTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.689">
+    <testcase name="loadStore" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdBootstrapTest" />
+    <testcase name="loadU" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdBootstrapTest" />
+    <testcase name="storeU" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdBootstrapTest" />
+    <testcase name="loadStoreI" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdBootstrapTest" />
+    <testcase name="loadUI" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdBootstrapTest" />
+    <testcase name="storeUI" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdBootstrapTest" />
+    <testcase name="simd4LoadStore" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdBootstrapTest" />
+    <testcase name="simd4LoadU" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdBootstrapTest" />
+    <testcase name="simd4StoreU" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdBootstrapTest" />
+  </testsuite>
+  <testsuite name="SimdScalarTest" tests="41" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.689">
+    <testcase name="load" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="loadU" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="store" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="storeU" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="setZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="andNot" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="fma" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="fms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="fnma" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="fnms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="maskAdd" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="maskzMul" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="maskzFma" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="abs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="max" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="min" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="round" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="trunc" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="reduce" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="testBits" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="anyTrue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="selectByMask" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="selectByNotMask" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="blend" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="cvtR2I" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="cvttR2I" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="cvtI2R" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="cvtF2D" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="cvtD2D" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="loadI" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="loadUI" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="storeI" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="storeUI" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="andNotI" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="testBitsI" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="selectByMaskI" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="selectByNotMaskI" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="blendI" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="cvtB2IB" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="cvtIB2B" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+    <testcase name="expandScalarsToTriplets" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarTest" />
+  </testsuite>
+  <testsuite name="SimdScalarUtilTest" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.689">
+    <testcase name="gatherLoadTranspose" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarUtilTest" />
+    <testcase name="gatherLoadUTranspose" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarUtilTest" />
+    <testcase name="transposeScatterStoreU" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarUtilTest" />
+    <testcase name="transposeScatterIncrU" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarUtilTest" />
+    <testcase name="transposeScatterDecrU" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarUtilTest" />
+    <testcase name="gatherLoadBySimdIntTranspose" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarUtilTest" />
+    <testcase name="gatherLoadUBySimdIntTranspose" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarUtilTest" />
+    <testcase name="reduceIncr4ReturnSum" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarUtilTest" />
+  </testsuite>
+  <testsuite name="SimdScalarMathTest" tests="37" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.689">
+    <testcase name="copysign" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="invsqrtPair" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="inv" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="maskzInvsqrt" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="log" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="exp2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="exp" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="erf" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="erfc" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="sincos" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="sin" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="cos" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="tan" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="asin" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="acos" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="atan" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="atan2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="pmeForceCorrection" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="pmePotentialCorrection" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="invsqrtPairSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="invSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="maskzInvsqrtSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="logSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="exp2SingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="expSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="erfSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="erfcSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="sincosSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="sinSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="cosSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="tanSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="asinSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="acosSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="atanSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="atan2SingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="pmeForceCorrectionSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+    <testcase name="pmePotentialCorrectionSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdScalarMathTest" />
+  </testsuite>
+  <testsuite name="SimdTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.689">
+    <testcase name="GmxAligned" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdTest" />
+  </testsuite>
+  <testsuite name="SimdFloatingpointTest" tests="42" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.689">
+    <testcase name="setZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdFloatingpointTest" />
+    <testcase name="set" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.689" classname="SimdFloatingpointTest" />
+    <testcase name="add" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="maskAdd" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="sub" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="mul" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="maskzMul" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="fma" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="maskzFma" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="fms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="fnma" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="fnms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="abs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="neg" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="and" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="or" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="xor" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="andNot" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="max" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="min" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="round" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="roundMode" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="trunc" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="frexp" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="ldexp" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="rsqrt" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="maskzRsqrt" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="rcp" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="maskzRcp" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="cmpEqAndSelectByMask" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="selectByNotMask" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="cmpNe" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="cmpLe" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="cmpLt" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="testBits" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="andB" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="orB" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="anyTrueB" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="blend" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="reduce" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="cvtFloat2Double" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+    <testcase name="cvtDouble2Float" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointTest" />
+  </testsuite>
+  <testsuite name="SimdFloatingpointUtilTest" tests="16" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.690">
+    <testcase name="gatherLoadTranspose4" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="gatherLoadTranspose2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="gatherLoadUTranspose3" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="transposeScatterStoreU3" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="transposeScatterIncrU3" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="transposeScatterIncrU3Overlapping" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="transposeScatterDecrU3" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="transposeScatterDecrU3Overlapping" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="expandScalarsToTriplets" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="gatherLoadBySimdIntTranspose4" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="gatherLoadBySimdIntTranspose2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="gatherLoadUBySimdIntTranspose2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="reduceIncr4Sum" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="loadUNDuplicate4" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="load4DuplicateN" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+    <testcase name="loadU4NOffset" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdFloatingpointUtilTest" />
+  </testsuite>
+  <testsuite name="SimdIntegerTest" tests="23" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.690">
+    <testcase name="setZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="set" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="add" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="sub" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="mul" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="and" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="andNot" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="or" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="xor" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="extract" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="cvtR2I" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="cvttR2I" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="cvtI2R" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="cmpEqAndSelectMask" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="cmpEqAndSelectNotMask" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="cmpLt" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="testBits" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="andB" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="orB" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="anyTrue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="blend" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="cvtB2IB" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+    <testcase name="cvtIB2B" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdIntegerTest" />
+  </testsuite>
+  <testsuite name="SimdMathTest" tests="56" failures="0" disabled="0" skipped="0" errors="0" time="0.026" timestamp="2023-06-09T03:26:44.690">
+    <testcase name="generateTestPointsFloat" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.690" classname="SimdMathTest" />
+    <testcase name="copysign" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.691" classname="SimdMathTest" />
+    <testcase name="invsqrt" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.691" classname="SimdMathTest" />
+    <testcase name="maskzInvsqrt" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.691" classname="SimdMathTest" />
+    <testcase name="invsqrtPair" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.691" classname="SimdMathTest" />
+    <testcase name="sqrt" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.692" classname="SimdMathTest" />
+    <testcase name="sqrtUnsafe" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.693" classname="SimdMathTest" />
+    <testcase name="inv" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:44.694" classname="SimdMathTest" />
+    <testcase name="maskzInv" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.697" classname="SimdMathTest" />
+    <testcase name="cbrt" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.697" classname="SimdMathTest" />
+    <testcase name="invcbrt" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:44.697" classname="SimdMathTest" />
+    <testcase name="log2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.699" classname="SimdMathTest" />
+    <testcase name="log" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.700" classname="SimdMathTest" />
+    <testcase name="exp2" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:44.700" classname="SimdMathTest" />
+    <testcase name="exp2Unsafe" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.702" classname="SimdMathTest" />
+    <testcase name="exp" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:44.702" classname="SimdMathTest" />
+    <testcase name="expUnsafe" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.704" classname="SimdMathTest" />
+    <testcase name="pow" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.704" classname="SimdMathTest" />
+    <testcase name="powUnsafe" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.704" classname="SimdMathTest" />
+    <testcase name="erf" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.704" classname="SimdMathTest" />
+    <testcase name="erfc" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.705" classname="SimdMathTest" />
+    <testcase name="sin" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:44.706" classname="SimdMathTest" />
+    <testcase name="cos" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:44.707" classname="SimdMathTest" />
+    <testcase name="tan" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.708" classname="SimdMathTest" />
+    <testcase name="asin" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.709" classname="SimdMathTest" />
+    <testcase name="acos" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.709" classname="SimdMathTest" />
+    <testcase name="atan" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.709" classname="SimdMathTest" />
+    <testcase name="atan2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.710" classname="SimdMathTest" />
+    <testcase name="pmeForceCorrection" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.710" classname="SimdMathTest" />
+    <testcase name="pmePotentialCorrection" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.710" classname="SimdMathTest" />
+    <testcase name="invsqrtSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.710" classname="SimdMathTest" />
+    <testcase name="invsqrtPairSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.710" classname="SimdMathTest" />
+    <testcase name="sqrtSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.711" classname="SimdMathTest" />
+    <testcase name="sqrtSingleAccuracyUnsafe" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.711" classname="SimdMathTest" />
+    <testcase name="invSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.711" classname="SimdMathTest" />
+    <testcase name="cbrtSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.711" classname="SimdMathTest" />
+    <testcase name="invcbrtSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.712" classname="SimdMathTest" />
+    <testcase name="log2SingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.712" classname="SimdMathTest" />
+    <testcase name="logSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.712" classname="SimdMathTest" />
+    <testcase name="exp2SingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.712" classname="SimdMathTest" />
+    <testcase name="exp2SingleAccuracyUnsafe" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.713" classname="SimdMathTest" />
+    <testcase name="expSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.713" classname="SimdMathTest" />
+    <testcase name="expSingleAccuracyUnsafe" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.713" classname="SimdMathTest" />
+    <testcase name="powSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.714" classname="SimdMathTest" />
+    <testcase name="powSingleAccuracyUnsafe" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.714" classname="SimdMathTest" />
+    <testcase name="erfSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.714" classname="SimdMathTest" />
+    <testcase name="erfcSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.714" classname="SimdMathTest" />
+    <testcase name="sinSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.714" classname="SimdMathTest" />
+    <testcase name="cosSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.714" classname="SimdMathTest" />
+    <testcase name="tanSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.715" classname="SimdMathTest" />
+    <testcase name="asinSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.715" classname="SimdMathTest" />
+    <testcase name="acosSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.715" classname="SimdMathTest" />
+    <testcase name="atanSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.715" classname="SimdMathTest" />
+    <testcase name="atan2SingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="SimdMathTest" />
+    <testcase name="pmeForceCorrectionSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="SimdMathTest" />
+    <testcase name="pmePotentialCorrectionSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="SimdMathTest" />
+  </testsuite>
+  <testsuite name="EmptyArrayRefTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.716">
+    <testcase name="IsEmpty" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="EmptyArrayRefTest" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/0" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.716">
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;gmx::SimdFloat&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefTest/0" />
+    <testcase name="ConstructFromArrayRefWorks" type_param="gmx::ArrayRef&lt;gmx::SimdFloat&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefTest/0" />
+    <testcase name="ConstructFromArrayWorks" type_param="gmx::ArrayRef&lt;gmx::SimdFloat&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefTest/0" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/1" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.716">
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;gmx::SimdFloat const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefTest/1" />
+    <testcase name="ConstructFromArrayRefWorks" type_param="gmx::ArrayRef&lt;gmx::SimdFloat const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefTest/1" />
+    <testcase name="ConstructFromArrayWorks" type_param="gmx::ArrayRef&lt;gmx::SimdFloat const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefTest/1" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/2" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.716">
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;gmx::SimdFInt32&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefTest/2" />
+    <testcase name="ConstructFromArrayRefWorks" type_param="gmx::ArrayRef&lt;gmx::SimdFInt32&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefTest/2" />
+    <testcase name="ConstructFromArrayWorks" type_param="gmx::ArrayRef&lt;gmx::SimdFInt32&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefTest/2" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/3" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.716">
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;gmx::SimdFInt32 const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefTest/3" />
+    <testcase name="ConstructFromArrayRefWorks" type_param="gmx::ArrayRef&lt;gmx::SimdFInt32 const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefTest/3" />
+    <testcase name="ConstructFromArrayWorks" type_param="gmx::ArrayRef&lt;gmx::SimdFInt32 const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefTest/3" />
+  </testsuite>
+  <testsuite name="ArrayRefReadWriteTest/0" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.716">
+    <testcase name="Assignment" type_param="gmx::ArrayRef&lt;gmx::SimdFloat&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefReadWriteTest/0" />
+  </testsuite>
+  <testsuite name="ArrayRefReadWriteTest/1" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.716">
+    <testcase name="Assignment" type_param="gmx::ArrayRef&lt;gmx::SimdFInt32&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefReadWriteTest/1" />
+  </testsuite>
+  <testsuite name="ArrayRefArithmeticTest/0" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.716">
+    <testcase name="Basic" type_param="gmx::ArrayRef&lt;gmx::SimdFloat&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefArithmeticTest/0" />
+  </testsuite>
+  <testsuite name="ArrayRefArithmeticTest/1" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.716">
+    <testcase name="Basic" type_param="gmx::ArrayRef&lt;gmx::SimdFInt32&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="ArrayRefArithmeticTest/1" />
+  </testsuite>
+  <testsuite name="SimdVectorOperationsTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.716">
+    <testcase name="iprod" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="SimdVectorOperationsTest" />
+    <testcase name="norm2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="SimdVectorOperationsTest" />
+    <testcase name="cprod" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="SimdVectorOperationsTest" />
+  </testsuite>
+  <testsuite name="Simd4FloatingpointTest" tests="32" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.716">
+    <testcase name="setZero" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="set" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="add" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="sub" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="mul" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="fma" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="fms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="fnma" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="fnms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="abs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="neg" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="and" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="or" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="xor" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="andNot" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="max" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="min" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="round" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="trunc" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4RsqrtR" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="cmpEqAndSelectByMask" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="selectByNotMask" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="cmpNe" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="cmpLe" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="cmpLt" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="andB" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="orB" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="anyTrue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="blend" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="reduce" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="dotProduct" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+    <testcase name="transpose" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4FloatingpointTest" />
+  </testsuite>
+  <testsuite name="Simd4MathTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.716">
+    <testcase name="invsqrt" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4MathTest" />
+    <testcase name="invsqrtSingleAccuracy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4MathTest" />
+  </testsuite>
+  <testsuite name="Simd4VectorOperationsTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.716">
+    <testcase name="norm2" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.716" classname="Simd4VectorOperationsTest" />
+  </testsuite>
+</testsuites>

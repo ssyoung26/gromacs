@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="9" failures="0" disabled="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.821" name="AllTests">
+  <testsuite name="TemplateMPTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.821">
+    <testcase name="MpWithIndexInt" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.821" classname="TemplateMPTest" />
+    <testcase name="MpWithIndexIntBad" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.821" classname="TemplateMPTest" />
+    <testcase name="MpWithIndexBool" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.821" classname="TemplateMPTest" />
+    <testcase name="MpWithIndexEnum" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.821" classname="TemplateMPTest" />
+  </testsuite>
+  <testsuite name="NotNullConstruction" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.821">
+    <testcase name="Works" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.821" classname="NotNullConstruction" />
+  </testsuite>
+  <testsuite name="NotNullCasting" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.821">
+    <testcase name="Works" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.821" classname="NotNullCasting" />
+  </testsuite>
+  <testsuite name="NotNullAssignment" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.821">
+    <testcase name="Works" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.821" classname="NotNullAssignment" />
+  </testsuite>
+  <testsuite name="MakeNotNull" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.821">
+    <testcase name="Works" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.821" classname="MakeNotNull" />
+  </testsuite>
+  <testsuite name="NotNull" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:44.821">
+    <testcase name="WorksInContainers" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.821" classname="NotNull" />
+  </testsuite>
+</testsuites>

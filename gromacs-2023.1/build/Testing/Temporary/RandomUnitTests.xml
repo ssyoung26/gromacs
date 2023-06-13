@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="44" failures="0" disabled="0" errors="0" time="0.006" timestamp="2023-06-09T03:26:43.869" name="AllTests">
+  <testsuite name="ExponentialDistributionTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:43.869">
+    <testcase name="Output" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:43.869" classname="ExponentialDistributionTest" />
+    <testcase name="Logical" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.870" classname="ExponentialDistributionTest" />
+    <testcase name="Reset" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.870" classname="ExponentialDistributionTest" />
+    <testcase name="AltParam" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.870" classname="ExponentialDistributionTest" />
+  </testsuite>
+  <testsuite name="GammaDistributionTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.870">
+    <testcase name="Output" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.870" classname="GammaDistributionTest" />
+    <testcase name="Logical" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.871" classname="GammaDistributionTest" />
+    <testcase name="Reset" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.871" classname="GammaDistributionTest" />
+    <testcase name="AltParam" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.871" classname="GammaDistributionTest" />
+  </testsuite>
+  <testsuite name="NormalDistributionTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.871">
+    <testcase name="Output" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.871" classname="NormalDistributionTest" />
+    <testcase name="Logical" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.871" classname="NormalDistributionTest" />
+    <testcase name="Reset" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.871" classname="NormalDistributionTest" />
+    <testcase name="AltParam" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.871" classname="NormalDistributionTest" />
+  </testsuite>
+  <testsuite name="SeedTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.871">
+    <testcase name="makeRandomSeed" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.871" classname="SeedTest" />
+  </testsuite>
+  <testsuite name="TabulatedNormalDistributionTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.871">
+    <testcase name="Output14" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.871" classname="TabulatedNormalDistributionTest" />
+    <testcase name="Output16" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.871" classname="TabulatedNormalDistributionTest" />
+    <testcase name="OutputDouble14" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.872" classname="TabulatedNormalDistributionTest" />
+    <testcase name="Logical" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.872" classname="TabulatedNormalDistributionTest" />
+    <testcase name="Reset" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.872" classname="TabulatedNormalDistributionTest" />
+    <testcase name="AltParam" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.872" classname="TabulatedNormalDistributionTest" />
+  </testsuite>
+  <testsuite name="TabulatedNormalDistributionTableTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:43.872">
+    <testcase name="HasValidProperties" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:43.872" classname="TabulatedNormalDistributionTableTest" />
+  </testsuite>
+  <testsuite name="ThreeFry2x64Test" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.873">
+    <testcase name="Logical" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.873" classname="ThreeFry2x64Test" />
+    <testcase name="InternalCounterSequence" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.873" classname="ThreeFry2x64Test" />
+    <testcase name="Reseed" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.873" classname="ThreeFry2x64Test" />
+    <testcase name="Discard" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.873" classname="ThreeFry2x64Test" />
+    <testcase name="InvalidCounter" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.873" classname="ThreeFry2x64Test" />
+    <testcase name="ExhaustInternalCounter" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.873" classname="ThreeFry2x64Test" />
+  </testsuite>
+  <testsuite name="UniformIntDistributionTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.873">
+    <testcase name="Output" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.873" classname="UniformIntDistributionTest" />
+    <testcase name="Logical" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.874" classname="UniformIntDistributionTest" />
+    <testcase name="Reset" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.874" classname="UniformIntDistributionTest" />
+    <testcase name="AltParam" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.874" classname="UniformIntDistributionTest" />
+  </testsuite>
+  <testsuite name="UniformRealDistributionTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:43.874">
+    <testcase name="GenerateCanonical" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.874" classname="UniformRealDistributionTest" />
+    <testcase name="Output" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.874" classname="UniformRealDistributionTest" />
+    <testcase name="Logical" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.874" classname="UniformRealDistributionTest" />
+    <testcase name="Reset" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.874" classname="UniformRealDistributionTest" />
+    <testcase name="AltParam" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.874" classname="UniformRealDistributionTest" />
+  </testsuite>
+  <testsuite name="KnownAnswersTest/ThreeFry2x64Test" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:43.874">
+    <testcase name="Default/0" value_param="{ 0, 0, 0, 0 }" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.874" classname="KnownAnswersTest/ThreeFry2x64Test" />
+    <testcase name="Default/1" value_param="{ 18446744073709551615, 18446744073709551615, 18446744073709551615, 18446744073709551615 }" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.874" classname="KnownAnswersTest/ThreeFry2x64Test" />
+    <testcase name="Default/2" value_param="{ 2611923443488327891, 1376283091369227076, 11820040416388919760, 589684135938649225 }" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.874" classname="KnownAnswersTest/ThreeFry2x64Test" />
+    <testcase name="Fast/0" value_param="{ 0, 0, 0, 0 }" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.874" classname="KnownAnswersTest/ThreeFry2x64Test" />
+    <testcase name="Fast/1" value_param="{ 18446744073709551615, 18446744073709551615, 18446744073709551615, 18446744073709551615 }" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.874" classname="KnownAnswersTest/ThreeFry2x64Test" />
+    <testcase name="Fast/2" value_param="{ 2611923443488327891, 1376283091369227076, 11820040416388919760, 589684135938649225 }" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.875" classname="KnownAnswersTest/ThreeFry2x64Test" />
+    <testcase name="Using40Rounds/0" value_param="{ 0, 0, 0, 0 }" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.875" classname="KnownAnswersTest/ThreeFry2x64Test" />
+    <testcase name="Using40Rounds/1" value_param="{ 18446744073709551615, 18446744073709551615, 18446744073709551615, 18446744073709551615 }" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.875" classname="KnownAnswersTest/ThreeFry2x64Test" />
+    <testcase name="Using40Rounds/2" value_param="{ 2611923443488327891, 1376283091369227076, 11820040416388919760, 589684135938649225 }" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.875" classname="KnownAnswersTest/ThreeFry2x64Test" />
+  </testsuite>
+</testsuites>

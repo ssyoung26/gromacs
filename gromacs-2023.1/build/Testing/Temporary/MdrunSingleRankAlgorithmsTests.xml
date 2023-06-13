@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" time="0.087" timestamp="2023-06-09T03:26:52.710" name="AllTests">
+  <testsuite name="OriresTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.072" timestamp="2023-06-09T03:26:52.710">
+    <testcase name="OriresCanRun" status="run" result="completed" time="0.072" timestamp="2023-06-09T03:26:52.710" classname="OriresTest" />
+  </testsuite>
+  <testsuite name="EwaldSurfaceTerm/EwaldSurfaceTermTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.015" timestamp="2023-06-09T03:26:52.783">
+    <testcase name="WithinTolerances/0" value_param="&quot;3DC&quot;" status="run" result="completed" time="0.009" timestamp="2023-06-09T03:26:52.783" classname="EwaldSurfaceTerm/EwaldSurfaceTermTest" />
+    <testcase name="WithinTolerances/1" value_param="&quot;epsilon-surface-constraint&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:52.792" classname="EwaldSurfaceTerm/EwaldSurfaceTermTest" />
+    <testcase name="WithinTolerances/2" value_param="&quot;epsilon-surface&quot;" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:52.792" classname="EwaldSurfaceTerm/EwaldSurfaceTermTest" />
+  </testsuite>
+</testsuites>

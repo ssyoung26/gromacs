@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="15" failures="0" disabled="0" errors="0" time="0.13" timestamp="2023-06-09T03:26:50.927" name="AllTests">
+  <testsuite name="DensityFittingTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0.037" timestamp="2023-06-09T03:26:50.927">
+    <testcase name="EnergyMinimizationEnergyCorrectInnerProduct" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:50.927" classname="DensityFittingTest" />
+    <testcase name="EnergyMinimizationEnergyCorrectInnerProductTranslation" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:50.933" classname="DensityFittingTest" />
+    <testcase name="EnergyMinimizationEnergyTranslationParametersOff" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:50.938" classname="DensityFittingTest" />
+    <testcase name="EnergyMinimizationEnergyCorrectInnerProductTranslationAndTransformationMatrix" status="run" result="completed" time="0.004" timestamp="2023-06-09T03:26:50.942" classname="DensityFittingTest" />
+    <testcase name="EnergyMinimizationEnergyMatrixTransfromationOff" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:50.946" classname="DensityFittingTest" />
+    <testcase name="EnergyMinimizationEnergyCorrectInnerProductIdentityMatrix" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:50.949" classname="DensityFittingTest" />
+    <testcase name="EnergyMinimizationEnergyCorrectForRelativeEntropy" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:50.953" classname="DensityFittingTest" />
+    <testcase name="GromppErrorWhenEnergyEvaluationFrequencyMismatch" status="run" result="completed" time="0.003" timestamp="2023-06-09T03:26:50.956" classname="DensityFittingTest" />
+    <testcase name="CheckpointWorks" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:50.959" classname="DensityFittingTest" />
+  </testsuite>
+  <testsuite name="MimicTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.012" timestamp="2023-06-09T03:26:50.965">
+    <testcase name="OneQuantumMol" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:50.965" classname="MimicTest" />
+    <testcase name="AllQuantumMol" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:50.968" classname="MimicTest" />
+    <testcase name="TwoQuantumMol" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:50.970" classname="MimicTest" />
+    <testcase name="BondCuts" status="run" result="completed" time="0.005" timestamp="2023-06-09T03:26:50.973" classname="MimicTest" />
+  </testsuite>
+  <testsuite name="WithIntegrator/ImdTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.079" timestamp="2023-06-09T03:26:50.978">
+    <testcase name="ImdCanRun/0" value_param="&quot;md&quot;" status="run" result="completed" time="0.024" timestamp="2023-06-09T03:26:50.978" classname="WithIntegrator/ImdTest" />
+    <testcase name="ImdCanRun/1" value_param="&quot;steep&quot;" status="run" result="completed" time="0.055" timestamp="2023-06-09T03:26:51.003" classname="WithIntegrator/ImdTest" />
+  </testsuite>
+</testsuites>

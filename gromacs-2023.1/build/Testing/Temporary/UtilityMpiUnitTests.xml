@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.737" name="AllTests">
+  <testsuite name="PhysicalNodeCommunicatorTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.737">
+    <testcase name="CanConstruct" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.737" classname="PhysicalNodeCommunicatorTest" />
+    <testcase name="CanCallBarrier" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.737" classname="PhysicalNodeCommunicatorTest" />
+  </testsuite>
+</testsuites>

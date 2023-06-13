@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" disabled="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:44.339" name="AllTests">
+  <testsuite name="TimingTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:44.339">
+    <testcase name="ElementCountingWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.339" classname="TimingTest" />
+    <testcase name="ElementNoCountingWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.339" classname="TimingTest" />
+    <testcase name="SubElementCountingWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.339" classname="TimingTest" />
+    <testcase name="SubElementNoCountingWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.339" classname="TimingTest" />
+    <testcase name="RunWallCycle" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:44.339" classname="TimingTest" />
+    <testcase name="RunWallCycleSub" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:44.340" classname="TimingTest" />
+  </testsuite>
+</testsuites>

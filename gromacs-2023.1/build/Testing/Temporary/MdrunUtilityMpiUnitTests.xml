@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="13" failures="0" disabled="0" errors="0" time="0.006" timestamp="2023-06-09T03:26:43.176" name="AllTests">
+  <testsuite name="ThreadAffinityMultiRankTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:43.176">
+    <testcase name="PinsWholeNode" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.176" classname="ThreadAffinityMultiRankTest" />
+    <testcase name="PinsWithOffsetAndStride" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.177" classname="ThreadAffinityMultiRankTest" />
+    <testcase name="PinsTwoNodes" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.178" classname="ThreadAffinityMultiRankTest" />
+    <testcase name="DoesNothingWhenDisabled" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.178" classname="ThreadAffinityMultiRankTest" />
+    <testcase name="HandlesTooManyThreadsWithAuto" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.178" classname="ThreadAffinityMultiRankTest" />
+    <testcase name="HandlesTooManyThreadsWithForce" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.179" classname="ThreadAffinityMultiRankTest" />
+  </testsuite>
+  <testsuite name="ThreadAffinityHeterogeneousNodesTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0.004" timestamp="2023-06-09T03:26:43.179">
+    <testcase name="PinsOnMainOnly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.179" classname="ThreadAffinityHeterogeneousNodesTest" />
+    <testcase name="PinsOnNonMainOnly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.180" classname="ThreadAffinityHeterogeneousNodesTest" />
+    <testcase name="HandlesUnknownHardwareOnNonMain" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.180" classname="ThreadAffinityHeterogeneousNodesTest" />
+    <testcase name="PinsAutomaticallyOnMainOnly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.181" classname="ThreadAffinityHeterogeneousNodesTest" />
+    <testcase name="PinsAutomaticallyOnNonMainOnly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.182" classname="ThreadAffinityHeterogeneousNodesTest" />
+    <testcase name="HandlesInvalidOffsetOnNonMainOnly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.182" classname="ThreadAffinityHeterogeneousNodesTest" />
+    <testcase name="HandlesInvalidStrideOnNonMainOnly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:43.183" classname="ThreadAffinityHeterogeneousNodesTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="396" failures="0" disabled="1" errors="0" time="0.017" timestamp="2023-06-09T03:26:40.598" name="AllTests">
+  <testsuite name="DISABLED_ArrayRefDeathTest" tests="1" failures="0" disabled="1" skipped="0" errors="0" time="0" timestamp="1969-12-31T16:00:00.000">
+    <testcase name="GenericTests" status="notrun" result="suppressed" time="0" timestamp="1969-12-31T16:00:00.000" classname="DISABLED_ArrayRefDeathTest" />
+  </testsuite>
+  <testsuite name="AllocatorTest/0" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="AllocatorAlignAllocatesWithAlignment" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/0" />
+    <testcase name="VectorAllocatesAndResizesWithAlignment" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/0" />
+    <testcase name="VectorAllocatesAndReservesWithAlignment" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/0" />
+    <testcase name="Move" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/0" />
+    <testcase name="StatelessAllocatorUsesNoMemory" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/0" />
+  </testsuite>
+  <testsuite name="AllocatorTest/1" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="AllocatorAlignAllocatesWithAlignment" type_param="gmx::Allocator&lt;float, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/1" />
+    <testcase name="VectorAllocatesAndResizesWithAlignment" type_param="gmx::Allocator&lt;float, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/1" />
+    <testcase name="VectorAllocatesAndReservesWithAlignment" type_param="gmx::Allocator&lt;float, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/1" />
+    <testcase name="Move" type_param="gmx::Allocator&lt;float, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/1" />
+    <testcase name="StatelessAllocatorUsesNoMemory" type_param="gmx::Allocator&lt;float, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/1" />
+  </testsuite>
+  <testsuite name="AllocatorTest/2" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="AllocatorAlignAllocatesWithAlignment" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/2" />
+    <testcase name="VectorAllocatesAndResizesWithAlignment" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/2" />
+    <testcase name="VectorAllocatesAndReservesWithAlignment" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/2" />
+    <testcase name="Move" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/2" />
+    <testcase name="StatelessAllocatorUsesNoMemory" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/2" />
+  </testsuite>
+  <testsuite name="AllocatorTest/3" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="AllocatorAlignAllocatesWithAlignment" type_param="gmx::Allocator&lt;int, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/3" />
+    <testcase name="VectorAllocatesAndResizesWithAlignment" type_param="gmx::Allocator&lt;int, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/3" />
+    <testcase name="VectorAllocatesAndReservesWithAlignment" type_param="gmx::Allocator&lt;int, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/3" />
+    <testcase name="Move" type_param="gmx::Allocator&lt;int, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/3" />
+    <testcase name="StatelessAllocatorUsesNoMemory" type_param="gmx::Allocator&lt;int, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/3" />
+  </testsuite>
+  <testsuite name="AllocatorTest/4" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="AllocatorAlignAllocatesWithAlignment" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/4" />
+    <testcase name="VectorAllocatesAndResizesWithAlignment" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/4" />
+    <testcase name="VectorAllocatesAndReservesWithAlignment" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/4" />
+    <testcase name="Move" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/4" />
+    <testcase name="StatelessAllocatorUsesNoMemory" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/4" />
+  </testsuite>
+  <testsuite name="AllocatorTest/5" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="AllocatorAlignAllocatesWithAlignment" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/5" />
+    <testcase name="VectorAllocatesAndResizesWithAlignment" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/5" />
+    <testcase name="VectorAllocatesAndReservesWithAlignment" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/5" />
+    <testcase name="Move" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/5" />
+    <testcase name="StatelessAllocatorUsesNoMemory" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::PageAlignedAllocationPolicy&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorTest/5" />
+  </testsuite>
+  <testsuite name="AllocatorUntypedTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="Comparison" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="AllocatorUntypedTest" />
+  </testsuite>
+  <testsuite name="EmptyArrayRefTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="IsEmpty" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="EmptyArrayRefTest" />
+    <testcase name="ConstructFromNullptrIsEmpty" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="EmptyArrayRefTest" />
+    <testcase name="arrayRefFromArrayIsEmptyForNullptr" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="EmptyArrayRefTest" />
+    <testcase name="arrayRefFromArrayIsEmptyForSizeNull" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="EmptyArrayRefTest" />
+  </testsuite>
+  <testsuite name="EmptyConstArrayRefTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="IsEmpty" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="EmptyConstArrayRefTest" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/0" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/0" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/0" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/0" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/0" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/0" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/0" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/0" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/0" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/0" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/1" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/1" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/1" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/1" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/1" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/1" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/1" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/1" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/1" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/1" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/2" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/2" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/2" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/2" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/2" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/2" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/2" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/2" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/2" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/2" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/3" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/3" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/3" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/3" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/3" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/3" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/3" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/3" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/3" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/3" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/4" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/4" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/4" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/4" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/4" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/4" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/4" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/4" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/4" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/4" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/5" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.598">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/5" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/5" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/5" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/5" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/5" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/5" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/5" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/5" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.598" classname="ArrayRefTest/5" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/6" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/6" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/6" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/6" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/6" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/6" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/6" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/6" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/6" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/6" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/7" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/7" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/7" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/7" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/7" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/7" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;unsigned long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/7" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/7" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;unsigned long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/7" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long long&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/7" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/8" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/8" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/8" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/8" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/8" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/8" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/8" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/8" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/8" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/8" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/9" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/9" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/9" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/9" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/9" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/9" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/9" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/9" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/9" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/9" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/10" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/10" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/10" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/10" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/10" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/10" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/10" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/10" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/10" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/10" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/11" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/11" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/11" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/11" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/11" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/11" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;unsigned char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/11" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/11" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;unsigned char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/11" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned char const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/11" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/12" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/12" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/12" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/12" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/12" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/12" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/12" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/12" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/12" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/12" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/13" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/13" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/13" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/13" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/13" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/13" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;unsigned int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/13" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/13" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;unsigned int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/13" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned int const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/13" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/14" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/14" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/14" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/14" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/14" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/14" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/14" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/14" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/14" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/14" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/15" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/15" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/15" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/15" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/15" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/15" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;unsigned long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/15" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/15" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;unsigned long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/15" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/15" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/16" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/16" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/16" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/16" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/16" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/16" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/16" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/16" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/16" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/16" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/17" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/17" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/17" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/17" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/17" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/17" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;unsigned long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/17" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/17" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;unsigned long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/17" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long long const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/17" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/18" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;float const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/18" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;float const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/18" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;float const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/18" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;float const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/18" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;float const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/18" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;float const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/18" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;float const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/18" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;float const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/18" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;float const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/18" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/19" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;double const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/19" />
+    <testcase name="MakeWithNonConstAssignmentWorks" type_param="gmx::ArrayRef&lt;double const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/19" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;double const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/19" />
+    <testcase name="ConstructWithNonConstTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;double const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/19" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;double const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/19" />
+    <testcase name="ConstructFromNonConstPointersWorks" type_param="gmx::ArrayRef&lt;double const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/19" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;double const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/19" />
+    <testcase name="ConstructFromNonConstVectorWorks" type_param="gmx::ArrayRef&lt;double const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/19" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;double const&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefTest/19" />
+  </testsuite>
+  <testsuite name="BoolType" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="ImplicitConversion" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="BoolType" />
+    <testcase name="FalseByDefault" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="BoolType" />
+    <testcase name="Assignment" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="BoolType" />
+    <testcase name="Copy" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="BoolType" />
+    <testcase name="ArrayRefCanBeCreated" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="BoolType" />
+    <testcase name="CanBeCastToBool" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="BoolType" />
+    <testcase name="HasSizeOfBool" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="BoolType" />
+    <testcase name="HasAlignmentOfBool" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="BoolType" />
+  </testsuite>
+  <testsuite name="ArrayRefFromBoolTypeVector" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="CanConstructEmpty" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefFromBoolTypeVector" />
+    <testcase name="Works" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefFromBoolTypeVector" />
+    <testcase name="CanConstructConstEmpty" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefFromBoolTypeVector" />
+    <testcase name="ConstWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="ArrayRefFromBoolTypeVector" />
+  </testsuite>
+  <testsuite name="CStringUtilityTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="CaseInsensitiveComparison" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="CStringUtilityTest" />
+    <testcase name="CaseInsensitiveComparisonInLength" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="CStringUtilityTest" />
+  </testsuite>
+  <testsuite name="DefaultInitializationAllocator" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="PerformsValueInitialization" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="DefaultInitializationAllocator" />
+    <testcase name="PerformsNoInitialization" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="DefaultInitializationAllocator" />
+  </testsuite>
+  <testsuite name="EnumerationHelpersTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="EnumerationWrapperWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="EnumerationHelpersTest" />
+    <testcase name="EnumerationArrayWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="EnumerationHelpersTest" />
+    <testcase name="EnumerationArrayCountIsSafe" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="EnumerationHelpersTest" />
+    <testcase name="ArrayRefOfEnumerationArrayWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="EnumerationHelpersTest" />
+  </testsuite>
+  <testsuite name="FixedCapacityVectorTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.599">
+    <testcase name="IsEmpty" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="FixedCapacityVectorTest" />
+    <testcase name="PushWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="FixedCapacityVectorTest" />
+    <testcase name="PopWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="FixedCapacityVectorTest" />
+    <testcase name="ClearWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="FixedCapacityVectorTest" />
+    <testcase name="EmplaceBackWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="FixedCapacityVectorTest" />
+    <testcase name="AtThrows" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.599" classname="FixedCapacityVectorTest" />
+    <testcase name="IteratorWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.600" classname="FixedCapacityVectorTest" />
+    <testcase name="ReverseIteratorWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.600" classname="FixedCapacityVectorTest" />
+    <testcase name="ZeroCapacityWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.600" classname="FixedCapacityVectorTest" />
+  </testsuite>
+  <testsuite name="InMemorySerializerTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.600">
+    <testcase name="Roundtrip" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.600" classname="InMemorySerializerTest" />
+    <testcase name="RoundtripWithEndianessSwap" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.600" classname="InMemorySerializerTest" />
+    <testcase name="SerializerExplicitEndianessSwap" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.600" classname="InMemorySerializerTest" />
+    <testcase name="DeserializerExplicitEndianessSwap" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.600" classname="InMemorySerializerTest" />
+    <testcase name="SizeIsCorrect" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.600" classname="InMemorySerializerTest" />
+  </testsuite>
+  <testsuite name="KeyValueTreeSerializerTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:40.600">
+    <testcase name="EmptyTree" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:40.600" classname="KeyValueTreeSerializerTest" />
+    <testcase name="SimpleObject" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.601" classname="KeyValueTreeSerializerTest" />
+    <testcase name="ObjectWithArrays" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.602" classname="KeyValueTreeSerializerTest" />
+    <testcase name="ObjectWithObjects" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.602" classname="KeyValueTreeSerializerTest" />
+  </testsuite>
+  <testsuite name="TreeValueTransformTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:40.603">
+    <testcase name="SimpleTransforms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.603" classname="TreeValueTransformTest" />
+    <testcase name="SimpleTransformsCaseAndDashInsensitive" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.603" classname="TreeValueTransformTest" />
+    <testcase name="SimpleTransformsToObject" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.603" classname="TreeValueTransformTest" />
+    <testcase name="ObjectFromString" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.604" classname="TreeValueTransformTest" />
+    <testcase name="ObjectFromMultipleStrings" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.604" classname="TreeValueTransformTest" />
+    <testcase name="ScopedTransformRules" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.604" classname="TreeValueTransformTest" />
+    <testcase name="CanAssignUserMultiValue" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.604" classname="TreeValueTransformTest" />
+  </testsuite>
+  <testsuite name="TreeValueTransformErrorTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.604">
+    <testcase name="ConversionError" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.604" classname="TreeValueTransformErrorTest" />
+  </testsuite>
+  <testsuite name="ListOfLists" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.605">
+    <testcase name="EmptyListOfListsWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.605" classname="ListOfLists" />
+    <testcase name="AppendWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.605" classname="ListOfLists" />
+    <testcase name="EmptyListWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.605" classname="ListOfLists" />
+    <testcase name="AppendAccessWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.605" classname="ListOfLists" />
+    <testcase name="ClearWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.605" classname="ListOfLists" />
+    <testcase name="OutOfRangeAccessThrows" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.605" classname="ListOfLists" />
+    <testcase name="FrontAndBackWork" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.605" classname="ListOfLists" />
+    <testcase name="ExtractsAndRestores" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.605" classname="ListOfLists" />
+    <testcase name="AppendsListOfListsWithOffset" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.605" classname="ListOfLists" />
+  </testsuite>
+  <testsuite name="LoggerTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0.005" timestamp="2023-06-09T03:26:40.605">
+    <testcase name="EmptyLoggerWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.605" classname="LoggerTest" />
+    <testcase name="LogsToStream" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.605" classname="LoggerTest" />
+    <testcase name="LogsToFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.605" classname="LoggerTest" />
+    <testcase name="LevelFilteringWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.606" classname="LoggerTest" />
+    <testcase name="LogsToMultipleStreams" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.607" classname="LoggerTest" />
+    <testcase name="LogsToMultipleFiles" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:40.607" classname="LoggerTest" />
+    <testcase name="LogsToStreamAndFile" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.610" classname="LoggerTest" />
+  </testsuite>
+  <testsuite name="MessageStringCollectorTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.610">
+    <testcase name="CanAddAndClearMessagesNoContext" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.610" classname="MessageStringCollectorTest" />
+    <testcase name="CanAddAndClearMessagesWithContext" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.610" classname="MessageStringCollectorTest" />
+    <testcase name="CanAddStringMessages" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.610" classname="MessageStringCollectorTest" />
+    <testcase name="CanAddCharMessagesConditionally" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.610" classname="MessageStringCollectorTest" />
+    <testcase name="CanAddStringMessagesConditionally" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.610" classname="MessageStringCollectorTest" />
+    <testcase name="CanMoveConstruct" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.610" classname="MessageStringCollectorTest" />
+    <testcase name="CanMoveAssign" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.610" classname="MessageStringCollectorTest" />
+  </testsuite>
+  <testsuite name="PathTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.610">
+    <testcase name="StripSourcePrefixWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.610" classname="PathTest" />
+  </testsuite>
+  <testsuite name="PhysicalNodeCommunicatorTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.610">
+    <testcase name="CanConstruct" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.610" classname="PhysicalNodeCommunicatorTest" />
+    <testcase name="CanCallBarrier" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.610" classname="PhysicalNodeCommunicatorTest" />
+  </testsuite>
+  <testsuite name="Range" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.610">
+    <testcase name="EmptyRangeWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.610" classname="Range" />
+    <testcase name="NonEmptyRangeWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="Range" />
+    <testcase name="BeginEnd" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="Range" />
+    <testcase name="IsInRangeWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="Range" />
+    <testcase name="IteratorWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="Range" />
+  </testsuite>
+  <testsuite name="StringConvert" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.611">
+    <testcase name="NoResultFromEptyString" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringConvert" />
+    <testcase name="ThreeFloatsSuccessfully" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringConvert" />
+    <testcase name="OneIntSucessfully" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringConvert" />
+    <testcase name="FloatAsStringToIntArrayThrows" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringConvert" />
+    <testcase name="ThrowsWhenWrongSize" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringConvert" />
+    <testcase name="StringIdentityTransformWithArrayThrows" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringConvert" />
+    <testcase name="StringIdentityTransformWithArrayOkay" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringConvert" />
+  </testsuite>
+  <testsuite name="StringToEnumValueConverterTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.611">
+    <testcase name="ExactStringComparisonWorksWithoutStripping" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringToEnumValueConverterTest" />
+    <testcase name="CaseInsensitiveStringComparisonWorksWithoutStripping" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringToEnumValueConverterTest" />
+    <testcase name="CaseAndDashInsensitiveStringComparisonWorksWithoutStripping" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringToEnumValueConverterTest" />
+    <testcase name="ExactStringComparisonWorksWithStripping" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringToEnumValueConverterTest" />
+    <testcase name="CaseInsensitiveStringComparisonWorksWithStripping" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringToEnumValueConverterTest" />
+    <testcase name="CaseAndDashInsensitiveStringComparisonWorksWithStripping" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringToEnumValueConverterTest" />
+    <testcase name="CustomConverterWorks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringToEnumValueConverterTest" />
+  </testsuite>
+  <testsuite name="StringUtilityTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.611">
+    <testcase name="StartsWith" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringUtilityTest" />
+    <testcase name="EndsWith" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringUtilityTest" />
+    <testcase name="StripSuffixIfPresent" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringUtilityTest" />
+    <testcase name="StripString" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringUtilityTest" />
+    <testcase name="SplitString" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringUtilityTest" />
+    <testcase name="SplitDelimitedString" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringUtilityTest" />
+    <testcase name="SplitAndTrimDelimitedString" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringUtilityTest" />
+    <testcase name="CanCompareCaseInsensitive" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringUtilityTest" />
+    <testcase name="CanCompareCaseInsensitiveInLength" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringUtilityTest" />
+  </testsuite>
+  <testsuite name="FormatStringTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.611">
+    <testcase name="HandlesBasicFormatting" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="FormatStringTest" />
+    <testcase name="HandlesLongStrings" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="FormatStringTest" />
+  </testsuite>
+  <testsuite name="StringFormatterTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.611">
+    <testcase name="HandlesBasicFormatting" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="StringFormatterTest" />
+  </testsuite>
+  <testsuite name="formatAndJoinTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.611">
+    <testcase name="Works" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="formatAndJoinTest" />
+  </testsuite>
+  <testsuite name="JoinStringsTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.611">
+    <testcase name="Works" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="JoinStringsTest" />
+  </testsuite>
+  <testsuite name="ReplaceAllTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.611">
+    <testcase name="HandlesEmptyStrings" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="ReplaceAllTest" />
+    <testcase name="HandlesNoMatches" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="ReplaceAllTest" />
+    <testcase name="HandlesMatchesAtEnds" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="ReplaceAllTest" />
+    <testcase name="HandlesMultipleMatches" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="ReplaceAllTest" />
+    <testcase name="HandlesWordBoundaries" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="ReplaceAllTest" />
+    <testcase name="HandlesPossibleRecursiveMatches" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="ReplaceAllTest" />
+  </testsuite>
+  <testsuite name="TextLineWrapperTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:40.611">
+    <testcase name="HandlesEmptyStrings" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="TextLineWrapperTest" />
+    <testcase name="HandlesTrailingWhitespace" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="TextLineWrapperTest" />
+    <testcase name="HandlesTrailingNewlines" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="TextLineWrapperTest" />
+    <testcase name="WrapsCorrectly" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.611" classname="TextLineWrapperTest" />
+    <testcase name="WrapsCorrectlyWithExistingBreaks" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.612" classname="TextLineWrapperTest" />
+    <testcase name="HandlesIndent" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.612" classname="TextLineWrapperTest" />
+    <testcase name="HandlesIndentWithEmptyLines" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.612" classname="TextLineWrapperTest" />
+    <testcase name="HandlesHangingIndent" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.612" classname="TextLineWrapperTest" />
+    <testcase name="HandlesContinuationCharacter" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.612" classname="TextLineWrapperTest" />
+    <testcase name="WrapsCorrectlyWithExtraWhitespace" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.612" classname="TextLineWrapperTest" />
+  </testsuite>
+  <testsuite name="TemplateMPTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.613">
+    <testcase name="DispatchTemplatedFunctionEnum" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="TemplateMPTest" />
+    <testcase name="DispatchTemplatedFunctionBool" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="TemplateMPTest" />
+    <testcase name="DispatchTemplatedFunctionEnumBool" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="TemplateMPTest" />
+  </testsuite>
+  <testsuite name="TextWriterTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.613">
+    <testcase name="WritesLines" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="TextWriterTest" />
+    <testcase name="WritesLinesInParts" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="TextWriterTest" />
+    <testcase name="WritesWrappedLines" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="TextWriterTest" />
+    <testcase name="WritesLinesInPartsWithWrapper" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="TextWriterTest" />
+    <testcase name="TracksNewlines" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="TextWriterTest" />
+    <testcase name="PreservesTrailingWhitespace" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="TextWriterTest" />
+  </testsuite>
+  <testsuite name="TypeTraitsTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.613">
+    <testcase name="IsIntegralConstant" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="TypeTraitsTest" />
+  </testsuite>
+  <testsuite name="BitmaskTest32_11/BitmaskTest32" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.613">
+    <testcase name="SetAndClear/0" value_param="11" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest32_11/BitmaskTest32" />
+    <testcase name="InitBit/0" value_param="11" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest32_11/BitmaskTest32" />
+    <testcase name="InitLowBits/0" value_param="11" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest32_11/BitmaskTest32" />
+    <testcase name="Disjoint/0" value_param="11" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest32_11/BitmaskTest32" />
+    <testcase name="Union/0" value_param="11" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest32_11/BitmaskTest32" />
+    <testcase name="ToHex/0" value_param="11" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest32_11/BitmaskTest32" />
+  </testsuite>
+  <testsuite name="BitmaskTest64_10_42/BitmaskTest64" tests="12" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.613">
+    <testcase name="SetAndClear/0" value_param="10" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="SetAndClear/1" value_param="42" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="InitBit/0" value_param="10" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="InitBit/1" value_param="42" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="InitLowBits/0" value_param="10" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="InitLowBits/1" value_param="42" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="Disjoint/0" value_param="10" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="Disjoint/1" value_param="42" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="Union/0" value_param="10" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="Union/1" value_param="42" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="ToHex/0" value_param="10" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="ToHex/1" value_param="42" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest64_10_42/BitmaskTest64" />
+  </testsuite>
+  <testsuite name="BitmaskTest128_9_78/BitmaskTest128" tests="12" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.613">
+    <testcase name="SetAndClear/0" value_param="9" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="SetAndClear/1" value_param="78" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.613" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="InitBit/0" value_param="9" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="InitBit/1" value_param="78" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="InitLowBits/0" value_param="9" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="InitLowBits/1" value_param="78" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="Disjoint/0" value_param="9" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="Disjoint/1" value_param="78" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="Union/0" value_param="9" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="Union/1" value_param="78" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="ToHex/0" value_param="9" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="ToHex/1" value_param="78" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="BitmaskTest128_9_78/BitmaskTest128" />
+  </testsuite>
+  <testsuite name="WithInputPaths/PathSearchTest" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:40.614">
+    <testcase name="SearchOperationsWork/0" value_param="&quot;&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="WithInputPaths/PathSearchTest" />
+    <testcase name="SearchOperationsWork/1" value_param="&quot;md.log&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="WithInputPaths/PathSearchTest" />
+    <testcase name="SearchOperationsWork/2" value_param="&quot;md&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="WithInputPaths/PathSearchTest" />
+    <testcase name="SearchOperationsWork/3" value_param="&quot;/tmp/absolute.txt&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="WithInputPaths/PathSearchTest" />
+    <testcase name="SearchOperationsWork/4" value_param="&quot;simpledir/traj.tng&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="WithInputPaths/PathSearchTest" />
+    <testcase name="SearchOperationsWork/5" value_param="&quot;simpledir/traj&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="WithInputPaths/PathSearchTest" />
+    <testcase name="SearchOperationsWork/6" value_param="&quot;windowsdir/traj.tng&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.614" classname="WithInputPaths/PathSearchTest" />
+    <testcase name="SearchOperationsWork/7" value_param="&quot;complex.dir/traj.tng&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.615" classname="WithInputPaths/PathSearchTest" />
+    <testcase name="SearchOperationsWork/8" value_param="&quot;complex.dir/traj&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.615" classname="WithInputPaths/PathSearchTest" />
+    <testcase name="SearchOperationsWork/9" value_param="&quot;nested/dir/conf.pdb&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.615" classname="WithInputPaths/PathSearchTest" />
+    <testcase name="SearchOperationsWork/10" value_param="&quot;/tmp/absolutedir/conf.pdb&quot;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.615" classname="WithInputPaths/PathSearchTest" />
+  </testsuite>
+  <testsuite name="ParsesLinesDifferently/TextReaderTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:40.615">
+    <testcase name="UsingDifferentConfigurations/0" value_param="56-byte object &lt;B0-32 62-36 01-00 00-00 00-34 62-36 01-00 00-00 00-34 62-36 01-00 00-00 8C-CA F4-04 01-00 00-00 50-41 62-36 01-00 00-00 A0-42 62-36 01-00 00-00 A0-42 62-36 01-00 00-00&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.615" classname="ParsesLinesDifferently/TextReaderTest" />
+    <testcase name="UsingDifferentConfigurations/1" value_param="56-byte object &lt;B0-32 62-36 01-00 00-00 00-34 62-36 01-00 00-00 00-34 62-36 01-00 00-00 90-CA F4-04 01-00 00-00 50-41 62-36 01-00 00-00 A0-42 62-36 01-00 00-00 A0-42 62-36 01-00 00-00&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.615" classname="ParsesLinesDifferently/TextReaderTest" />
+    <testcase name="UsingDifferentConfigurations/2" value_param="56-byte object &lt;90-4B 62-36 01-00 00-00 E0-4C 62-36 01-00 00-00 E0-4C 62-36 01-00 00-00 98-CA F4-04 01-00 00-00 B0-32 62-36 01-00 00-00 00-34 62-36 01-00 00-00 00-34 62-36 01-00 00-00&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.615" classname="ParsesLinesDifferently/TextReaderTest" />
+    <testcase name="UsingDifferentConfigurations/3" value_param="56-byte object &lt;90-4B 62-36 01-00 00-00 E0-4C 62-36 01-00 00-00 E0-4C 62-36 01-00 00-00 A0-CA F4-04 01-00 00-00 60-42 62-36 01-00 00-00 B0-43 62-36 01-00 00-00 B0-43 62-36 01-00 00-00&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.615" classname="ParsesLinesDifferently/TextReaderTest" />
+    <testcase name="UsingDifferentConfigurations/4" value_param="56-byte object &lt;90-4B 62-36 01-00 00-00 E0-4C 62-36 01-00 00-00 E0-4C 62-36 01-00 00-00 CC-CA F4-04 01-00 00-00 60-42 62-36 01-00 00-00 B0-43 62-36 01-00 00-00 B0-43 62-36 01-00 00-00&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.615" classname="ParsesLinesDifferently/TextReaderTest" />
+    <testcase name="UsingDifferentConfigurations/5" value_param="56-byte object &lt;90-4B 62-36 01-00 00-00 E0-4C 62-36 01-00 00-00 E0-4C 62-36 01-00 00-00 D8-CA F4-04 01-00 00-00 60-42 62-36 01-00 00-00 B0-43 62-36 01-00 00-00 B0-43 62-36 01-00 00-00&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.615" classname="ParsesLinesDifferently/TextReaderTest" />
+    <testcase name="UsingDifferentConfigurations/6" value_param="56-byte object &lt;90-4B 62-36 01-00 00-00 E0-4C 62-36 01-00 00-00 E0-4C 62-36 01-00 00-00 0C-CB F4-04 01-00 00-00 60-42 62-36 01-00 00-00 B0-43 62-36 01-00 00-00 B0-43 62-36 01-00 00-00&gt;" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:40.615" classname="ParsesLinesDifferently/TextReaderTest" />
+  </testsuite>
+</testsuites>

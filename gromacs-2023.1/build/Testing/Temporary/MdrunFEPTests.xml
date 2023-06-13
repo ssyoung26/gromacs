@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="10" failures="0" disabled="0" errors="0" time="0.323" timestamp="2023-06-09T03:26:55.307" name="AllTests">
+  <testsuite name="EquivalentToReference/FreeEnergyReferenceTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="0.323" timestamp="2023-06-09T03:26:55.307">
+    <testcase name="WithinTolerances/coulandvdwsequential_coul_s" value_param="(&quot;coulandvdwsequential_coul&quot;, 1, { 89, 90 })" status="run" result="completed" time="0.039" timestamp="2023-06-09T03:26:55.307" classname="EquivalentToReference/FreeEnergyReferenceTest" />
+    <testcase name="WithinTolerances/coulandvdwsequential_vdw_s" value_param="(&quot;coulandvdwsequential_vdw&quot;, 1, { 89, 90 })" status="run" result="completed" time="0.028" timestamp="2023-06-09T03:26:55.346" classname="EquivalentToReference/FreeEnergyReferenceTest" />
+    <testcase name="WithinTolerances/coulandvdwtogether_s" value_param="(&quot;coulandvdwtogether&quot;, 1, { 87 })" status="run" result="completed" time="0.021" timestamp="2023-06-09T03:26:55.374" classname="EquivalentToReference/FreeEnergyReferenceTest" />
+    <testcase name="WithinTolerances/expanded_s" value_param="(&quot;expanded&quot;, 1, { 89, 90 })" status="run" result="completed" time="0.094" timestamp="2023-06-09T03:26:55.396" classname="EquivalentToReference/FreeEnergyReferenceTest" />
+    <testcase name="WithinTolerances/relative_s" value_param="(&quot;relative&quot;, 11, { 87, 89, 90, 91 })" status="run" result="completed" time="0.034" timestamp="2023-06-09T03:26:55.490" classname="EquivalentToReference/FreeEnergyReferenceTest" />
+    <testcase name="WithinTolerances/relative_position_restraints_s" value_param="(&quot;relative-position-restraints&quot;, 11, { 87, 89, 90, 91, 92 })" status="run" result="completed" time="0.034" timestamp="2023-06-09T03:26:55.525" classname="EquivalentToReference/FreeEnergyReferenceTest" />
+    <testcase name="WithinTolerances/restraints_s" value_param="(&quot;restraints&quot;, 1, { 92 })" status="run" result="completed" time="0.015" timestamp="2023-06-09T03:26:55.559" classname="EquivalentToReference/FreeEnergyReferenceTest" />
+    <testcase name="WithinTolerances/simtemp_s" value_param="(&quot;simtemp&quot;, 1, {})" status="run" result="completed" time="0.015" timestamp="2023-06-09T03:26:55.575" classname="EquivalentToReference/FreeEnergyReferenceTest" />
+    <testcase name="WithinTolerances/transformAtoB_s" value_param="(&quot;transformAtoB&quot;, 1, { 87 })" status="run" result="completed" time="0.024" timestamp="2023-06-09T03:26:55.590" classname="EquivalentToReference/FreeEnergyReferenceTest" />
+    <testcase name="WithinTolerances/vdwalone_s" value_param="(&quot;vdwalone&quot;, 1, { 87 })" status="run" result="completed" time="0.015" timestamp="2023-06-09T03:26:55.614" classname="EquivalentToReference/FreeEnergyReferenceTest" />
+  </testsuite>
+</testsuites>

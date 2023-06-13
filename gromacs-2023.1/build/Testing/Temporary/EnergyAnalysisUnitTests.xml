@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="9" failures="0" disabled="0" errors="0" time="0.024" timestamp="2023-06-09T03:26:49.782" name="AllTests">
+  <testsuite name="DhdlTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.006" timestamp="2023-06-09T03:26:49.782">
+    <testcase name="ExtractDhdl" status="run" result="completed" time="0.006" timestamp="2023-06-09T03:26:49.782" classname="DhdlTest" />
+  </testsuite>
+  <testsuite name="OriresTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.008" timestamp="2023-06-09T03:26:49.789">
+    <testcase name="ExtractOrires" status="run" result="completed" time="0.007" timestamp="2023-06-09T03:26:49.789" classname="OriresTest" />
+  </testsuite>
+  <testsuite name="EnergyTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.005" timestamp="2023-06-09T03:26:49.797">
+    <testcase name="ExtractEnergy" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:49.797" classname="EnergyTest" />
+    <testcase name="ExtractEnergyByNumber" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:49.799" classname="EnergyTest" />
+    <testcase name="ExtractEnergyMixed" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:49.800" classname="EnergyTest" />
+    <testcase name="ExtractEnergyWithNumberInName" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:49.801" classname="EnergyTest" />
+    <testcase name="ExtractEnergyWithNumberInNameAndAlsoByNumber" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:49.802" classname="EnergyTest" />
+  </testsuite>
+  <testsuite name="ViscosityTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.004" timestamp="2023-06-09T03:26:49.802">
+    <testcase name="EinsteinViscosity" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:49.802" classname="ViscosityTest" />
+    <testcase name="EinsteinViscosityIntegral" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:49.804" classname="ViscosityTest" />
+  </testsuite>
+</testsuites>

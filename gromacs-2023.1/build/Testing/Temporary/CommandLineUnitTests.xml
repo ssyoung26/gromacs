@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="60" failures="0" disabled="0" errors="0" time="0.014" timestamp="2023-06-09T03:26:41.992" name="AllTests">
+  <testsuite name="CommandLineHelpModuleTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.003" timestamp="2023-06-09T03:26:41.992">
+    <testcase name="PrintsGeneralHelp" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:41.992" classname="CommandLineHelpModuleTest" />
+    <testcase name="PrintsHelpOnTopic" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.993" classname="CommandLineHelpModuleTest" />
+    <testcase name="ExportsHelp" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:41.994" classname="CommandLineHelpModuleTest" />
+  </testsuite>
+  <testsuite name="CommandLineHelpWriterTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2023-06-09T03:26:41.995">
+    <testcase name="HandlesOptionTypes" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.995" classname="CommandLineHelpWriterTest" />
+    <testcase name="HandlesDefaultValuesFromVariables" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.996" classname="CommandLineHelpWriterTest" />
+    <testcase name="HandlesLongFileOptions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.996" classname="CommandLineHelpWriterTest" />
+    <testcase name="HandlesLongOptions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.997" classname="CommandLineHelpWriterTest" />
+    <testcase name="HandlesOptionGroups" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.997" classname="CommandLineHelpWriterTest" />
+    <testcase name="HandlesHelpText" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.997" classname="CommandLineHelpWriterTest" />
+    <testcase name="HandlesKnownIssues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.997" classname="CommandLineHelpWriterTest" />
+  </testsuite>
+  <testsuite name="CommandLineModuleManagerTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2023-06-09T03:26:41.997">
+    <testcase name="RunsModule" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.997" classname="CommandLineModuleManagerTest" />
+    <testcase name="RunsModuleHelp" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.998" classname="CommandLineModuleManagerTest" />
+    <testcase name="RunsModuleHelpAfterQuiet" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.998" classname="CommandLineModuleManagerTest" />
+    <testcase name="RunsModuleHelpWithDashH" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.998" classname="CommandLineModuleManagerTest" />
+    <testcase name="RunsModuleHelpWithDashHWithSingleModule" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineModuleManagerTest" />
+    <testcase name="HandlesConflictingBinaryAndModuleNames" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineModuleManagerTest" />
+  </testsuite>
+  <testsuite name="CommandLineParserTest" tests="13" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:41.999">
+    <testcase name="HandlesSingleValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineParserTest" />
+    <testcase name="HandlesBooleanWithoutArgument" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineParserTest" />
+    <testcase name="HandlesBooleanAsNoWithoutArgument" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineParserTest" />
+    <testcase name="ThrowsWithBooleanAsNoWithArgument" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineParserTest" />
+    <testcase name="HandlesNegativeNumbers" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineParserTest" />
+    <testcase name="HandlesString" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineParserTest" />
+    <testcase name="RejectsStringWithMultipleValues" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineParserTest" />
+    <testcase name="HandlesDoubleDashOptionPrefix" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineParserTest" />
+    <testcase name="HandlesOptionsStartingWithNumbers" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineParserTest" />
+    <testcase name="HandlesSkipUnknown" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineParserTest" />
+    <testcase name="RejectsPositionalArgumentsByDefault" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineParserTest" />
+    <testcase name="CanAllowPositionalArguments" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineParserTest" />
+    <testcase name="CannotHavePositionalArgumentsAfterOptions" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:41.999" classname="CommandLineParserTest" />
+  </testsuite>
+  <testsuite name="CommandLineProgramContextTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.000">
+    <testcase name="FindsBinaryWithAbsolutePath" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="CommandLineProgramContextTest" />
+    <testcase name="FindsBinaryWithRelativePath" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="CommandLineProgramContextTest" />
+    <testcase name="FindsBinaryFromPath" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="CommandLineProgramContextTest" />
+    <testcase name="FindsBinaryFromCurrentDirectory" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="CommandLineProgramContextTest" />
+    <testcase name="FindsBinaryFromAbsoluteSymLink" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="CommandLineProgramContextTest" />
+    <testcase name="FindsBinaryFromRelativeSymLink" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="CommandLineProgramContextTest" />
+  </testsuite>
+  <testsuite name="OutputNamesTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.000">
+    <testcase name="CanBeSuffixed" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="OutputNamesTest" />
+    <testcase name="HasSuffixFromNoAppend" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="OutputNamesTest" />
+    <testcase name="CanHavePartNumberAdded" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="OutputNamesTest" />
+  </testsuite>
+  <testsuite name="ParseCommonArgsTest" tests="22" failures="0" disabled="0" skipped="0" errors="0" time="0.006" timestamp="2023-06-09T03:26:42.000">
+    <testcase name="ParsesIntegerArgs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesInt64Args" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesRealArgs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesStringArgs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesBooleanArgs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesBooleanArgsToValuesOfSuitableEnum" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesVectorArgs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesTimeArgs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesTimeArgsWithTimeUnit" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesEnumArgs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesFileArgs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesFileArgsWithDefaults" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesFileArgsWithDefaultFileName" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="ParseFileArgsWithCustomDefaultExtension" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="HandlesNonExistentInputFiles" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.000" classname="ParseCommonArgsTest" />
+    <testcase name="HandlesNonExistentOptionalInputFiles" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.001" classname="ParseCommonArgsTest" />
+    <testcase name="AcceptsNonExistentInputFilesIfSpecified" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.001" classname="ParseCommonArgsTest" />
+    <testcase name="HandlesCompressedFiles" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.001" classname="ParseCommonArgsTest" />
+    <testcase name="AcceptsUnknownTrajectoryExtension" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.002" classname="ParseCommonArgsTest" />
+    <testcase name="CompletesExtensionFromExistingFile" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.002" classname="ParseCommonArgsTest" />
+    <testcase name="CompletesExtensionFromExistingFileWithDefaultFileName" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.004" classname="ParseCommonArgsTest" />
+    <testcase name="CanKeepUnknownArgs" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.006" classname="ParseCommonArgsTest" />
+  </testsuite>
+</testsuites>

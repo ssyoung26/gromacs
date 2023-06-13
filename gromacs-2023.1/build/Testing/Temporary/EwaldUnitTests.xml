@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="407" failures="0" disabled="0" errors="0" time="0.113" timestamp="2023-06-09T03:26:42.324" name="AllTests">
+  <testsuite name="SeparatePmeRanksPermittedTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.324">
+    <testcase name="ZeroPmeDisableReasons" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.324" classname="SeparatePmeRanksPermittedTest" />
+    <testcase name="CanBeDisabled" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.324" classname="SeparatePmeRanksPermittedTest" />
+    <testcase name="OneDisableReasonFlag" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.324" classname="SeparatePmeRanksPermittedTest" />
+    <testcase name="OneDisableReasonText" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.324" classname="SeparatePmeRanksPermittedTest" />
+    <testcase name="TwoDisableReasonText" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.324" classname="SeparatePmeRanksPermittedTest" />
+    <testcase name="EmptyDisableReasonText" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.324" classname="SeparatePmeRanksPermittedTest" />
+  </testsuite>
+  <testsuite name="Pme_SplineAndSpreadTest" tests="108" failures="0" disabled="0" skipped="0" errors="0" time="0.08" timestamp="2023-06-09T03:26:42.324">
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_system_1_atom_spline" value_param="box_rect_order_3_grid_16_12_14_system_1_atom" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.324" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_system_1_atom_spread" value_param="box_rect_order_3_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.326" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_system_1_atom_fused spline and spread" value_param="box_rect_order_3_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.326" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_system_2_atoms_spline" value_param="box_rect_order_3_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.327" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_system_2_atoms_spread" value_param="box_rect_order_3_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.327" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_system_2_atoms_fused spline and spread" value_param="box_rect_order_3_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.327" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_system_13_atoms_spline" value_param="box_rect_order_3_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.328" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_system_13_atoms_spread" value_param="box_rect_order_3_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.329" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_system_13_atoms_fused spline and spread" value_param="box_rect_order_3_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.330" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_19_17_11_system_1_atom_spline" value_param="box_rect_order_3_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.331" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_19_17_11_system_1_atom_spread" value_param="box_rect_order_3_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.332" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_19_17_11_system_1_atom_fused spline and spread" value_param="box_rect_order_3_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.333" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_19_17_11_system_2_atoms_spline" value_param="box_rect_order_3_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.333" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_19_17_11_system_2_atoms_spread" value_param="box_rect_order_3_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.333" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_19_17_11_system_2_atoms_fused spline and spread" value_param="box_rect_order_3_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.334" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_19_17_11_system_13_atoms_spline" value_param="box_rect_order_3_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.334" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_19_17_11_system_13_atoms_spread" value_param="box_rect_order_3_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.335" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_19_17_11_system_13_atoms_fused spline and spread" value_param="box_rect_order_3_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.337" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_system_1_atom_spline" value_param="box_rect_order_4_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.338" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_system_1_atom_spread" value_param="box_rect_order_4_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.339" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_system_1_atom_fused spline and spread" value_param="box_rect_order_4_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.339" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_system_2_atoms_spline" value_param="box_rect_order_4_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.340" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_system_2_atoms_spread" value_param="box_rect_order_4_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.341" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_system_2_atoms_fused spline and spread" value_param="box_rect_order_4_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.342" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_system_13_atoms_spline" value_param="box_rect_order_4_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.342" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_system_13_atoms_spread" value_param="box_rect_order_4_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.345" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_system_13_atoms_fused spline and spread" value_param="box_rect_order_4_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.347" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_19_17_11_system_1_atom_spline" value_param="box_rect_order_4_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.349" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_19_17_11_system_1_atom_spread" value_param="box_rect_order_4_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.349" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_19_17_11_system_1_atom_fused spline and spread" value_param="box_rect_order_4_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.350" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_19_17_11_system_2_atoms_spline" value_param="box_rect_order_4_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.350" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_19_17_11_system_2_atoms_spread" value_param="box_rect_order_4_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.351" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_19_17_11_system_2_atoms_fused spline and spread" value_param="box_rect_order_4_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.352" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_19_17_11_system_13_atoms_spline" value_param="box_rect_order_4_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.352" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_19_17_11_system_13_atoms_spread" value_param="box_rect_order_4_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.354" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_19_17_11_system_13_atoms_fused spline and spread" value_param="box_rect_order_4_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.356" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_system_1_atom_spline" value_param="box_rect_order_5_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.357" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_system_1_atom_spread" value_param="box_rect_order_5_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.358" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_system_1_atom_fused spline and spread" value_param="box_rect_order_5_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.358" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_system_2_atoms_spline" value_param="box_rect_order_5_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.359" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_system_2_atoms_spread" value_param="box_rect_order_5_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.359" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_system_2_atoms_fused spline and spread" value_param="box_rect_order_5_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.360" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_system_13_atoms_spline" value_param="box_rect_order_5_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.361" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_system_13_atoms_spread" value_param="box_rect_order_5_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.362" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_system_13_atoms_fused spline and spread" value_param="box_rect_order_5_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0.002" timestamp="2023-06-09T03:26:42.365" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_19_17_11_system_1_atom_spline" value_param="box_rect_order_5_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.367" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_19_17_11_system_1_atom_spread" value_param="box_rect_order_5_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.367" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_19_17_11_system_1_atom_fused spline and spread" value_param="box_rect_order_5_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.368" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_19_17_11_system_2_atoms_spline" value_param="box_rect_order_5_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.368" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_19_17_11_system_2_atoms_spread" value_param="box_rect_order_5_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.369" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_19_17_11_system_2_atoms_fused spline and spread" value_param="box_rect_order_5_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.369" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_19_17_11_system_13_atoms_spline" value_param="box_rect_order_5_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.370" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_19_17_11_system_13_atoms_spread" value_param="box_rect_order_5_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.372" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_19_17_11_system_13_atoms_fused spline and spread" value_param="box_rect_order_5_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.374" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_system_1_atom_spline" value_param="box_tric_order_3_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.376" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_system_1_atom_spread" value_param="box_tric_order_3_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.376" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_system_1_atom_fused spline and spread" value_param="box_tric_order_3_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.377" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_system_2_atoms_spline" value_param="box_tric_order_3_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.377" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_system_2_atoms_spread" value_param="box_tric_order_3_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.377" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_system_2_atoms_fused spline and spread" value_param="box_tric_order_3_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.377" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_system_13_atoms_spline" value_param="box_tric_order_3_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.378" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_system_13_atoms_spread" value_param="box_tric_order_3_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.379" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_system_13_atoms_fused spline and spread" value_param="box_tric_order_3_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.379" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_19_17_11_system_1_atom_spline" value_param="box_tric_order_3_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.380" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_19_17_11_system_1_atom_spread" value_param="box_tric_order_3_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.380" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_19_17_11_system_1_atom_fused spline and spread" value_param="box_tric_order_3_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.381" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_19_17_11_system_2_atoms_spline" value_param="box_tric_order_3_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.381" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_19_17_11_system_2_atoms_spread" value_param="box_tric_order_3_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.381" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_19_17_11_system_2_atoms_fused spline and spread" value_param="box_tric_order_3_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.381" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_19_17_11_system_13_atoms_spline" value_param="box_tric_order_3_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.381" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_19_17_11_system_13_atoms_spread" value_param="box_tric_order_3_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.382" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_19_17_11_system_13_atoms_fused spline and spread" value_param="box_tric_order_3_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.383" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_system_1_atom_spline" value_param="box_tric_order_4_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.384" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_system_1_atom_spread" value_param="box_tric_order_4_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.384" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_system_1_atom_fused spline and spread" value_param="box_tric_order_4_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.384" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_system_2_atoms_spline" value_param="box_tric_order_4_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.385" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_system_2_atoms_spread" value_param="box_tric_order_4_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.385" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_system_2_atoms_fused spline and spread" value_param="box_tric_order_4_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.385" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_system_13_atoms_spline" value_param="box_tric_order_4_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.386" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_system_13_atoms_spread" value_param="box_tric_order_4_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.387" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_system_13_atoms_fused spline and spread" value_param="box_tric_order_4_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.388" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_19_17_11_system_1_atom_spline" value_param="box_tric_order_4_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.389" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_19_17_11_system_1_atom_spread" value_param="box_tric_order_4_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.389" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_19_17_11_system_1_atom_fused spline and spread" value_param="box_tric_order_4_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.389" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_19_17_11_system_2_atoms_spline" value_param="box_tric_order_4_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.389" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_19_17_11_system_2_atoms_spread" value_param="box_tric_order_4_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.390" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_19_17_11_system_2_atoms_fused spline and spread" value_param="box_tric_order_4_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.390" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_19_17_11_system_13_atoms_spline" value_param="box_tric_order_4_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.390" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_19_17_11_system_13_atoms_spread" value_param="box_tric_order_4_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.391" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_19_17_11_system_13_atoms_fused spline and spread" value_param="box_tric_order_4_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.392" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_system_1_atom_spline" value_param="box_tric_order_5_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.393" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_system_1_atom_spread" value_param="box_tric_order_5_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.393" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_system_1_atom_fused spline and spread" value_param="box_tric_order_5_grid_16_12_14_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.394" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_system_2_atoms_spline" value_param="box_tric_order_5_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.394" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_system_2_atoms_spread" value_param="box_tric_order_5_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.394" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_system_2_atoms_fused spline and spread" value_param="box_tric_order_5_grid_16_12_14_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.395" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_system_13_atoms_spline" value_param="box_tric_order_5_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.395" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_system_13_atoms_spread" value_param="box_tric_order_5_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.396" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_system_13_atoms_fused spline and spread" value_param="box_tric_order_5_grid_16_12_14_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.397" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_19_17_11_system_1_atom_spline" value_param="box_tric_order_5_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.398" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_19_17_11_system_1_atom_spread" value_param="box_tric_order_5_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.399" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_19_17_11_system_1_atom_fused spline and spread" value_param="box_tric_order_5_grid_19_17_11_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.399" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_19_17_11_system_2_atoms_spline" value_param="box_tric_order_5_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.399" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_19_17_11_system_2_atoms_spread" value_param="box_tric_order_5_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.400" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_19_17_11_system_2_atoms_fused spline and spread" value_param="box_tric_order_5_grid_19_17_11_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.400" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_19_17_11_system_13_atoms_spline" value_param="box_tric_order_5_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.401" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_19_17_11_system_13_atoms_spread" value_param="box_tric_order_5_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.402" classname="Pme_SplineAndSpreadTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_19_17_11_system_13_atoms_fused spline and spread" value_param="box_tric_order_5_grid_19_17_11_system_13_atoms" status="run" result="completed" time="0.001" timestamp="2023-06-09T03:26:42.403" classname="Pme_SplineAndSpreadTest" />
+  </testsuite>
+  <testsuite name="Pme_SolveTest" tests="64" failures="0" disabled="0" skipped="32" errors="0" time="0.006" timestamp="2023-06-09T03:26:42.404">
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.404" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.404" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.404" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.405" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.405" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.405" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.405" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.405" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.405" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.405" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.405" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.406" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.406" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.406" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.406" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.406" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.406" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.406" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.406" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.407" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.407" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.407" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.407" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.407" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.407" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.407" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.407" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.407" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.407" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.407" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.407" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.408" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.408" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.408" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.408" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.408" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.408" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.408" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.408" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.408" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.409" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.409" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.409" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.409" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.409" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.409" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.409" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.409" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.410" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.410" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.410" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.410" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.410" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.410" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.410" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.410" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.410" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.410" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.410" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.411" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.411" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.411" classname="Pme_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.411" classname="Pme_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.411" classname="Pme_SolveTest" />
+  </testsuite>
+  <testsuite name="PmeDiffEwaldQ_SolveTest" tests="32" failures="0" disabled="0" skipped="16" errors="0" time="0.002" timestamp="2023-06-09T03:26:42.411">
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.411" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.411" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.411" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.411" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.411" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.411" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.411" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.412" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.413" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.413" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.413" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.413" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.413" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.413" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.413" classname="PmeDiffEwaldQ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.413" classname="PmeDiffEwaldQ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_0_4_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.413" classname="PmeDiffEwaldQ_SolveTest" />
+  </testsuite>
+  <testsuite name="PmeDiffEwaldLJ_SolveTest" tests="32" failures="0" disabled="0" skipped="16" errors="0" time="0.002" timestamp="2023-06-09T03:26:42.413">
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.413" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_energy" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.413" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.413" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_energy" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.413" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.414" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_energy" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.414" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.414" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_energy" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.414" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.414" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_energy" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.414" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.414" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_energy" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.414" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.414" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_energy" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.414" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.414" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_energy" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.415" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.415" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_energy" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.415" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.415" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_energy" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.415" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.415" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_energy" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.415" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.415" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_energy" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.415" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.416" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_energy" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.416" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.416" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_energy" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.416" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.416" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_XYZ_energy" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.416" classname="PmeDiffEwaldLJ_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.416" classname="PmeDiffEwaldLJ_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ_order_YZX_energy" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_2_ewaldq_2_ewaldlj_2_35_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.416" classname="PmeDiffEwaldLJ_SolveTest" />
+  </testsuite>
+  <testsuite name="PmeDiffEps_SolveTest" tests="64" failures="0" disabled="0" skipped="32" errors="0" time="0.004" timestamp="2023-06-09T03:26:42.416">
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.416" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.416" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.416" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.416" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.417" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.417" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.417" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_rect_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.417" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.417" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.417" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.417" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.417" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.417" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.417" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.417" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_rect_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.417" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_rect_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.418" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_rect_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.419" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.419" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.419" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.419" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.419" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.419" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.419" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.419" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_tric_grid_16_12_28_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.419" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_tric_grid_16_12_28_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.420" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_tric_grid_9_7_23_gridvalues_first_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.421" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.421" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_XYZ_energy" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.421" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.421" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb_order_YZX_energy" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_Coulomb" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.421" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.421" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_XYZ_energy" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="skipped" time="0" timestamp="2023-06-09T03:26:42.421" classname="PmeDiffEps_SolveTest">
+      <skipped message="/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264&#x0A;Test is being skipped because:&#x0A;  CPU PME solve does not implement XYZ grid ordering&#x0A;"><![CDATA[/Users/sonnyyoung/Development/wallacs/gromacs-2023.1/src/gromacs/ewald/tests/pmesolvetest.cpp:264
+Test is being skipped because:
+  CPU PME solve does not implement XYZ grid ordering
+]]></skipped>
+    </testcase>
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.421" classname="PmeDiffEps_SolveTest" />
+    <testcase name="WorksOnCPU_box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ_order_YZX_energy" value_param="box_tric_grid_9_7_23_gridvalues_second_eps_1_9_ewaldq_2_ewaldlj_0_7_LJ" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.421" classname="PmeDiffEps_SolveTest" />
+  </testsuite>
+  <testsuite name="Pme_GatherTest" tests="72" failures="0" disabled="0" skipped="0" errors="0" time="0.007" timestamp="2023-06-09T03:26:42.421">
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_gridvalues_first_system_1_atom" value_param="box_rect_order_3_grid_16_12_14_gridvalues_first_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.421" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_gridvalues_first_system_2_atoms" value_param="box_rect_order_3_grid_16_12_14_gridvalues_first_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.421" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_gridvalues_first_system_13_atoms" value_param="box_rect_order_3_grid_16_12_14_gridvalues_first_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.422" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_gridvalues_second_system_1_atom" value_param="box_rect_order_3_grid_16_12_14_gridvalues_second_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.422" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_gridvalues_second_system_2_atoms" value_param="box_rect_order_3_grid_16_12_14_gridvalues_second_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.422" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_16_12_14_gridvalues_second_system_13_atoms" value_param="box_rect_order_3_grid_16_12_14_gridvalues_second_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.422" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_13_15_11_gridvalues_first_system_1_atom" value_param="box_rect_order_3_grid_13_15_11_gridvalues_first_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.422" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_13_15_11_gridvalues_first_system_2_atoms" value_param="box_rect_order_3_grid_13_15_11_gridvalues_first_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.422" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_13_15_11_gridvalues_first_system_13_atoms" value_param="box_rect_order_3_grid_13_15_11_gridvalues_first_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.422" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_13_15_11_gridvalues_second_system_1_atom" value_param="box_rect_order_3_grid_13_15_11_gridvalues_second_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.422" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_13_15_11_gridvalues_second_system_2_atoms" value_param="box_rect_order_3_grid_13_15_11_gridvalues_second_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.422" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_3_grid_13_15_11_gridvalues_second_system_13_atoms" value_param="box_rect_order_3_grid_13_15_11_gridvalues_second_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.422" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_gridvalues_first_system_1_atom" value_param="box_rect_order_4_grid_16_12_14_gridvalues_first_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.423" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_gridvalues_first_system_2_atoms" value_param="box_rect_order_4_grid_16_12_14_gridvalues_first_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.423" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_gridvalues_first_system_13_atoms" value_param="box_rect_order_4_grid_16_12_14_gridvalues_first_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.423" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_gridvalues_second_system_1_atom" value_param="box_rect_order_4_grid_16_12_14_gridvalues_second_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.423" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_gridvalues_second_system_2_atoms" value_param="box_rect_order_4_grid_16_12_14_gridvalues_second_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.423" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_16_12_14_gridvalues_second_system_13_atoms" value_param="box_rect_order_4_grid_16_12_14_gridvalues_second_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.423" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_13_15_11_gridvalues_first_system_1_atom" value_param="box_rect_order_4_grid_13_15_11_gridvalues_first_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.423" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_13_15_11_gridvalues_first_system_2_atoms" value_param="box_rect_order_4_grid_13_15_11_gridvalues_first_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.423" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_13_15_11_gridvalues_first_system_13_atoms" value_param="box_rect_order_4_grid_13_15_11_gridvalues_first_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.423" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_13_15_11_gridvalues_second_system_1_atom" value_param="box_rect_order_4_grid_13_15_11_gridvalues_second_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.423" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_13_15_11_gridvalues_second_system_2_atoms" value_param="box_rect_order_4_grid_13_15_11_gridvalues_second_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.424" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_4_grid_13_15_11_gridvalues_second_system_13_atoms" value_param="box_rect_order_4_grid_13_15_11_gridvalues_second_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.424" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_gridvalues_first_system_1_atom" value_param="box_rect_order_5_grid_16_12_14_gridvalues_first_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.424" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_gridvalues_first_system_2_atoms" value_param="box_rect_order_5_grid_16_12_14_gridvalues_first_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.424" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_gridvalues_first_system_13_atoms" value_param="box_rect_order_5_grid_16_12_14_gridvalues_first_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.424" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_gridvalues_second_system_1_atom" value_param="box_rect_order_5_grid_16_12_14_gridvalues_second_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.424" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_gridvalues_second_system_2_atoms" value_param="box_rect_order_5_grid_16_12_14_gridvalues_second_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.424" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_16_12_14_gridvalues_second_system_13_atoms" value_param="box_rect_order_5_grid_16_12_14_gridvalues_second_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.424" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_13_15_11_gridvalues_first_system_1_atom" value_param="box_rect_order_5_grid_13_15_11_gridvalues_first_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.425" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_13_15_11_gridvalues_first_system_2_atoms" value_param="box_rect_order_5_grid_13_15_11_gridvalues_first_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.425" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_13_15_11_gridvalues_first_system_13_atoms" value_param="box_rect_order_5_grid_13_15_11_gridvalues_first_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.425" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_13_15_11_gridvalues_second_system_1_atom" value_param="box_rect_order_5_grid_13_15_11_gridvalues_second_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.425" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_13_15_11_gridvalues_second_system_2_atoms" value_param="box_rect_order_5_grid_13_15_11_gridvalues_second_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.425" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_rect_order_5_grid_13_15_11_gridvalues_second_system_13_atoms" value_param="box_rect_order_5_grid_13_15_11_gridvalues_second_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.425" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_gridvalues_first_system_1_atom" value_param="box_tric_order_3_grid_16_12_14_gridvalues_first_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.425" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_gridvalues_first_system_2_atoms" value_param="box_tric_order_3_grid_16_12_14_gridvalues_first_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.425" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_gridvalues_first_system_13_atoms" value_param="box_tric_order_3_grid_16_12_14_gridvalues_first_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.426" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_gridvalues_second_system_1_atom" value_param="box_tric_order_3_grid_16_12_14_gridvalues_second_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.426" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_gridvalues_second_system_2_atoms" value_param="box_tric_order_3_grid_16_12_14_gridvalues_second_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.426" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_16_12_14_gridvalues_second_system_13_atoms" value_param="box_tric_order_3_grid_16_12_14_gridvalues_second_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.426" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_13_15_11_gridvalues_first_system_1_atom" value_param="box_tric_order_3_grid_13_15_11_gridvalues_first_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.426" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_13_15_11_gridvalues_first_system_2_atoms" value_param="box_tric_order_3_grid_13_15_11_gridvalues_first_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.426" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_13_15_11_gridvalues_first_system_13_atoms" value_param="box_tric_order_3_grid_13_15_11_gridvalues_first_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.426" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_13_15_11_gridvalues_second_system_1_atom" value_param="box_tric_order_3_grid_13_15_11_gridvalues_second_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.426" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_13_15_11_gridvalues_second_system_2_atoms" value_param="box_tric_order_3_grid_13_15_11_gridvalues_second_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.426" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_3_grid_13_15_11_gridvalues_second_system_13_atoms" value_param="box_tric_order_3_grid_13_15_11_gridvalues_second_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.426" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_gridvalues_first_system_1_atom" value_param="box_tric_order_4_grid_16_12_14_gridvalues_first_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.427" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_gridvalues_first_system_2_atoms" value_param="box_tric_order_4_grid_16_12_14_gridvalues_first_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.427" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_gridvalues_first_system_13_atoms" value_param="box_tric_order_4_grid_16_12_14_gridvalues_first_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.427" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_gridvalues_second_system_1_atom" value_param="box_tric_order_4_grid_16_12_14_gridvalues_second_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.427" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_gridvalues_second_system_2_atoms" value_param="box_tric_order_4_grid_16_12_14_gridvalues_second_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.427" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_16_12_14_gridvalues_second_system_13_atoms" value_param="box_tric_order_4_grid_16_12_14_gridvalues_second_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.427" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_13_15_11_gridvalues_first_system_1_atom" value_param="box_tric_order_4_grid_13_15_11_gridvalues_first_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.427" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_13_15_11_gridvalues_first_system_2_atoms" value_param="box_tric_order_4_grid_13_15_11_gridvalues_first_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.427" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_13_15_11_gridvalues_first_system_13_atoms" value_param="box_tric_order_4_grid_13_15_11_gridvalues_first_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.427" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_13_15_11_gridvalues_second_system_1_atom" value_param="box_tric_order_4_grid_13_15_11_gridvalues_second_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.427" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_13_15_11_gridvalues_second_system_2_atoms" value_param="box_tric_order_4_grid_13_15_11_gridvalues_second_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.427" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_4_grid_13_15_11_gridvalues_second_system_13_atoms" value_param="box_tric_order_4_grid_13_15_11_gridvalues_second_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.428" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_gridvalues_first_system_1_atom" value_param="box_tric_order_5_grid_16_12_14_gridvalues_first_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.428" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_gridvalues_first_system_2_atoms" value_param="box_tric_order_5_grid_16_12_14_gridvalues_first_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.428" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_gridvalues_first_system_13_atoms" value_param="box_tric_order_5_grid_16_12_14_gridvalues_first_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.428" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_gridvalues_second_system_1_atom" value_param="box_tric_order_5_grid_16_12_14_gridvalues_second_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.428" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_gridvalues_second_system_2_atoms" value_param="box_tric_order_5_grid_16_12_14_gridvalues_second_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.428" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_16_12_14_gridvalues_second_system_13_atoms" value_param="box_tric_order_5_grid_16_12_14_gridvalues_second_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.428" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_13_15_11_gridvalues_first_system_1_atom" value_param="box_tric_order_5_grid_13_15_11_gridvalues_first_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.428" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_13_15_11_gridvalues_first_system_2_atoms" value_param="box_tric_order_5_grid_13_15_11_gridvalues_first_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.428" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_13_15_11_gridvalues_first_system_13_atoms" value_param="box_tric_order_5_grid_13_15_11_gridvalues_first_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.428" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_13_15_11_gridvalues_second_system_1_atom" value_param="box_tric_order_5_grid_13_15_11_gridvalues_second_system_1_atom" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.428" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_13_15_11_gridvalues_second_system_2_atoms" value_param="box_tric_order_5_grid_13_15_11_gridvalues_second_system_2_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.429" classname="Pme_GatherTest" />
+    <testcase name="WorksOn_CPU_box_tric_order_5_grid_13_15_11_gridvalues_second_system_13_atoms" value_param="box_tric_order_5_grid_13_15_11_gridvalues_second_system_13_atoms" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.429" classname="Pme_GatherTest" />
+  </testsuite>
+  <testsuite name="InsaneInput/PmeBSplineModuliFailureTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-06-09T03:26:42.429">
+    <testcase name="Throws/0" value_param="(0x60000136c0c0, 4, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.429" classname="InsaneInput/PmeBSplineModuliFailureTest" />
+    <testcase name="Throws/1" value_param="(0x60000136c0c0, 4, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.429" classname="InsaneInput/PmeBSplineModuliFailureTest" />
+    <testcase name="Throws/2" value_param="(0x60000136c0c0, 4, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.429" classname="InsaneInput/PmeBSplineModuliFailureTest" />
+    <testcase name="Throws/3" value_param="(0x60000136c0c0, 9, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.429" classname="InsaneInput/PmeBSplineModuliFailureTest" />
+    <testcase name="Throws/4" value_param="(0x60000136c0c0, 13, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.429" classname="InsaneInput/PmeBSplineModuliFailureTest" />
+  </testsuite>
+  <testsuite name="SaneInput1/PmeBSplineModuliCorrectnessTest" tests="24" failures="0" disabled="0" skipped="0" errors="0" time="0.008" timestamp="2023-06-09T03:26:42.429">
+    <testcase name="ReproducesValues/0" value_param="(0x600001d6a058, 3, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.429" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/1" value_param="(0x600001d6a148, 3, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.429" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/2" value_param="(0x600001d6a058, 4, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.430" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/3" value_param="(0x600001d6a148, 4, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.430" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/4" value_param="(0x600001d6a058, 5, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.430" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/5" value_param="(0x600001d6a148, 5, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.431" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/6" value_param="(0x600001d6a058, 6, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.431" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/7" value_param="(0x600001d6a148, 6, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.431" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/8" value_param="(0x600001d6a058, 7, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.432" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/9" value_param="(0x600001d6a148, 7, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.432" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/10" value_param="(0x600001d6a058, 8, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.432" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/11" value_param="(0x600001d60018, 8, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.433" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/12" value_param="(0x600001d60078, 3, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.433" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/13" value_param="(0x600001d60018, 3, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.434" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/14" value_param="(0x600001d60078, 4, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.434" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/15" value_param="(0x600001d60018, 4, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.435" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/16" value_param="(0x600001d60078, 5, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.435" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/17" value_param="(0x600001d60018, 5, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.435" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/18" value_param="(0x600001d64018, 6, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.436" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/19" value_param="(0x600001d60018, 6, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.436" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/20" value_param="(0x600001d600a8, 7, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.436" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/21" value_param="(0x600001d60018, 7, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.437" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/22" value_param="(0x600001d600a8, 8, 4-byte object &lt;00-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.437" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+    <testcase name="ReproducesValues/23" value_param="(0x600001d60018, 8, 4-byte object &lt;01-00 00-00&gt;)" status="run" result="completed" time="0" timestamp="2023-06-09T03:26:42.437" classname="SaneInput1/PmeBSplineModuliCorrectnessTest" />
+  </testsuite>
+</testsuites>
